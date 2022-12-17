@@ -1,0 +1,1442 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007fec2a0ec25e, pid=6330, tid=0x00007febdacff640
+#
+# JRE version: OpenJDK Runtime Environment (8.0_342-b07) (build 1.8.0_342-8u342-b07-0ubuntu1~22.04-b07)
+# Java VM: OpenJDK 64-Bit Server VM (25.342-b07 mixed mode linux-amd64 compressed oops)
+# Problematic frame:
+# C  [ld-linux-x86-64.so.2+0x2725e]
+#
+# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007feb97287000):  JavaThread "DE Contributors DL Thread" [_thread_in_native, id=6542, stack(0x00007febdac00000,0x00007febdad00000)]
+
+siginfo: si_signo: 11 (SIGSEGV), si_code: 1 (SEGV_MAPERR), si_addr: 0x000000000000534c
+
+Registers:
+RAX=0x0000000000000000, RBX=0x0000000090000002, RCX=0x000000000000000c, RDX=0x00000000000034b0
+RSP=0x00007febdacfc3b8, RBP=0x0000000000000000, RSI=0x000000000000534c, RDI=0x00007feb78008d40
+R8 =0x0000000000000000, R9 =0x0000000000000007, R10=0x00007fec2a0ecd80, R11=0x888260e9284b9500
+R12=0x00007fec2a0c38e0, R13=0x00007feb78008d40, R14=0x00007feb96cdba60, R15=0x00007fec2a0ff040
+RIP=0x00007fec2a0ec25e, EFLAGS=0x0000000000010283, CSGSFS=0x002b000000000033, ERR=0x0000000000000004
+  TRAPNO=0x000000000000000e
+
+Top of Stack: (sp=0x00007febdacfc3b8)
+0x00007febdacfc3b8:   00007fec2a0cf4e6 00007fec2a08a300
+0x00007febdacfc3c8:   0000000200000024 00007febdacfce58
+0x00007febdacfc3d8:   00007fec00000000 00007feb7c004378
+0x00007febdacfc3e8:   00007fec29beb4f3 0000003000000000
+0x00007febdacfc3f8:   00007febdacfcc30 00007febdacfcb30
+0x00007febdacfc408:   9be1a53100000000 0000000000000d68
+0x00007febdacfc418:   00007feb97287020 00007feb00000000
+0x00007febdacfc428:   0000000012a3a5c0 00007fec00000000
+0x00007febdacfc438:   0000000000000000 00007fec2a08e580
+0x00007febdacfc448:   00007fec29beb4f3 00007febdacfc480
+0x00007febdacfc458:   0000000200000001 ffffffffffffffff
+0x00007febdacfc468:   00007fec29e51fc0 00007feb00000016
+0x00007febdacfc478:   00007fec29f01eec 00007febdacfce58
+0x00007febdacfc488:   0000000000000002 00007fec12a3f297
+0x00007febdacfc498:   00007fec29beb4f4 00007febdacfca50
+0x00007febdacfc4a8:   0000000000000000 00007fec2a08a300
+0x00007febdacfc4b8:   0000000000000029 00007febdacfce58
+0x00007febdacfc4c8:   00007fec29eea04a 00007fec2a08a300
+0x00007febdacfc4d8:   00007fec29beb4f3 0000003000000000
+0x00007febdacfc4e8:   00007febdacfcd20 00007febdacfcc20
+0x00007febdacfc4f8:   0000003000000000 0000000000000d68
+0x00007febdacfc508:   00007febdacfcb20 00007feb00000000
+0x00007febdacfc518:   0000000000000000 0000000000000000
+0x00007febdacfc528:   0000000000000000 00007fec2a08e580
+0x00007febdacfc538:   00007fec29beb4f3 0000000700000000
+0x00007febdacfc548:   0000000200000001 ffffffffffffffff
+0x00007febdacfc558:   00007fec29bd6d3e 00007feb00000016
+0x00007febdacfc568:   0000000000000000 0000ffff00000000
+0x00007febdacfc578:   00007fec2a050125 00007febdacfcb30
+0x00007febdacfc588:   0000000000000017 00007fec2a08a6c0
+0x00007febdacfc598:   0000000000000002 00007fec2a050115
+0x00007febdacfc5a8:   00007fec29eea04a 00007febacbc0900 
+
+Instructions: (pc=0x00007fec2a0ec25e)
+0x00007fec2a0ec23e:   00 00 f3 0f 1e fa 89 f1 89 f8 48 83 e1 3f 48 83
+0x00007fec2a0ec24e:   e0 3f 83 f9 30 77 4b 83 f8 30 77 46 66 0f 12 0f
+0x00007fec2a0ec25e:   66 0f 12 16 66 0f 16 4f 08 66 0f 16 56 08 66 0f
+0x00007fec2a0ec26e:   ef c0 66 0f 74 c1 66 0f 74 ca 66 0f f8 c8 66 0f 
+
+Register to memory mapping:
+
+RAX=0x0000000000000000 is an unknown value
+RBX=0x0000000090000002 is an unknown value
+RCX=0x000000000000000c is an unknown value
+RDX=0x00000000000034b0 is an unknown value
+RSP=0x00007febdacfc3b8 is pointing into the stack for thread: 0x00007feb97287000
+RBP=0x0000000000000000 is an unknown value
+RSI=0x000000000000534c is an unknown value
+RDI=0x00007feb78008d40 is an unknown value
+R8 =0x0000000000000000 is an unknown value
+R9 =0x0000000000000007 is an unknown value
+R10=0x00007fec2a0ecd80: <offset 0x27d80> in /lib64/ld-linux-x86-64.so.2 at 0x00007fec2a0c5000
+R11=0x888260e9284b9500 is an unknown value
+R12=0x00007fec2a0c38e0 is an unknown value
+R13=0x00007feb78008d40 is an unknown value
+R14=0x00007feb96cdba60 is an unknown value
+R15=0x00007fec2a0ff040: _rtld_global+0 in /lib64/ld-linux-x86-64.so.2 at 0x00007fec2a0c5000
+
+
+Stack: [0x00007febdac00000,0x00007febdad00000],  sp=0x00007febdacfc3b8,  free space=1008k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [ld-linux-x86-64.so.2+0x2725e]
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+j  java.net.Inet6AddressImpl.lookupAllHostAddr(Ljava/lang/String;)[Ljava/net/InetAddress;+0
+j  java.net.InetAddress$2.lookupAllHostAddr(Ljava/lang/String;)[Ljava/net/InetAddress;+4
+j  java.net.InetAddress.getAddressesFromNameService(Ljava/lang/String;Ljava/net/InetAddress;)[Ljava/net/InetAddress;+51
+j  java.net.InetAddress.getAllByName0(Ljava/lang/String;Ljava/net/InetAddress;Z)[Ljava/net/InetAddress;+29
+j  java.net.InetAddress.getAllByName(Ljava/lang/String;Ljava/net/InetAddress;)[Ljava/net/InetAddress;+407
+j  java.net.InetAddress.getAllByName(Ljava/lang/String;)[Ljava/net/InetAddress;+2
+j  java.net.InetAddress.getByName(Ljava/lang/String;)Ljava/net/InetAddress;+1
+j  sun.net.www.protocol.http.HttpURLConnection$5.run()Ljava/lang/String;+4
+j  sun.net.www.protocol.http.HttpURLConnection$5.run()Ljava/lang/Object;+1
+v  ~StubRoutines::call_stub
+j  java.security.AccessController.doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;+0
+j  sun.net.www.protocol.http.HttpURLConnection.getHostAndPort(Ljava/net/URL;)Ljava/lang/String;+16
+j  sun.net.www.protocol.http.HttpURLConnection.URLtoSocketPermission(Ljava/net/URL;)Ljava/net/SocketPermission;+28
+j  sun.net.www.protocol.http.HttpURLConnection.getInputStream()Ljava/io/InputStream;+10
+j  java.net.URL.openStream()Ljava/io/InputStream;+4
+j  com.brandon3055.draconicevolution.common.handler.ContributorHandler$DLThread.run()V+28
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+=>0x00007feb97287000 JavaThread "DE Contributors DL Thread" [_thread_in_native, id=6542, stack(0x00007febdac00000,0x00007febdad00000)]
+  0x00007feb74003800 JavaThread "ForkJoinPool.commonPool-worker-3" daemon [_thread_blocked, id=6508, stack(0x00007febda500000,0x00007febda600000)]
+  0x00007feb78003800 JavaThread "ForkJoinPool.commonPool-worker-10" daemon [_thread_blocked, id=6507, stack(0x00007febda600000,0x00007febda700000)]
+  0x00007feb7c005800 JavaThread "ForkJoinPool.commonPool-worker-1" daemon [_thread_blocked, id=6505, stack(0x00007febda800000,0x00007febda900000)]
+  0x00007feb80001800 JavaThread "ForkJoinPool.commonPool-worker-6" daemon [_thread_blocked, id=6504, stack(0x00007febda900000,0x00007febdaa00000)]
+  0x00007feb78001800 JavaThread "ForkJoinPool.commonPool-worker-15" daemon [_thread_blocked, id=6503, stack(0x00007febdaa00000,0x00007febdab00000)]
+  0x00007feb74001800 JavaThread "ForkJoinPool.commonPool-worker-13" daemon [_thread_blocked, id=6502, stack(0x00007febdab00000,0x00007febdac00000)]
+  0x00007feb7c002000 JavaThread "ForkJoinPool.commonPool-worker-11" daemon [_thread_blocked, id=6500, stack(0x00007febdad00000,0x00007febdae00000)]
+  0x00007feb9609d800 JavaThread "ForkJoinPool.commonPool-worker-2" daemon [_thread_blocked, id=6499, stack(0x00007febe0082000,0x00007febe0182000)]
+  0x00007feb94200800 JavaThread "ForkJoinPool.commonPool-worker-9" daemon [_thread_blocked, id=6498, stack(0x00007febe16ae000,0x00007febe17ae000)]
+  0x00007feb95b14000 JavaThread "ic2-poolthread-1" daemon [_thread_blocked, id=6446, stack(0x00007febe1bae000,0x00007febe1cae000)]
+  0x00007feb940e0000 JavaThread "Thread-5" [_thread_blocked, id=6437, stack(0x00007febe3b00000,0x00007febe3c00000)]
+  0x00007fec24009800 JavaThread "DestroyJavaVM" [_thread_blocked, id=6331, stack(0x00007fec28c28000,0x00007fec28d28000)]
+  0x00007feb94001800 JavaThread "Server console handler" daemon [_thread_in_native, id=6421, stack(0x00007febe3c00000,0x00007febe3d00000)]
+  0x00007fec2662e800 JavaThread "Server thread" [_thread_in_native, id=6420, stack(0x00007febe3d00000,0x00007febe3e00000)]
+  0x00007fec2662c800 JavaThread "Server Infinisleeper" daemon [_thread_blocked, id=6419, stack(0x00007febe3e00000,0x00007febe3f00000)]
+  0x00007fec2635b000 JavaThread "process reaper" daemon [_thread_blocked, id=6418, stack(0x00007febe9a31000,0x00007febe9a6a000)]
+  0x00007fec262ee800 JavaThread "Snooper Timer" daemon [_thread_blocked, id=6416, stack(0x00007febe3f00000,0x00007febe4000000)]
+  0x00007fec2427b000 JavaThread "Service Thread" daemon [_thread_blocked, id=6350, stack(0x00007febeb287000,0x00007febeb387000)]
+  0x00007fec24258000 JavaThread "C1 CompilerThread3" daemon [_thread_blocked, id=6349, stack(0x00007febeb388000,0x00007febeb488000)]
+  0x00007fec24255800 JavaThread "C2 CompilerThread2" daemon [_thread_in_native, id=6348, stack(0x00007febeb489000,0x00007febeb589000)]
+  0x00007fec24254000 JavaThread "C2 CompilerThread1" daemon [_thread_in_native, id=6347, stack(0x00007febeb58a000,0x00007febeb68a000)]
+  0x00007fec24251000 JavaThread "C2 CompilerThread0" daemon [_thread_in_native, id=6346, stack(0x00007febeb68b000,0x00007febeb78b000)]
+  0x00007fec24249800 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=6345, stack(0x00007febeb78b000,0x00007febeb88b000)]
+  0x00007fec2421b800 JavaThread "Finalizer" daemon [_thread_blocked, id=6344, stack(0x00007febebe00000,0x00007febebf00000)]
+  0x00007fec24217000 JavaThread "Reference Handler" daemon [_thread_blocked, id=6343, stack(0x00007febebf00000,0x00007febec000000)]
+
+Other Threads:
+  0x00007fec2420d000 VMThread [stack: 0x00007fec1006b000,0x00007fec1016b000] [id=6342]
+  0x00007fec2427d800 WatcherThread [stack: 0x00007febeb187000,0x00007febeb287000] [id=6351]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+heap address: 0x0000000640000000, size: 6144 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 3
+Compressed class space size: 1073741824 Address: 0x00000007c0000000
+
+Heap:
+ PSYoungGen      total 1528832K, used 1426176K [0x0000000740000000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1157120K, 91% used [0x0000000740000000,0x00000007805eeff0,0x0000000786a00000)
+  from space 371712K, 99% used [0x0000000786a00000,0x000000079d4d13a8,0x000000079d500000)
+  to   space 510464K, 0% used [0x00000007a0d80000,0x00000007a0d80000,0x00000007c0000000)
+ ParOldGen       total 4194304K, used 437706K [0x0000000640000000, 0x0000000740000000, 0x0000000740000000)
+  object space 4194304K, 10% used [0x0000000640000000,0x000000065ab72af0,0x0000000740000000)
+ Metaspace       used 145810K, capacity 147069K, committed 148172K, reserved 1173504K
+  class space    used 23302K, capacity 23703K, committed 23756K, reserved 1048576K
+
+Card table byte_map: [0x00007fec143ff000,0x00007fec15000000] byte_map_base: 0x00007fec111ff000
+
+Marking Bits: (ParMarkBitMap*) 0x00007fec29e39740
+ Begin Bits: [0x00007febec000000, 0x00007febf2000000)
+ End Bits:   [0x00007febf2000000, 0x00007febf8000000)
+
+Polling page: 0x00007fec2a0fc000
+
+CodeCache: size=245760Kb used=33976Kb max_used=35261Kb free=211784Kb
+ bounds [0x00007fec15000000, 0x00007fec172b0000, 0x00007fec24000000]
+ total_blobs=9699 nmethods=8508 adapters=1103
+ compilation: enabled
+
+Compilation events (10 events):
+Event: 42.444 Thread 0x00007fec24255800 12212       4       sun.util.locale.provider.LocaleResources::getDecimalFormatSymbolsData (213 bytes)
+Event: 42.445 Thread 0x00007fec24254000 12213       4       sun.util.locale.provider.DecimalFormatSymbolsProviderImpl::getInstance (21 bytes)
+Event: 42.449 Thread 0x00007fec24255800 nmethod 12212 0x00007fec157a1d10 code [0x00007fec157a1ec0, 0x00007fec157a26f8]
+Event: 42.457 Thread 0x00007fec24258000 12214   !   3       io.netty.channel.DefaultChannelHandlerContext::invokeChannelRegistered (23 bytes)
+Event: 42.458 Thread 0x00007fec24258000 nmethod 12214 0x00007fec158a0d90 code [0x00007fec158a0f20, 0x00007fec158a12b8]
+Event: 42.458 Thread 0x00007fec24258000 12215       3       io.netty.channel.DefaultChannelHandlerContext::fireChannelActive (43 bytes)
+Event: 42.458 Thread 0x00007fec24258000 nmethod 12215 0x00007fec152a55d0 code [0x00007fec152a57e0, 0x00007fec152a62b8]
+Event: 42.458 Thread 0x00007fec24258000 12216   !   3       io.netty.channel.DefaultChannelHandlerContext::invokeChannelActive (23 bytes)
+Event: 42.458 Thread 0x00007fec24258000 nmethod 12216 0x00007fec15930410 code [0x00007fec159305a0, 0x00007fec15930938]
+Event: 42.462 Thread 0x00007fec24255800 12218       4       scala.collection.SeqLike$class::contains (16 bytes)
+
+GC Heap History (10 events):
+Event: 31.443 GC heap before
+{Heap before GC invocations=19 (full 4):
+ PSYoungGen      total 1739776K, used 1415611K [0x0000000740000000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1377280K, 100% used [0x0000000740000000,0x0000000794100000,0x0000000794100000)
+  from space 362496K, 10% used [0x00000007a9e00000,0x00000007ac36edd8,0x00000007c0000000)
+  to   space 357376K, 0% used [0x0000000794100000,0x0000000794100000,0x00000007a9e00000)
+ ParOldGen       total 4194304K, used 437647K [0x0000000640000000, 0x0000000740000000, 0x0000000740000000)
+  object space 4194304K, 10% used [0x0000000640000000,0x000000065ab63ec0,0x0000000740000000)
+ Metaspace       used 111465K, capacity 112263K, committed 113228K, reserved 1144832K
+  class space    used 17667K, capacity 17936K, committed 17996K, reserved 1048576K
+Event: 31.481 GC heap after
+Heap after GC invocations=19 (full 4):
+ PSYoungGen      total 1734656K, used 172107K [0x0000000740000000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1377280K, 0% used [0x0000000740000000,0x0000000740000000,0x0000000794100000)
+  from space 357376K, 48% used [0x0000000794100000,0x000000079e912d18,0x00000007a9e00000)
+  to   space 350208K, 0% used [0x00000007aaa00000,0x00000007aaa00000,0x00000007c0000000)
+ ParOldGen       total 4194304K, used 437655K [0x0000000640000000, 0x0000000740000000, 0x0000000740000000)
+  object space 4194304K, 10% used [0x0000000640000000,0x000000065ab65ec0,0x0000000740000000)
+ Metaspace       used 111465K, capacity 112263K, committed 113228K, reserved 1144832K
+  class space    used 17667K, capacity 17936K, committed 17996K, reserved 1048576K
+}
+Event: 33.809 GC heap before
+{Heap before GC invocations=20 (full 4):
+ PSYoungGen      total 1734656K, used 1549387K [0x0000000740000000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1377280K, 100% used [0x0000000740000000,0x0000000794100000,0x0000000794100000)
+  from space 357376K, 48% used [0x0000000794100000,0x000000079e912d18,0x00000007a9e00000)
+  to   space 350208K, 0% used [0x00000007aaa00000,0x00000007aaa00000,0x00000007c0000000)
+ ParOldGen       total 4194304K, used 437655K [0x0000000640000000, 0x0000000740000000, 0x0000000740000000)
+  object space 4194304K, 10% used [0x0000000640000000,0x000000065ab65ec0,0x0000000740000000)
+ Metaspace       used 115424K, capacity 116413K, committed 117324K, reserved 1148928K
+  class space    used 18125K, capacity 18431K, committed 18508K, reserved 1048576K
+Event: 33.874 GC heap after
+Heap after GC invocations=20 (full 4):
+ PSYoungGen      total 1677312K, used 285454K [0x0000000740000000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1327104K, 0% used [0x0000000740000000,0x0000000740000000,0x0000000791000000)
+  from space 350208K, 81% used [0x00000007aaa00000,0x00000007bc0c3828,0x00000007c0000000)
+  to   space 385024K, 0% used [0x0000000791000000,0x0000000791000000,0x00000007a8800000)
+ ParOldGen       total 4194304K, used 437682K [0x0000000640000000, 0x0000000740000000, 0x0000000740000000)
+  object space 4194304K, 10% used [0x0000000640000000,0x000000065ab6caf0,0x0000000740000000)
+ Metaspace       used 115424K, capacity 116413K, committed 117324K, reserved 1148928K
+  class space    used 18125K, capacity 18431K, committed 18508K, reserved 1048576K
+}
+Event: 36.059 GC heap before
+{Heap before GC invocations=21 (full 4):
+ PSYoungGen      total 1677312K, used 1612558K [0x0000000740000000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1327104K, 100% used [0x0000000740000000,0x0000000791000000,0x0000000791000000)
+  from space 350208K, 81% used [0x00000007aaa00000,0x00000007bc0c3828,0x00000007c0000000)
+  to   space 385024K, 0% used [0x0000000791000000,0x0000000791000000,0x00000007a8800000)
+ ParOldGen       total 4194304K, used 437682K [0x0000000640000000, 0x0000000740000000, 0x0000000740000000)
+  object space 4194304K, 10% used [0x0000000640000000,0x000000065ab6caf0,0x0000000740000000)
+ Metaspace       used 123731K, capacity 124935K, committed 125516K, reserved 1155072K
+  class space    used 19693K, capacity 20036K, committed 20044K, reserved 1048576K
+Event: 36.128 GC heap after
+Heap after GC invocations=21 (full 4):
+ PSYoungGen      total 1649664K, used 322235K [0x0000000740000000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1327104K, 0% used [0x0000000740000000,0x0000000740000000,0x0000000791000000)
+  from space 322560K, 99% used [0x0000000791000000,0x00000007a4aaed20,0x00000007a4b00000)
+  to   space 425472K, 0% used [0x00000007a6080000,0x00000007a6080000,0x00000007c0000000)
+ ParOldGen       total 4194304K, used 437690K [0x0000000640000000, 0x0000000740000000, 0x0000000740000000)
+  object space 4194304K, 10% used [0x0000000640000000,0x000000065ab6eaf0,0x0000000740000000)
+ Metaspace       used 123731K, capacity 124935K, committed 125516K, reserved 1155072K
+  class space    used 19693K, capacity 20036K, committed 20044K, reserved 1048576K
+}
+Event: 38.428 GC heap before
+{Heap before GC invocations=22 (full 4):
+ PSYoungGen      total 1649664K, used 1649339K [0x0000000740000000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1327104K, 100% used [0x0000000740000000,0x0000000791000000,0x0000000791000000)
+  from space 322560K, 99% used [0x0000000791000000,0x00000007a4aaed20,0x00000007a4b00000)
+  to   space 425472K, 0% used [0x00000007a6080000,0x00000007a6080000,0x00000007c0000000)
+ ParOldGen       total 4194304K, used 437690K [0x0000000640000000, 0x0000000740000000, 0x0000000740000000)
+  object space 4194304K, 10% used [0x0000000640000000,0x000000065ab6eaf0,0x0000000740000000)
+ Metaspace       used 132588K, capacity 133783K, committed 134604K, reserved 1163264K
+  class space    used 20979K, capacity 21372K, committed 21452K, reserved 1048576K
+Event: 38.510 GC heap after
+Heap after GC invocations=22 (full 4):
+ PSYoungGen      total 1582592K, used 355679K [0x0000000740000000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1157120K, 0% used [0x0000000740000000,0x0000000740000000,0x0000000786a00000)
+  from space 425472K, 83% used [0x00000007a6080000,0x00000007bbbd7e78,0x00000007c0000000)
+  to   space 470016K, 0% used [0x0000000786a00000,0x0000000786a00000,0x00000007a3500000)
+ ParOldGen       total 4194304K, used 437698K [0x0000000640000000, 0x0000000740000000, 0x0000000740000000)
+  object space 4194304K, 10% used [0x0000000640000000,0x000000065ab70af0,0x0000000740000000)
+ Metaspace       used 132588K, capacity 133783K, committed 134604K, reserved 1163264K
+  class space    used 20979K, capacity 21372K, committed 21452K, reserved 1048576K
+}
+Event: 40.346 GC heap before
+{Heap before GC invocations=23 (full 4):
+ PSYoungGen      total 1582592K, used 1512799K [0x0000000740000000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1157120K, 100% used [0x0000000740000000,0x0000000786a00000,0x0000000786a00000)
+  from space 425472K, 83% used [0x00000007a6080000,0x00000007bbbd7e78,0x00000007c0000000)
+  to   space 470016K, 0% used [0x0000000786a00000,0x0000000786a00000,0x00000007a3500000)
+ ParOldGen       total 4194304K, used 437698K [0x0000000640000000, 0x0000000740000000, 0x0000000740000000)
+  object space 4194304K, 10% used [0x0000000640000000,0x000000065ab70af0,0x0000000740000000)
+ Metaspace       used 138882K, capacity 140083K, committed 141004K, reserved 1167360K
+  class space    used 22029K, capacity 22376K, committed 22476K, reserved 1048576K
+Event: 40.416 GC heap after
+Heap after GC invocations=23 (full 4):
+ PSYoungGen      total 1528832K, used 371524K [0x0000000740000000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1157120K, 0% used [0x0000000740000000,0x0000000740000000,0x0000000786a00000)
+  from space 371712K, 99% used [0x0000000786a00000,0x000000079d4d13a8,0x000000079d500000)
+  to   space 510464K, 0% used [0x00000007a0d80000,0x00000007a0d80000,0x00000007c0000000)
+ ParOldGen       total 4194304K, used 437706K [0x0000000640000000, 0x0000000740000000, 0x0000000740000000)
+  object space 4194304K, 10% used [0x0000000640000000,0x000000065ab72af0,0x0000000740000000)
+ Metaspace       used 138882K, capacity 140083K, committed 141004K, reserved 1167360K
+  class space    used 22029K, capacity 22376K, committed 22476K, reserved 1048576K
+}
+
+Deoptimization events (10 events):
+Event: 42.242 Thread 0x00007fec2662e800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00007fec160e4054 method=scala.collection.SeqLike$$anonfun$contains$1.apply(Ljava/lang/Object;)Z @ 60
+Event: 42.242 Thread 0x00007fec2662e800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00007fec160e4054 method=scala.collection.SeqLike$$anonfun$contains$1.apply(Ljava/lang/Object;)Z @ 60
+Event: 42.242 Thread 0x00007fec2662e800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00007fec151ce484 method=scala.collection.SeqLike$$anonfun$contains$1.apply(Ljava/lang/Object;)Z @ 60
+Event: 42.281 Thread 0x00007fec2662e800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007fec157364f8 method=sun.misc.FloatingDecimal$BinaryToASCIIBuffer.getChars([C)I @ 419
+Event: 42.461 Thread 0x00007feb97287000 Uncommon trap: reason=null_check action=make_not_entrant pc=0x00007fec15541344 method=java.lang.StringCoding.decode(Ljava/lang/String;[BII)[C @ 6
+Event: 42.461 Thread 0x00007feb97287000 Uncommon trap: reason=bimorphic action=maybe_recompile pc=0x00007fec16772f08 method=java.util.Properties$LineReader.readLine()I @ 62
+Event: 42.461 Thread 0x00007feb97287000 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00007fec16772ed4 method=java.util.Properties$LineReader.readLine()I @ 410
+Event: 42.461 Thread 0x00007feb97287000 Uncommon trap: reason=bimorphic action=maybe_recompile pc=0x00007fec16772f08 method=java.util.Properties$LineReader.readLine()I @ 62
+Event: 42.462 Thread 0x00007feb97287000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007fec16f99e30 method=java.util.Locale.hashCode()I @ 6
+Event: 42.462 Thread 0x00007feb97287000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007fec158c95b0 method=java.net.URLStreamHandler.toExternalForm(Ljava/net/URL;)Ljava/lang/String; @ 24
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (10 events):
+Event: 34.842 Thread 0x00007fec2662e800 Exception <a 'java/lang/ArrayIndexOutOfBoundsException': 15> (0x000000076725dc80) thrown at [./src/hotspot/src/share/vm/interpreter/interpreterRuntime.cpp, line 371]
+Event: 34.851 Thread 0x00007fec2662e800 Implicit null exception at 0x00007fec1634503b to 0x00007fec163452d1
+Event: 35.104 Thread 0x00007fec2662e800 Implicit null exception at 0x00007fec1706f184 to 0x00007fec1707165d
+Event: 35.787 Thread 0x00007fec2662e800 Implicit null exception at 0x00007fec15e9cefc to 0x00007fec15e9dac9
+Event: 40.181 Thread 0x00007fec2662e800 Implicit null exception at 0x00007fec169b8913 to 0x00007fec169bb435
+Event: 40.666 Thread 0x00007fec2662e800 Implicit null exception at 0x00007fec16e57360 to 0x00007fec16e582dd
+Event: 40.668 Thread 0x00007fec2662e800 Implicit null exception at 0x00007fec15338413 to 0x00007fec1533938d
+Event: 41.587 Thread 0x00007fec2662e800 Exception <a 'java/lang/ArrayIndexOutOfBoundsException'> (0x0000000766d5c540) thrown at [./src/hotspot/src/share/vm/oops/objArrayKlass.cpp, line 306]
+Event: 41.605 Thread 0x00007fec2662e800 Implicit null exception at 0x00007fec1706f891 to 0x00007fec17071811
+Event: 42.461 Thread 0x00007feb97287000 Implicit null exception at 0x00007fec15540bb3 to 0x00007fec15541331
+
+Events (10 events):
+Event: 42.463 loading class java/net/CookieHandler
+Event: 42.463 loading class java/net/CookieHandler done
+Event: 42.463 loading class sun/net/www/protocol/http/HttpURLConnection$3
+Event: 42.463 loading class sun/net/www/protocol/http/HttpURLConnection$3 done
+Event: 42.463 loading class java/net/ResponseCache
+Event: 42.463 loading class java/net/ResponseCache done
+Event: 42.463 loading class sun/net/www/protocol/http/HttpURLConnection$5
+Event: 42.463 loading class sun/net/www/protocol/http/HttpURLConnection$5 done
+Event: 42.463 loading class com/brandon3055/draconicevolution/common/network/ParticleGenPacket
+Event: 42.463 loading class com/brandon3055/draconicevolution/common/network/ParticleGenPacket done
+
+
+Dynamic libraries:
+640000000-7c1733000 rw-p 00000000 00:00 0 
+7c1733000-800000000 ---p 00000000 00:00 0 
+5611a38bf000-5611a38c0000 r--p 00000000 103:05 8654412                   /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+5611a38c0000-5611a38c1000 r-xp 00001000 103:05 8654412                   /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+5611a38c1000-5611a38c2000 r--p 00002000 103:05 8654412                   /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+5611a38c2000-5611a38c3000 r--p 00002000 103:05 8654412                   /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+5611a38c3000-5611a38c4000 rw-p 00003000 103:05 8654412                   /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+5611a3fd2000-5611a401a000 rw-p 00000000 00:00 0                          [heap]
+7feb54000000-7feb54021000 rw-p 00000000 00:00 0 
+7feb54021000-7feb58000000 ---p 00000000 00:00 0 
+7feb5c000000-7feb5c021000 rw-p 00000000 00:00 0 
+7feb5c021000-7feb60000000 ---p 00000000 00:00 0 
+7feb60000000-7feb60021000 rw-p 00000000 00:00 0 
+7feb60021000-7feb64000000 ---p 00000000 00:00 0 
+7feb64000000-7feb64021000 rw-p 00000000 00:00 0 
+7feb64021000-7feb68000000 ---p 00000000 00:00 0 
+7feb68000000-7feb68021000 rw-p 00000000 00:00 0 
+7feb68021000-7feb6c000000 ---p 00000000 00:00 0 
+7feb6c000000-7feb6c021000 rw-p 00000000 00:00 0 
+7feb6c021000-7feb70000000 ---p 00000000 00:00 0 
+7feb70000000-7feb70021000 rw-p 00000000 00:00 0 
+7feb70021000-7feb74000000 ---p 00000000 00:00 0 
+7feb74000000-7feb74021000 rw-p 00000000 00:00 0 
+7feb74021000-7feb78000000 ---p 00000000 00:00 0 
+7feb78000000-7feb78021000 rw-p 00000000 00:00 0 
+7feb78021000-7feb7c000000 ---p 00000000 00:00 0 
+7feb7c000000-7feb7c021000 rw-p 00000000 00:00 0 
+7feb7c021000-7feb80000000 ---p 00000000 00:00 0 
+7feb80000000-7feb80021000 rw-p 00000000 00:00 0 
+7feb80021000-7feb84000000 ---p 00000000 00:00 0 
+7feb84000000-7feb874ed000 rw-p 00000000 00:00 0 
+7feb874ed000-7feb88000000 ---p 00000000 00:00 0 
+7feb88000000-7feb88021000 rw-p 00000000 00:00 0 
+7feb88021000-7feb8c000000 ---p 00000000 00:00 0 
+7feb8c000000-7feb8c043000 rw-p 00000000 00:00 0 
+7feb8c043000-7feb90000000 ---p 00000000 00:00 0 
+7feb90000000-7feb93ffb000 rw-p 00000000 00:00 0 
+7feb93ffb000-7feb94000000 ---p 00000000 00:00 0 
+7feb94000000-7feb97fff000 rw-p 00000000 00:00 0 
+7feb97fff000-7feb98000000 ---p 00000000 00:00 0 
+7feb98000000-7feb98021000 rw-p 00000000 00:00 0 
+7feb98021000-7feb9c000000 ---p 00000000 00:00 0 
+7feb9c000000-7feb9c021000 rw-p 00000000 00:00 0 
+7feb9c021000-7feba0000000 ---p 00000000 00:00 0 
+7feba0000000-7feba0021000 rw-p 00000000 00:00 0 
+7feba0021000-7feba4000000 ---p 00000000 00:00 0 
+7feba4000000-7feba4021000 rw-p 00000000 00:00 0 
+7feba4021000-7feba8000000 ---p 00000000 00:00 0 
+7feba8000000-7feba8021000 rw-p 00000000 00:00 0 
+7feba8021000-7febac000000 ---p 00000000 00:00 0 
+7febac000000-7febad68d000 rw-p 00000000 00:00 0 
+7febad68d000-7febb0000000 ---p 00000000 00:00 0 
+7febb0000000-7febb0021000 rw-p 00000000 00:00 0 
+7febb0021000-7febb4000000 ---p 00000000 00:00 0 
+7febb4000000-7febb6a18000 rw-p 00000000 00:00 0 
+7febb6a18000-7febb8000000 ---p 00000000 00:00 0 
+7febb8000000-7febba34d000 rw-p 00000000 00:00 0 
+7febba34d000-7febbc000000 ---p 00000000 00:00 0 
+7febbc000000-7febbc021000 rw-p 00000000 00:00 0 
+7febbc021000-7febc0000000 ---p 00000000 00:00 0 
+7febc0000000-7febc37af000 rw-p 00000000 00:00 0 
+7febc37af000-7febc4000000 ---p 00000000 00:00 0 
+7febc4000000-7febc4021000 rw-p 00000000 00:00 0 
+7febc4021000-7febc8000000 ---p 00000000 00:00 0 
+7febc8000000-7febc8021000 rw-p 00000000 00:00 0 
+7febc8021000-7febcc000000 ---p 00000000 00:00 0 
+7febcc000000-7febcc021000 rw-p 00000000 00:00 0 
+7febcc021000-7febd0000000 ---p 00000000 00:00 0 
+7febd0000000-7febd004d000 rw-p 00000000 00:00 0 
+7febd004d000-7febd4000000 ---p 00000000 00:00 0 
+7febd4000000-7febd4021000 rw-p 00000000 00:00 0 
+7febd4021000-7febd8000000 ---p 00000000 00:00 0 
+7febd882f000-7febd89af000 rw-p 00000000 00:00 0 
+7febd89af000-7febd8a2f000 ---p 00000000 00:00 0 
+7febd8a2f000-7febd8c2f000 rw-p 00000000 00:00 0 
+7febd8c2f000-7febd8e2f000 rw-p 00000000 00:00 0 
+7febd8e2f000-7febd902f000 rw-p 00000000 00:00 0 
+7febd902f000-7febd922f000 rw-p 00000000 00:00 0 
+7febd922f000-7febd942f000 rw-p 00000000 00:00 0 
+7febd942f000-7febd943d000 r--p 00000000 103:05 4196913                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/OpenComputersMod-1.7.7.2-GTNH-54-libjnlua54-linux-x86_64.so
+7febd943d000-7febd9499000 r-xp 0000d000 103:05 4196913                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/OpenComputersMod-1.7.7.2-GTNH-54-libjnlua54-linux-x86_64.so
+7febd9499000-7febd949b000 r--p 00068000 103:05 4196913                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/OpenComputersMod-1.7.7.2-GTNH-54-libjnlua54-linux-x86_64.so
+7febd949b000-7febd949d000 rw-p 00069000 103:05 4196913                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/OpenComputersMod-1.7.7.2-GTNH-54-libjnlua54-linux-x86_64.so
+7febd949d000-7febd94aa000 r--p 00000000 103:05 4196892                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/OpenComputersMod-1.7.7.2-GTNH-53-libjnlua53-linux-x86_64.so
+7febd94aa000-7febd94fd000 r-xp 0000c000 103:05 4196892                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/OpenComputersMod-1.7.7.2-GTNH-53-libjnlua53-linux-x86_64.so
+7febd94fd000-7febd94fe000 r--p 0005e000 103:05 4196892                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/OpenComputersMod-1.7.7.2-GTNH-53-libjnlua53-linux-x86_64.so
+7febd94fe000-7febd9500000 rw-p 0005e000 103:05 4196892                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/OpenComputersMod-1.7.7.2-GTNH-53-libjnlua53-linux-x86_64.so
+7febd9500000-7febd9700000 rw-p 00000000 00:00 0 
+7febd9700000-7febd9900000 rw-p 00000000 00:00 0 
+7febd9900000-7febd9b00000 rw-p 00000000 00:00 0 
+7febd9b00000-7febd9d00000 rw-p 00000000 00:00 0 
+7febd9d00000-7febd9f00000 rw-p 00000000 00:00 0 
+7febd9f00000-7febda100000 rw-p 00000000 00:00 0 
+7febda100000-7febda300000 rw-p 00000000 00:00 0 
+7febda300000-7febda500000 rw-p 00000000 00:00 0 
+7febda500000-7febda503000 ---p 00000000 00:00 0 
+7febda503000-7febda600000 rw-p 00000000 00:00 0 
+7febda600000-7febda603000 ---p 00000000 00:00 0 
+7febda603000-7febda700000 rw-p 00000000 00:00 0 
+7febda700000-7febda703000 ---p 00000000 00:00 0 
+7febda703000-7febda800000 rw-p 00000000 00:00 0 
+7febda800000-7febda803000 ---p 00000000 00:00 0 
+7febda803000-7febda900000 rw-p 00000000 00:00 0 
+7febda900000-7febda903000 ---p 00000000 00:00 0 
+7febda903000-7febdaa00000 rw-p 00000000 00:00 0 
+7febdaa00000-7febdaa03000 ---p 00000000 00:00 0 
+7febdaa03000-7febdab00000 rw-p 00000000 00:00 0 
+7febdab00000-7febdab03000 ---p 00000000 00:00 0 
+7febdab03000-7febdac00000 rw-p 00000000 00:00 0 
+7febdac00000-7febdac03000 ---p 00000000 00:00 0 
+7febdac03000-7febdad00000 rw-p 00000000 00:00 0 
+7febdad00000-7febdad03000 ---p 00000000 00:00 0 
+7febdad03000-7febdb000000 rw-p 00000000 00:00 0 
+7febdb000000-7febdb200000 rw-p 00000000 00:00 0 
+7febdb200000-7febdb400000 rw-p 00000000 00:00 0 
+7febdb400000-7febdb600000 rw-p 00000000 00:00 0 
+7febdb600000-7febdb800000 rw-p 00000000 00:00 0 
+7febdb800000-7febdba00000 rw-p 00000000 00:00 0 
+7febdba00000-7febdbc00000 rw-p 00000000 00:00 0 
+7febdbc00000-7febdbe00000 rw-p 00000000 00:00 0 
+7febdbe00000-7febdc000000 rw-p 00000000 00:00 0 
+7febdc000000-7febdc021000 rw-p 00000000 00:00 0 
+7febdc021000-7febe0000000 ---p 00000000 00:00 0 
+7febe001d000-7febe001e000 r--p 00000000 103:05 7739408                   /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7febe001e000-7febe001f000 r-xp 00001000 103:05 7739408                   /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7febe001f000-7febe0020000 r--p 00002000 103:05 7739408                   /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7febe0020000-7febe0021000 r--p 00002000 103:05 7739408                   /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7febe0021000-7febe0022000 rw-p 00003000 103:05 7739408                   /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7febe0022000-7febe002e000 r--p 00000000 103:05 4196860                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/OpenComputersMod-1.7.7.2-GTNH-52-libjnlua52-linux-x86_64.so
+7febe002e000-7febe007f000 r-xp 0000b000 103:05 4196860                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/OpenComputersMod-1.7.7.2-GTNH-52-libjnlua52-linux-x86_64.so
+7febe007f000-7febe0081000 r--p 0005b000 103:05 4196860                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/OpenComputersMod-1.7.7.2-GTNH-52-libjnlua52-linux-x86_64.so
+7febe0081000-7febe0082000 rw-p 0005c000 103:05 4196860                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/OpenComputersMod-1.7.7.2-GTNH-52-libjnlua52-linux-x86_64.so
+7febe0082000-7febe0085000 ---p 00000000 00:00 0 
+7febe0085000-7febe0182000 rw-p 00000000 00:00 0 
+7febe0182000-7febe0184000 r--p 00000000 103:05 7737738                   /usr/lib/x86_64-linux-gnu/libmd.so.0.0.5
+7febe0184000-7febe018b000 r-xp 00002000 103:05 7737738                   /usr/lib/x86_64-linux-gnu/libmd.so.0.0.5
+7febe018b000-7febe018d000 r--p 00009000 103:05 7737738                   /usr/lib/x86_64-linux-gnu/libmd.so.0.0.5
+7febe018d000-7febe018e000 r--p 0000a000 103:05 7737738                   /usr/lib/x86_64-linux-gnu/libmd.so.0.0.5
+7febe018e000-7febe018f000 rw-p 0000b000 103:05 7737738                   /usr/lib/x86_64-linux-gnu/libmd.so.0.0.5
+7febe018f000-7febe0193000 r--p 00000000 103:05 7737746                   /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.5
+7febe0193000-7febe01a0000 r-xp 00004000 103:05 7737746                   /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.5
+7febe01a0000-7febe01a3000 r--p 00011000 103:05 7737746                   /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.5
+7febe01a3000-7febe01a4000 ---p 00014000 103:05 7737746                   /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.5
+7febe01a4000-7febe01a5000 r--p 00014000 103:05 7737746                   /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.5
+7febe01a5000-7febe01a6000 rw-p 00015000 103:05 7737746                   /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.5
+7febe01a6000-7febe01a7000 rw-p 00000000 00:00 0 
+7febe01a7000-7febe01a9000 r--p 00000000 103:05 7737749                   /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7febe01a9000-7febe01ab000 r-xp 00002000 103:05 7737749                   /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7febe01ab000-7febe01ad000 r--p 00004000 103:05 7737749                   /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7febe01ad000-7febe01ae000 r--p 00005000 103:05 7737749                   /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7febe01ae000-7febe01af000 rw-p 00006000 103:05 7737749                   /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7febe01af000-7febe01b0000 r--p 00000000 103:05 7737729                   /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7febe01b0000-7febe01b2000 r-xp 00001000 103:05 7737729                   /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7febe01b2000-7febe01b3000 r--p 00003000 103:05 7737729                   /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7febe01b3000-7febe01b4000 r--p 00003000 103:05 7737729                   /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7febe01b4000-7febe01b5000 rw-p 00004000 103:05 7737729                   /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7febe01b5000-7febe01c0000 r--p 00000000 103:05 7737755                   /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7febe01c0000-7febe01d4000 r-xp 0000b000 103:05 7737755                   /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7febe01d4000-7febe01dd000 r--p 0001f000 103:05 7737755                   /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7febe01dd000-7febe01de000 r--p 00027000 103:05 7737755                   /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7febe01de000-7febe01df000 rw-p 00028000 103:05 7737755                   /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7febe01df000-7febe01e2000 r--p 00000000 103:05 7740676                   /usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+7febe01e2000-7febe01ee000 r-xp 00003000 103:05 7740676                   /usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+7febe01ee000-7febe01f1000 r--p 0000f000 103:05 7740676                   /usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+7febe01f1000-7febe01f2000 r--p 00011000 103:05 7740676                   /usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+7febe01f2000-7febe01f3000 rw-p 00012000 103:05 7740676                   /usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+7febe01f3000-7febe01f5000 r--p 00000000 103:05 7734388                   /usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0
+7febe01f5000-7febe01f8000 r-xp 00002000 103:05 7734388                   /usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0
+7febe01f8000-7febe01f9000 r--p 00005000 103:05 7734388                   /usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0
+7febe01f9000-7febe01fa000 r--p 00005000 103:05 7734388                   /usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0
+7febe01fa000-7febe01fb000 rw-p 00006000 103:05 7734388                   /usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0
+7febe01fb000-7febe01fd000 r--p 00000000 103:05 7741427                   /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+7febe01fd000-7febe0204000 r-xp 00002000 103:05 7741427                   /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+7febe0204000-7febe0206000 r--p 00009000 103:05 7741427                   /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+7febe0206000-7febe0207000 r--p 0000a000 103:05 7741427                   /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+7febe0207000-7febe0208000 rw-p 0000b000 103:05 7741427                   /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+7febe0208000-7febe0221000 r--p 00000000 103:05 7735617                   /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+7febe0221000-7febe02ad000 r-xp 00019000 103:05 7735617                   /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+7febe02ad000-7febe0342000 r--p 000a5000 103:05 7735617                   /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+7febe0342000-7febe0343000 ---p 0013a000 103:05 7735617                   /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+7febe0343000-7febe0344000 r--p 0013a000 103:05 7735617                   /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+7febe0344000-7febe0348000 rw-p 0013b000 103:05 7735617                   /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+7febe0348000-7febe034c000 r--p 00000000 103:05 7733428                   /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+7febe034c000-7febe0357000 r-xp 00004000 103:05 7733428                   /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+7febe0357000-7febe035b000 r--p 0000f000 103:05 7733428                   /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+7febe035b000-7febe035c000 r--p 00012000 103:05 7733428                   /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+7febe035c000-7febe035d000 rw-p 00013000 103:05 7733428                   /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+7febe0373000-7febe0383000 r--p 00000000 103:05 8655007                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libawt_xawt.so
+7febe0383000-7febe03c2000 r-xp 00010000 103:05 8655007                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libawt_xawt.so
+7febe03c2000-7febe03d3000 r--p 0004f000 103:05 8655007                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libawt_xawt.so
+7febe03d3000-7febe03d4000 r--p 0005f000 103:05 8655007                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libawt_xawt.so
+7febe03d4000-7febe03d7000 rw-p 00060000 103:05 8655007                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libawt_xawt.so
+7febe03d7000-7febe03d9000 rw-p 00000000 00:00 0 
+7febe03d9000-7febe0406000 r--p 00000000 103:05 8655005                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libawt.so
+7febe0406000-7febe0470000 r-xp 0002d000 103:05 8655005                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libawt.so
+7febe0470000-7febe047c000 r--p 00097000 103:05 8655005                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libawt.so
+7febe047c000-7febe047d000 ---p 000a3000 103:05 8655005                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libawt.so
+7febe047d000-7febe047e000 r--p 000a3000 103:05 8655005                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libawt.so
+7febe047e000-7febe0489000 rw-p 000a4000 103:05 8655005                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libawt.so
+7febe0489000-7febe06ae000 rw-p 00000000 00:00 0 
+7febe06ae000-7febe08ae000 rw-p 00000000 00:00 0 
+7febe08ae000-7febe0aae000 rw-p 00000000 00:00 0 
+7febe0aae000-7febe0cae000 rw-p 00000000 00:00 0 
+7febe0cae000-7febe0eae000 rw-p 00000000 00:00 0 
+7febe0eae000-7febe10ae000 rw-p 00000000 00:00 0 
+7febe10ae000-7febe12ae000 rw-p 00000000 00:00 0 
+7febe12ae000-7febe14ae000 rw-p 00000000 00:00 0 
+7febe14ae000-7febe16ae000 rw-p 00000000 00:00 0 
+7febe16ae000-7febe16b1000 ---p 00000000 00:00 0 
+7febe16b1000-7febe19ae000 rw-p 00000000 00:00 0 
+7febe19ae000-7febe1bae000 rw-p 00000000 00:00 0 
+7febe1bae000-7febe1bb1000 ---p 00000000 00:00 0 
+7febe1bb1000-7febe1eae000 rw-p 00000000 00:00 0 
+7febe1eae000-7febe1eb6000 r--s 00062000 103:05 4211533                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/IguanaTweaksTConstruct-1.7.10-2.2.3.jar
+7febe1eb6000-7febe1ebb000 r--s 0004e000 103:05 4211628                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/WR-CBE-1.7.10-1.4.8.jar
+7febe1ebb000-7febe1ebd000 r--s 00013000 103:05 4211626                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Wawla-1.7.10-1.1.3-GTNH.jar
+7febe1ebd000-7febe1ec2000 r--s 0002e000 103:05 4211625                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/WarpTheory-1.7.10-1.2.6-GTNH.jar
+7febe1ec2000-7febe1ec4000 r--s 0000f000 103:05 4211623                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/WAILAPlugins-1.7.10-0.2.5.jar
+7febe1ec4000-7febe1ec6000 r--s 00006000 103:05 4211622                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/WailaHarvestability-1.7.10-1.1.10-GTNH.jar
+7febe1ec6000-7febe1ec7000 r--s 00004000 103:05 4211616                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/TooMuchLoot-1.7.10-4.1.0-GTNH.jar
+7febe1ec7000-7febe1ecc000 r--s 00032000 103:05 4211615                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/TMechworks-1.7.10-0.2.16.4.jar
+7febe1ecc000-7febe1ed5000 r--s 00033000 103:05 4211656                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Tinkers-Defense-1.2.1d.jar
+7febe1ed5000-7febe1ed9000 r--s 00093000 103:05 4211610                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/thaumicinsurgence-1.7.10-0.0.6.jar
+7febe1ed9000-7febe1eed000 r--s 0024c000 103:05 4211609                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/ThaumicHorizons-1.7.10-1.2.1.6.jar
+7febe1eed000-7febe1eef000 r--s 00004000 103:05 4211605                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/ThaumcraftMobAspects-1.7.10-1.0.0-GTNH.jar
+7febe1eef000-7febe1ef1000 r--s 0000f000 103:05 4211638                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/thaumcraftneiplugin-1.7.10-1.7a.jar
+7febe1ef1000-7febe1ef3000 r--s 00003000 103:05 4211611                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/tcinventoryscan-1.7.10-1.0.12-GTNH.jar
+7febe1ef3000-7febe1ef5000 r--s 00004000 103:05 4211599                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/SuperTic-1.7.10-1.2.5.jar
+7febe1ef5000-7febe1ef7000 r--s 00005000 103:05 4211597                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/structurecompat-1.7.10-0.2.0.jar
+7febe1ef7000-7febe1efd000 r--s 00013000 103:05 4211596                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/StorageDrawersNatura-1.7.10-1.11.17-GTNH.jar
+7febe1efd000-7febe1f05000 r--s 00023000 103:05 4211595                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/StorageDrawersMisc-1.7.10-1.11.17-GTNH.jar
+7febe1f05000-7febe1f0f000 r--s 00027000 103:05 4211594                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/StorageDrawersForestry-1.7.10-1.11.17-GTNH.jar
+7febe1f0f000-7febe1f15000 r--s 00016000 103:05 4211593                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/StorageDrawersBop-1.7.10-1.11.17-GTNH.jar
+7febe1f15000-7febe1f24000 r--s 00084000 103:05 4211592                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/StorageDrawers-1.7.10-1.11.17-GTNH.jar
+7febe1f24000-7febe1f2f000 r--s 00093000 103:05 4211590                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/StevesFactoryManager-1.7.10-1.1.1-GTNH.jar
+7febe1f2f000-7febe1f36000 r--s 0005d000 103:05 4211589                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/StandardExpansion-1.7.10-3.0.197-GTNH.jar
+7febe1f36000-7febe1f3d000 r--s 00038000 103:05 4211587                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/SpiceOfLife-1.7.10-2.0.5-carrot.jar
+7febe1f3d000-7febe1f48000 r--s 0010f000 103:05 4211586                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/SpecialMobs-1.7.10-3.3.13.jar
+7febe1f48000-7febe1f4a000 r--s 00006000 103:05 4211585                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/sleepingbag-1.7.10-0.1.3.jar
+7febe1f4a000-7febe1f53000 r--s 000f8000 103:05 4211583                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/SGCraft-1.7.10-1.3.13-GTNH.jar
+7febe1f53000-7febe1f58000 r--s 00048000 103:05 4211579                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/RWG-1.7.10-alpha-1.3.2.1.jar
+7febe1f58000-7febe1f63000 r--s 00086000 103:05 4211581                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/roguelike-1.7.10-1.5.3-GTNH.jar
+7febe1f63000-7febe1f65000 r--s 00003000 103:05 4211577                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/questbook-1.7.10-2.1.3-GTNH.jar
+7febe1f65000-7febe1f6b000 r--s 00039000 103:05 4211575                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/ProjectBlue-1.7.10-1.1.8-GTNH.jar
+7febe1f6b000-7febe1f6d000 r--s 00016000 103:05 4211574                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/personalspace-1.7.10-1.0.19.jar
+7febe1f6d000-7febe1f6e000 r--s 00005000 103:05 4211649                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/p455w0rdslib-1.7.10-1.0.4.jar
+7febe1f6e000-7febe216e000 rw-p 00000000 00:00 0 
+7febe216e000-7febe2171000 r--s 00037000 103:05 4211642                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/OpenPrinter-MC1.7.10-0.1.0.132.jar
+7febe2171000-7febe2176000 r--s 0001c000 103:05 4211567                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/OpenGlasses-1.7.10-1.2.5-GTNH.jar
+7febe2176000-7febe217c000 r--s 00042000 103:05 4211627                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/WirelessCraftingTerminal-1.7.10-1.8.9.2.jar
+7febe217c000-7febe217e000 r--s 00004000 103:05 4211563                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/NodalMechanics-1.7.10-1.1.-6-GTNH.jar
+7febe217e000-7febe217f000 r--s 00001000 103:05 4211561                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/netherportalfix-mc1.7.10-1.1.1.jar
+7febe217f000-7febe2182000 r--s 00016000 103:05 4211559                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/NEIIntegration-1.7.10-1.2.3.jar
+7febe2182000-7febe218d000 r--s 00070000 103:05 4211558                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/NEICustomDiagram-1.7.10-1.4.4.6.jar
+7febe218d000-7febe2191000 r--s 00020000 103:05 4211560                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/NEIAddons-1.7.10-1.12.19.jar
+7febe2191000-7febe2195000 r--s 00029000 103:05 4211557                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/naturescompass-1.7.10-1.3.6-GTNH.jar
+7febe2195000-7febe2198000 r--s 0000f000 103:05 4211555                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/mxrandom-1.7.10-0.1.4.jar
+7febe2198000-7febe2199000 r--s 00004000 103:05 4211666                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Morpheus-1.7.10-1.6.21.jar
+7febe2199000-7febe21a7000 r--s 00080000 103:05 4211554                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/ModTweaker2-1.7.10-0.9.9.jar
+7febe21a7000-7febe21b3000 r--s 00188000 103:05 4211548                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/malisisdoors-1.7.10-1.13.5-GTNH.jar
+7febe21b3000-7febe21be000 r--s 00094000 103:05 4211547                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/malisiscore-1.7.10-0.14.5-GTNH.jar
+7febe21be000-7febe21c0000 r--s 0000a000 103:05 4211545                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/LunatriusCore-1.7.10-1.1.7-GTNH.jar
+7febe21c0000-7febe21cd000 r--s 001cd000 103:05 4211544                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/lootgames-1.7.10-2.0.6.jar
+7febe21cd000-7febe21d1000 r--s 0003e000 103:05 4211542                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/littletiles-1.7.10-1.2.7-GTNH.jar
+7febe21d1000-7febe21da000 r--s 00348000 103:05 4211540                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/kekztech-1.7.10-0.6.15.jar
+7febe21da000-7febe21dc000 r--s 0000a000 103:05 4211652                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/JourneyMapServer1.0.5_MC1.7.10.jar
+7febe21dc000-7febe21e3000 r--s 0006d000 103:05 4211539                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/JABBA-1.7.10-1.2.21.jar
+7febe21e3000-7febe21e6000 r--s 00017000 103:05 4211538                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/irontanks-1.7.10-1.2.6.jar
+7febe21e6000-7febe21e8000 r--s 00007000 103:05 4211537                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/IronChestMinecarts-1.7.10-1.0.8.jar
+7febe21e8000-7febe21ec000 r--s 00021000 103:05 4211534                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/InfernalMobs-1.7.10-1.7.5-GTNH.jar
+7febe21ec000-7febe21ef000 r--s 00010000 103:05 4211529                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/holoinventory-1.7.10-2.1.17-GTNH.jar
+7febe21ef000-7febe23ef000 rw-p 00000000 00:00 0 
+7febe23ef000-7febe23f0000 r--s 00001000 103:05 4211643                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/HelpFixer-1.0.7.jar
+7febe23f0000-7febe23f5000 r--s 00020000 103:05 4211551                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/GTTweaker-1.7.10-1.7.5.jar
+7febe23f5000-7febe23f7000 r--s 00005000 103:05 4211523                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/GTNH-TC-Wands-1.7.10-1.2.6.jar
+7febe23f7000-7febe2402000 r--s 001e2000 103:05 4211606                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Thaumic-Exploration-1.7.10-1.1.92-GTNH.jar
+7febe2402000-7febe2408000 r--s 0031e000 103:05 4211662                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Tainted-Magic-r7.6.jar
+7febe2408000-7febe240d000 r--s 00020000 103:05 4211521                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/gtneioreplugin-1.7.10-1.0.17.jar
+7febe240d000-7febe2410000 r--s 0000f000 103:05 4211499                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/GT.Scanner.Mod-1.7.10-1.6.9.jar
+7febe2410000-7febe2419000 r--s 00247000 103:05 4211661                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/GraviSuite-1.7.10-2.0.68u.jar
+7febe2419000-7febe244f000 r--s 007f3000 103:05 4211517                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/GalaxySpace-1.7.10-1.1.16p-GTNH.jar
+7febe244f000-7febe245e000 r--s 000e4000 103:05 4211571                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/OpenModularTurrets-1.7.10-2.2.11-247.jar
+7febe245e000-7febe2462000 r--s 00027000 103:05 4211536                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/IronChest-1.7.10-6.0.71.jar
+7febe2462000-7febe2464000 r--s 00005000 103:05 4211665                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/ForgeRelocationFMP-0.0.1.2-universal.jar
+7febe2464000-7febe246a000 r--s 00027000 103:05 4211645                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/FloodLights-1.7.10-1.2.8-137.jar
+7febe246a000-7febe246c000 r--s 0000a000 103:05 4211509                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/findit-1.7.10-1.0.11.jar
+7febe246c000-7febe247e000 r--s 0011c000 103:05 4211508                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/ExtraCells-1.7.10-2.5.24.jar
+7febe247e000-7febe2482000 r--s 00020000 103:05 4211507                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/EternalSingularity-1.7.10-1.0.4b.jar
+7febe2482000-7febe2483000 r--s 00004000 103:05 4211619                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Universal-Singularities-1.7.10-8.6.5.jar
+7febe2483000-7febe2485000 r--s 0000d000 103:05 4211506                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/EnhancedLootBags-1.7.10-1.0.5.jar
+7febe2485000-7febe248a000 r--s 00053000 103:05 4211505                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/EnderZoo-1.7.10-1.0.23.jar
+7febe248a000-7febe24a5000 r--s 00496000 103:05 4211500                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Draconic-Evolution-1.7.10-1.1.7-GTNH.jar
+7febe24a5000-7febe24ad000 r--s 0004c000 103:05 4211496                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/creativecore-1.7.10-1.3.27-GTNH.jar
+7febe24ad000-7febe24c3000 r--s 000e4000 103:05 4211495                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/CraftTweaker-1.7.10-3.2.9.jar
+7febe24c3000-7febe24cb000 r--s 00053000 103:05 4211494                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/CookingForBlockheads-1.7.10-1.2.12-GTNH.jar
+7febe24cb000-7febe24e6000 r--s 00105000 103:05 4211493                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Computronics-1.7.10-1.6.16-GTNH.jar
+7febe24e6000-7febe24e9000 r--s 00010000 103:05 4211492                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/CompactKineticGenerators-1.7.10-1.0.1.jar
+7febe24e9000-7febe24ea000 r--s 00001000 103:05 4211489                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/chiseltones-1.7.10-1.0.4-GTNH.jar
+7febe24ea000-7febe26ea000 rw-p 00000000 00:00 0 
+7febe26ea000-7febe26ec000 r--s 00001000 103:05 4211653                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/CB4BQ-3.jar
+7febe26ec000-7febe26f2000 r--s 00028000 103:05 4211487                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/catwalks-1.7.10-2.1.3-GTNH.jar
+7febe26f2000-7febe26fd000 r--s 00073000 103:05 4211486                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/CarpentersBlocks-1.7.10-3.3.8.2-GTNH.jar
+7febe26fd000-7febe26ff000 r--s 00003000 103:05 4211654                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/BuildCraftOilTweak-1.7.10-1.0.3.jar
+7febe26ff000-7febe2707000 r--s 00037000 103:05 4211485                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/buildcraft-compat-1.7.10-7.1.12.jar
+7febe2707000-7febe270a000 r--s 00012000 103:05 4211482                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/BrandonsCore-1.7.10-1.0.0.13-GTNH.jar
+7febe270a000-7febe270c000 r--s 001a1000 103:05 4211481                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/BotanicHorizons-1.7.10-1.0.11-GTNH.jar
+7febe270c000-7febe2718000 r--s 000b2000 103:05 4211478                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/BloodArsenal-1.7.10-1.2.6.jar
+7febe2718000-7febe2719000 r--s 00004000 103:05 4211477                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/BlockLimiter-1.7.10-0.55.jar
+7febe2719000-7febe271e000 r--s 00037000 103:05 4211636                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/BiblioWoods[Natura][v1.5].jar
+7febe271e000-7febe2725000 r--s 00050000 103:05 4211635                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/BiblioWoods[Forestry][v1.7].jar
+7febe2725000-7febe2729000 r--s 00043000 103:05 4211634                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/BiblioWoods[BiomesOPlenty][v1.9].jar
+7febe2729000-7febe2738000 r--s 0014a000 103:05 4211475                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/BetterQuesting-1.7.10-3.0.367-GTNH.jar
+7febe2738000-7febe273c000 r--s 00022000 103:05 4211474                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/betterp2p-1.7.10-1.0.12.jar
+7febe273c000-7febe293c000 rw-p 00000000 00:00 0 
+7febe293c000-7febe293f000 r--s 0000d000 103:05 4211473                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/BetterBuildersWands-1.7.10-0.9.3-GTNH.jar
+7febe293f000-7febe2942000 r--s 0000e000 103:05 4211614                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/TGregworks-1.7.10-GTNH-1.0.23.jar
+7febe2942000-7febe295f000 r--s 00254000 103:05 4211582                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/StevesCarts-1.7.10-2.0.2.jar
+7febe295f000-7febe2979000 r--s 000f6000 103:05 4211566                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/IC2NuclearControl-1.7.10-2.4.16.jar
+7febe2979000-7febe297b000 r--s 00013000 103:05 4211522                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/gtnhlanth-1.7.10-0.9.18.jar
+7febe297b000-7febe2987000 r--s 000bc000 103:05 4211519                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/GoodGenerator-1.7.10-0.4.31.jar
+7febe2987000-7febe2b87000 rw-p 00000000 00:00 0 
+7febe2b87000-7febe2b92000 r--s 001b7000 103:05 4211501                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/EMT-1.7.10-1.2.8.21.jar
+7febe2b92000-7febe2b9a000 r--s 00095000 103:05 4211510                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Forbidden.Magic-1.7.10-0.6.4-GTNH.jar
+7febe2b9a000-7febe2bbb000 r--s 00333000 103:05 4211603                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/TecTech-1.7.10-5.0.39.jar
+7febe2bbb000-7febe2bbe000 r--s 00021000 103:05 4211504                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/EnderStorage-1.7.10-1.4.12.jar
+7febe2bbe000-7febe2c19000 r--s 009a0000 103:05 4211576                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/ProjRed-1.7.10-4.7.7-GTNH.jar
+7febe2c19000-7febe2c25000 r--s 0004b000 103:05 4211498                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/CropsPP-1.7.10-1.3.6.3.jar
+7febe2c25000-7febe2c35000 r--s 00194000 103:05 4211607                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Thaumic-Based-1.7.10-1.4.31.jar
+7febe2c35000-7febe2e35000 rw-p 00000000 00:00 0 
+7febe2e35000-7febe3035000 rw-p 00000000 00:00 0 
+7febe3035000-7febe3037000 r--s 00026000 103:05 4211617                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Translocator-1.7.10-1.1.2.20.jar
+7febe3037000-7febe303e000 r--s 00041000 103:05 4211598                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/structurelib-1.7.10-1.2.0-beta.2.jar
+7febe303e000-7febe3040000 r--s 0000f000 103:05 4211600                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/SSP-1.1.2-GT-NH-Mod.jar
+7febe3040000-7febe3083000 r--s 004a9000 103:05 4211503                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/EnderIO-1.7.10-2.3.1.46.jar
+7febe3083000-7febe30d1000 r--s 005cb000 103:05 4211488                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/chisel-1.7.10-2.10.16-GTNH.jar
+7febe30d1000-7febe30f5000 r--s 00360000 103:05 4211618                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/TwilightForest-1.7.10-2.3.8.16.jar
+7febe30f5000-7febe311c000 r--s 0024b000 103:05 4211518                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/gendustry-1.7.10-1.6.5.4-GTNH.jar
+7febe311c000-7febe3127000 r--s 000e8000 103:05 4211546                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/magicbees-1.7.10-2.5.12-GTNH.jar
+7febe3127000-7febe319c000 r--s 00408000 103:05 4211476                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/binnie-mods-1.7.10-2.0.43.jar
+7febe319c000-7febe339c000 rw-p 00000000 00:00 0 
+7febe339c000-7febe33de000 r--s 002ff000 103:05 4211511                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Forestry-1.7.10-4.4.15.jar
+7febe33de000-7febe3405000 r--s 00c92000 103:05 4211526                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/HardcoreEnderExpansion-1.7.10-1.9.3-GTNH.jar
+7febe3405000-7febe3493000 r--s 004f5000 103:05 4211613                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/TConstruct-1.7.10-1.9.4-GTNH.jar
+7febe3493000-7febe34b1000 r--s 001eb000 103:05 4211659                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/extrautilities-1.2.13a.jar
+7febe34b1000-7febe34ec000 r--s 0025b000 103:05 4211484                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/buildcraft-1.7.10-7.1.27.jar
+7febe34ec000-7febe34f0000 r--s 0002e000 103:05 4211549                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Mantle-1.7.10-0.3.5.jar
+7febe34f0000-7febe34f5000 r--s 00031000 103:05 4211550                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/backpack-1.7.10-2.2.6-GTNH.jar
+7febe34f5000-7febe3500000 r--s 000d9000 103:05 4211467                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Avaritia-1.7.10-1.30.jar
+7febe3500000-7febe3700000 rw-p 00000000 00:00 0 
+7febe3700000-7febe3900000 rw-p 00000000 00:00 0 
+7febe3900000-7febe3b00000 rw-p 00000000 00:00 0 
+7febe3b00000-7febe3b03000 ---p 00000000 00:00 0 
+7febe3b03000-7febe3c00000 rw-p 00000000 00:00 0 
+7febe3c00000-7febe3c03000 ---p 00000000 00:00 0 
+7febe3c03000-7febe3d00000 rw-p 00000000 00:00 0 
+7febe3d00000-7febe3d03000 ---p 00000000 00:00 0 
+7febe3d03000-7febe3e00000 rw-p 00000000 00:00 0 
+7febe3e00000-7febe3e03000 ---p 00000000 00:00 0 
+7febe3e03000-7febe3f00000 rw-p 00000000 00:00 0 
+7febe3f00000-7febe3f03000 ---p 00000000 00:00 0 
+7febe3f03000-7febe4000000 rw-p 00000000 00:00 0 
+7febe4000000-7febe4021000 rw-p 00000000 00:00 0 
+7febe4021000-7febe8000000 ---p 00000000 00:00 0 
+7febe8000000-7febe8004000 r--s 00030000 103:05 4211468                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Avaritiaddons-1.7.10-1.5.4-GTNH.jar
+7febe8004000-7febe8006000 r--s 0000d000 103:05 4211624                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/WanionLib-1.7.10-1.8.3.jar
+7febe8006000-7febe8045000 r--s 00f04000 103:05 4211480                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Botania-1.7.10-1.9.10-GTNH.jar
+7febe8045000-7febe8071000 r--s 008a7000 103:05 4211479                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/BloodMagic-1.7.10-1.3.14.jar
+7febe8071000-7febe8079000 r--s 0007c000 103:05 4211621                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Waila-1.7.10-1.5.22.jar
+7febe8079000-7febe807e000 r--s 00023000 103:05 4211466                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/AsieLib-1.7.10-0.5.3.jar
+7febe807e000-7febe8087000 r--s 000aa000 103:05 4211465                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/ArchitectureCraft-1.7.10-1.7.6.jar
+7febe8087000-7febe8287000 rw-p 00000000 00:00 0 
+7febe8287000-7febe8487000 rw-p 00000000 00:00 0 
+7febe8487000-7febe8687000 rw-p 00000000 00:00 0 
+7febe8687000-7febe8887000 rw-p 00000000 00:00 0 
+7febe8887000-7febe89d4000 r--s 01004000 103:05 4211520                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/gregtech-1.7.10-5.09.41.61.jar
+7febe89d4000-7febe8bd4000 rw-p 00000000 00:00 0 
+7febe8bd4000-7febe8dd4000 rw-p 00000000 00:00 0 
+7febe8dd4000-7febe8fd4000 rw-p 00000000 00:00 0 
+7febe8fd4000-7febe91d4000 rw-p 00000000 00:00 0 
+7febe91d4000-7febe99d5000 rw-p 00000000 00:00 0 
+7febe99d5000-7febe99e6000 r--s 000e0000 103:05 4211588                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/SpongeMixins-1.5.0.jar
+7febe99e6000-7febe99e8000 r--s 00037000 103:05 4211462                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/AngerMod-1.7.10-0.6.3.jar
+7febe99e8000-7febe99ec000 r--s 0001b000 103:05 4211631                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/YAMCore-1.7.10-0.5.84.jar
+7febe99ec000-7febe99ef000 r--s 0000d000 103:05 4211461                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/AFSU-1.7.10-1.2.6-GTNH.jar
+7febe99ef000-7febe99fa000 r--s 0007f000 103:05 4211460                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/ae2stuff-1.7.10-0.5.1.15-GTNH.jar
+7febe99fa000-7febe9a1a000 r--s 00157000 103:05 4211472                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/bdlib-1.7.10-1.9.8-GTNH.jar
+7febe9a1a000-7febe9a26000 r--s 00327000 103:05 4211458                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/adventurebackpack-1.7.10-1.0.5-GTNH.jar
+7febe9a26000-7febe9a2a000 r--s 00048000 103:05 4211658                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/AdvancedSolarPanel-1.7.10-3.5.1a.jar
+7febe9a2a000-7febe9a31000 r--s 00044000 103:05 4211647                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/CoFHLib-[1.7.10]1.2.1-185.jar
+7febe9a31000-7febe9a34000 ---p 00000000 00:00 0 
+7febe9a34000-7febe9a6a000 rw-p 00000000 00:00 0 
+7febe9a6a000-7febe9a6c000 r--s 00029000 103:05 4211515                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/galacticgreg-1.7.10-1.0.8.jar
+7febe9a6c000-7febe9a7e000 r--s 00077000 103:05 4211667                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Ztones-1.7.10-2.2.2.jar
+7febe9a7e000-7febe9a96000 r--s 0051c000 103:05 4211633                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/BiblioCraft[v1.11.7][MC1.7.10].jar
+7febe9a96000-7febe9a9a000 r--s 00049000 103:05 4211657                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/TravellersGear-1.7.10-1.16.8-GTNH.jar
+7febe9a9a000-7febe9a9d000 r--s 00013000 103:05 4211471                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Baubles-1.7.10-1.0.1.14.jar
+7febe9a9d000-7febe9aa4000 r--s 00047000 103:05 4211641                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Pam's Harvest the Nether 1.7.10a.jar
+7febe9aa4000-7febe9ab8000 r--s 00630000 103:05 4211632                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Automagy-1.7.10-0.28.2.jar
+7febe9ab8000-7febe9ad8000 r--s 0055e000 103:05 4211668                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/BiomesOPlenty-1.7.10-2.1.0.2308-universal.jar
+7febe9ad8000-7febe9b0e000 r--s 0030f000 103:05 4211578                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Railcraft-1.7.10-9.13.12.jar
+7febe9b0e000-7febe9b11000 r--s 00019000 103:05 4211530                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/HungerOverhaul-1.7.10-1.0.4-GTNH.jar
+7febe9b11000-7febe9b46000 r--s 0067b000 103:05 4211637                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/witchery-1.7.10-0.24.1.jar
+7febe9b46000-7febe9b59000 r--s 000c9000 103:05 4211556                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Natura-1.7.10-2.5.3.jar
+7febe9b59000-7febe9b84000 r--s 0021e000 103:05 4211527                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/harvestcraft-1.7.10-1.0.15-GTNH.jar
+7febe9b84000-7febe9b8b000 r--s 00047000 103:05 4211491                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/1.7.10/CodeChickenLib-1.7.10-1.1.5.5.jar
+7febe9b8b000-7febe9b91000 r--s 0004e000 103:05 6030174                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/ic2/EJML-core-0.26.jar
+7febe9b91000-7febe9b94000 r--p 00000000 103:05 8655037                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libunpack.so
+7febe9b94000-7febe9ba4000 r-xp 00003000 103:05 8655037                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libunpack.so
+7febe9ba4000-7febe9ba9000 r--p 00013000 103:05 8655037                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libunpack.so
+7febe9ba9000-7febe9bab000 r--p 00017000 103:05 8655037                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libunpack.so
+7febe9bab000-7febe9bac000 rw-p 00019000 103:05 8655037                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libunpack.so
+7febe9bac000-7febe9bad000 rw-p 00000000 00:00 0 
+7febe9bad000-7febe9bbf000 r--s 0034c000 103:05 8655093                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar
+7febe9bbf000-7febe9bce000 r--s 0042b000 103:05 4211630                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/WitchingGadgets-1.7.10-1.2.21-GTNH.jar
+7febe9bce000-7febe9bd1000 r--s 00022000 103:05 4211629                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/WitcheryExtras-1.7.10-1.1.12.jar
+7febe9bd1000-7febe9bd9000 r--s 0004b000 103:05 4211620                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/visualprospecting-1.7.10-1.0.33.jar
+7febe9bd9000-7febe9bee000 r--s 001de000 103:05 4211612                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/ThaumicTinkerer-1.7.10-2.6.5.jar
+7febe9bee000-7febe9bfe000 r--s 0018a000 103:05 4211608                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/thaumicenergistics-1.7.10-1.3.19-GTNH.jar
+7febe9bfe000-7febe9c03000 r--s 0005c000 103:05 4211655                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Thaumic Machina-1.7.10-0.2.1.jar
+7febe9c03000-7febe9c0b000 r--s 0009f000 103:05 4211604                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/ThaumcraftResearchTweaks-1.7.10-1.0.3.jar
+7febe9c0b000-7febe9c3d000 r--s 00bc2000 103:05 4211651                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Thaumcraft-1.7.10-4.2.3.5a.jar
+7febe9c3d000-7febe9c88000 r--s 004ce000 103:05 4211573                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Opis-1.7.10-1.3.6-mapless.jar
+7febe9c88000-7febe9cb8000 r--s 00530000 103:05 4211660                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/industrialcraft-2-2.2.828a-experimental.jar
+7febe9cb8000-7febe9cbd000 r--s 00030000 103:05 4211531                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/hydroenergy-1.7.10-1.0.12.jar
+7febe9cbd000-7febe9cc3000 r--s 00033000 103:05 4211528                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/hodgepodge-1.7.10-1.7.35.jar
+7febe9cc3000-7febe9cc6000 r--s 0001e000 103:05 4211601                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Thaumcraft4Tweaks-1.7.10-1.4.16.jar
+7febe9cc6000-7febe9cc9000 r--s 00010000 103:05 4211602                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/tcneiadditions-1.7.10-1.1.1.5.dirty.jar
+7febe9cc9000-7febe9ccf000 r--s 0003c000 103:05 4211591                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/StevesAddons-1.7.10-0.10.24.jar
+7febe9ccf000-7febe9cdc000 r--s 002a4000 103:05 4211639                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/RandomThings-2.2.4.jar
+7febe9cdc000-7febe9d9d000 r--s 00ef5000 103:05 4211569                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/OpenComputers-1.7.10-1.7.7.2-GTNH.jar
+7febe9d9d000-7febe9d9f000 r--s 00003000 103:05 4211650                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Healer-1.2.0.jar
+7febe9d9f000-7febe9da1000 r--s 00004000 103:05 4211644                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/HardcoreDarkness-MC1.7.10-1.7.jar
+7febe9da1000-7febe9da3000 r--s 0000c000 103:05 4211532                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/ifu-1.7.10-1.9.4.jar
+7febe9da3000-7febe9da6000 r--s 0000f000 103:05 4211584                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/sharewhereiam-1.7.10-0.2.0.jar
+7febe9da6000-7febe9dad000 r--s 00047000 103:05 4211580                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/RemoteIO-1.7.10-2.4.7.jar
+7febe9dad000-7febe9dae000 r--s 00044000 103:05 4211640                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/PlayerAPI-1.7.10-1.4.jar
+7febe9dae000-7febe9db8000 r--s 00071000 103:05 4211572                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/opensecurity-1.7.10-1.0.119-GTNH.jar
+7febe9db8000-7febe9dee000 r--s 001db000 103:05 4211570                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/OpenModsLibs-1.7.10-0.10.6.jar
+7febe9dee000-7febe9e08000 r--s 00290000 103:05 4211568                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/OpenBlocks-1.7.10-1.6.9-GTNH.jar
+7febe9e08000-7febe9e12000 r--s 000ae000 103:05 4211565                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/NotEnoughItems-1.7.10-2.3.7-GTNH.jar
+7febe9e12000-7febe9e16000 r--s 00048000 103:05 4211564                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/NotEnoughEnergistics-1.7.10-1.3.21.jar
+7febe9e16000-7febe9e21000 r--s 000ad000 103:05 4211663                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/1.7.10/MrTJPCore-1.1.0.33-universal.jar
+7febe9e21000-7febe9e23000 r--s 0000c000 103:05 4211553                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/modmixins-1.7.10-0.0.5.jar
+7febe9e23000-7febe9e25000 r--s 00002000 103:05 4211552                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/mixingasm-1.7.10-v0.2.3.jar
+7febe9e25000-7febe9e5d000 r--s 002ac000 103:05 4211543                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/logisticspipes-1.7.10-0.9.4.5.7-GTNH.jar
+7febe9e5d000-7febe9e62000 r--s 00042000 103:05 4211541                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/kubatech-1.7.10-0.5.10.jar
+7febe9e62000-7febe9e67000 r--s 0001a000 103:05 4211535                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/INpureCore-1.7.10-1.1.2-GTNH.jar
+7febe9e67000-7febe9e69000 r--s 00007000 103:05 4211524                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/gtnhlib-1.7.10-0.0.5.jar
+7febe9e69000-7febe9e88000 r--s 00a45000 103:05 4211562                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/GTNewHorizonsCoreMod-1.7.10-1.9.80.jar
+7febe9e88000-7febe9f05000 r--s 005f3000 103:05 4211525                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/GT-PlusPlus-1.7.10-1.7.110.jar
+7febe9f05000-7febe9f40000 r--s 00bda000 103:05 4211516                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/Galacticraft-1.7.10-3.0.44-GTNH.jar
+7febe9f40000-7febe9f51000 r--s 006d6000 103:05 4211514                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/gadomancy-1.7.10-1.0.8.5.jar
+7febe9f51000-7febe9f58000 r--s 00058000 103:05 4211664                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/ForgeRelocation-0.0.1.4-universal.jar
+7febe9f58000-7febe9f6c000 r--s 000d6000 103:05 4211513                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/ForgeMultipart-1.7.10-1.3.0.jar
+7febe9f6c000-7febe9fe4000 r--s 005a9000 103:05 4211512                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/forgelin-1.7.10-1.9.6-GTNH.jar
+7febe9fe4000-7febe9fed000 r--s 0006a000 103:05 4211502                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/endercore-1.7.10-0.2.10.jar
+7febe9fed000-7febea000000 r--s 0011a000 103:05 4211648                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/CoFHCore-[1.7.10]3.1.4-329.jar
+7febea000000-7febea200000 rw-p 00000000 00:00 0 
+7febea200000-7febea203000 r--s 00018000 103:05 4211646                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/DummyCore1.13.jar
+7febea203000-7febea20a000 r--s 00047000 103:05 4211491                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/1.7.10/CodeChickenLib-1.7.10-1.1.5.5.jar
+7febea20a000-7febeaa0b000 rw-p 00000000 00:00 0 
+7febeaa0b000-7febeaa0f000 r--s 00021000 103:05 4211490                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/CodeChickenCore-1.7.10-1.1.6.jar
+7febeaa0f000-7febeaa14000 r--s 00014000 103:05 4211483                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/bugtorch-1.7.10-1.1.6.4-GTNH.jar
+7febeaa14000-7febeaa25000 r--s 000f7000 103:05 4211470                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/battlegear2-1.7.10-1.1.2.1.jar
+7febeaa25000-7febeaa46000 r--s 0015e000 103:05 4211469                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/bartworks-1.7.10-0.5.86.jar
+7febeaa46000-7febeaa7f000 r--s 002e9000 103:05 4211464                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/appliedenergistics2-1.7.10-rv3-beta-107-GTNH.jar
+7febeaa7f000-7febeaa82000 r--s 00016000 103:05 4211463                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/AppleCore-1.7.10-3.2.2.jar
+7febeaa82000-7febeaa8b000 r--s 00075000 103:05 4211459                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/ae2fc-1.7.10-1.0.18-gtnh.jar
+7febeaa8b000-7febeac8b000 rw-p 00000000 00:00 0 
+7febeac8b000-7febeae8b000 rw-p 00000000 00:00 0 
+7febeae8b000-7febeae8f000 r--p 00000000 103:05 8655029                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libmanagement.so
+7febeae8f000-7febeae93000 r-xp 00004000 103:05 8655029                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libmanagement.so
+7febeae93000-7febeae95000 r--p 00008000 103:05 8655029                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libmanagement.so
+7febeae95000-7febeae96000 r--p 00009000 103:05 8655029                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libmanagement.so
+7febeae96000-7febeae97000 rw-p 0000a000 103:05 8655029                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libmanagement.so
+7febeae97000-7febeaf33000 r--s 0088d000 103:05 4211917                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/minecraft_server.1.7.10.jar
+7febeaf33000-7febeaf3a000 r--s 0005e000 103:05 6030141                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/libraries/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar
+7febeaf3a000-7febeaf65000 r--s 001f9000 103:05 5656653                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/libraries/com/google/guava/guava/17.0/guava-17.0.jar
+7febeaf65000-7febeaf67000 r--s 0000d000 103:05 6030122                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/libraries/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar
+7febeaf67000-7febeaf71000 r--s 00095000 103:05 5389684                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/libraries/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
+7febeaf71000-7febeaf7c000 r--s 000a7000 103:05 5389681                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/libraries/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar
+7febeaf7c000-7febeafc7000 r--s 003e1000 103:05 5259681                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/libraries/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar
+7febeafc7000-7febeafd2000 r--s 0005c000 103:05 5145843                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/libraries/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar
+7febeafd2000-7febeb02b000 r--s 004f0000 103:05 5124699                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/libraries/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar
+7febeb02b000-7febeb030000 r--s 0002e000 103:05 6030167                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/libraries/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar
+7febeb030000-7febeb032000 r--s 00005000 103:05 6030164                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/libraries/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar
+7febeb032000-7febeb122000 r--s 00be4000 103:05 4996690                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/libraries/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar
+7febeb122000-7febeb124000 r--s 0000d000 103:05 4731698                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/libraries/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar
+7febeb124000-7febeb128000 r--s 00032000 103:05 4731688                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/libraries/com/typesafe/config/1.2.1/config-1.2.1.jar
+7febeb128000-7febeb14e000 r--s 00241000 103:05 5778783                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/libraries/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar
+7febeb14e000-7febeb153000 r--s 00036000 103:05 6030160                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/libraries/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar
+7febeb153000-7febeb155000 r--s 00007000 103:05 4731693                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar
+7febeb155000-7febeb15a000 r--p 00000000 103:05 8655031                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnet.so
+7febeb15a000-7febeb16b000 r-xp 00005000 103:05 8655031                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnet.so
+7febeb16b000-7febeb16f000 r--p 00016000 103:05 8655031                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnet.so
+7febeb16f000-7febeb170000 r--p 00019000 103:05 8655031                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnet.so
+7febeb170000-7febeb171000 rw-p 0001a000 103:05 8655031                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnet.so
+7febeb171000-7febeb178000 r--p 00000000 103:05 8655032                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnio.so
+7febeb178000-7febeb181000 r-xp 00007000 103:05 8655032                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnio.so
+7febeb181000-7febeb184000 r--p 00010000 103:05 8655032                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnio.so
+7febeb184000-7febeb185000 r--p 00012000 103:05 8655032                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnio.so
+7febeb185000-7febeb186000 rw-p 00013000 103:05 8655032                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnio.so
+7febeb186000-7febeb187000 ---p 00000000 00:00 0 
+7febeb187000-7febeb287000 rw-p 00000000 00:00 0 
+7febeb287000-7febeb28a000 ---p 00000000 00:00 0 
+7febeb28a000-7febeb387000 rw-p 00000000 00:00 0 
+7febeb387000-7febeb388000 ---p 00000000 00:00 0 
+7febeb388000-7febeb38b000 ---p 00000000 00:00 0 
+7febeb38b000-7febeb488000 rw-p 00000000 00:00 0 
+7febeb488000-7febeb489000 ---p 00000000 00:00 0 
+7febeb489000-7febeb48c000 ---p 00000000 00:00 0 
+7febeb48c000-7febeb589000 rw-p 00000000 00:00 0 
+7febeb589000-7febeb58a000 ---p 00000000 00:00 0 
+7febeb58a000-7febeb58d000 ---p 00000000 00:00 0 
+7febeb58d000-7febeb68a000 rw-p 00000000 00:00 0 
+7febeb68a000-7febeb68b000 ---p 00000000 00:00 0 
+7febeb68b000-7febeb68e000 ---p 00000000 00:00 0 
+7febeb68e000-7febeb78b000 rw-p 00000000 00:00 0 
+7febeb78b000-7febeb78e000 ---p 00000000 00:00 0 
+7febeb78e000-7febeb88b000 rw-p 00000000 00:00 0 
+7febeb88b000-7febebe00000 r--p 00000000 103:05 7737684                   /usr/lib/locale/locale-archive
+7febebe00000-7febebe03000 ---p 00000000 00:00 0 
+7febebe03000-7febebf00000 rw-p 00000000 00:00 0 
+7febebf00000-7febebf03000 ---p 00000000 00:00 0 
+7febebf03000-7febf8000000 rw-p 00000000 00:00 0 
+7febf8000000-7febf8021000 rw-p 00000000 00:00 0 
+7febf8021000-7febfc000000 ---p 00000000 00:00 0 
+7febfc000000-7febfc021000 rw-p 00000000 00:00 0 
+7febfc021000-7fec00000000 ---p 00000000 00:00 0 
+7fec00000000-7fec00021000 rw-p 00000000 00:00 0 
+7fec00021000-7fec04000000 ---p 00000000 00:00 0 
+7fec04000000-7fec04021000 rw-p 00000000 00:00 0 
+7fec04021000-7fec08000000 ---p 00000000 00:00 0 
+7fec08000000-7fec08021000 rw-p 00000000 00:00 0 
+7fec08021000-7fec0c000000 ---p 00000000 00:00 0 
+7fec0c000000-7fec0c021000 rw-p 00000000 00:00 0 
+7fec0c021000-7fec10000000 ---p 00000000 00:00 0 
+7fec10000000-7fec10011000 r--s 001c5000 103:05 8655086                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar
+7fec10011000-7fec1002a000 r--s 002c9000 103:05 4211916                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
+7fec1002a000-7fec10034000 r--s 00117000 103:05 8655058                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/localedata.jar
+7fec10034000-7fec1004f000 r--s 001d6000 103:05 8655059                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/nashorn.jar
+7fec1004f000-7fec1006a000 r--s 00394000 103:05 8655054                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/cldrdata.jar
+7fec1006a000-7fec1006b000 ---p 00000000 00:00 0 
+7fec1006b000-7fec122da000 rw-p 00000000 00:00 0 
+7fec122da000-7fec124ac000 r--s 03cba000 103:05 8655094                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+7fec124ac000-7fec139f5000 rw-p 00000000 00:00 0 
+7fec139f5000-7fec139f6000 ---p 00000000 00:00 0 
+7fec139f6000-7fec13af6000 rw-p 00000000 00:00 0 
+7fec13af6000-7fec13af7000 ---p 00000000 00:00 0 
+7fec13af7000-7fec13bf7000 rw-p 00000000 00:00 0 
+7fec13bf7000-7fec13bf8000 ---p 00000000 00:00 0 
+7fec13bf8000-7fec13cf8000 rw-p 00000000 00:00 0 
+7fec13cf8000-7fec13cf9000 ---p 00000000 00:00 0 
+7fec13cf9000-7fec13df9000 rw-p 00000000 00:00 0 
+7fec13df9000-7fec13dfa000 ---p 00000000 00:00 0 
+7fec13dfa000-7fec13efa000 rw-p 00000000 00:00 0 
+7fec13efa000-7fec13efb000 ---p 00000000 00:00 0 
+7fec13efb000-7fec13ffb000 rw-p 00000000 00:00 0 
+7fec13ffb000-7fec13ffc000 ---p 00000000 00:00 0 
+7fec13ffc000-7fec140fc000 rw-p 00000000 00:00 0 
+7fec140fc000-7fec140fd000 ---p 00000000 00:00 0 
+7fec140fd000-7fec141fd000 rw-p 00000000 00:00 0 
+7fec141fd000-7fec141fe000 ---p 00000000 00:00 0 
+7fec141fe000-7fec142fe000 rw-p 00000000 00:00 0 
+7fec142fe000-7fec142ff000 ---p 00000000 00:00 0 
+7fec142ff000-7fec15000000 rw-p 00000000 00:00 0 
+7fec15000000-7fec172b0000 rwxp 00000000 00:00 0 
+7fec172b0000-7fec24000000 ---p 00000000 00:00 0 
+7fec24000000-7fec26632000 rw-p 00000000 00:00 0 
+7fec26632000-7fec28000000 ---p 00000000 00:00 0 
+7fec28000000-7fec28001000 r--s 00005000 103:05 4211497                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/mods/CropLoadCore-1.7.10-0.1.10.jar
+7fec28001000-7fec28003000 r--s 00016000 103:05 8655076                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar
+7fec28003000-7fec28007000 r--s 00041000 103:05 8655062                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunpkcs11.jar
+7fec28007000-7fec2800a000 r--s 0000f000 103:05 8655056                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+7fec2800a000-7fec2800c000 r--s 00008000 103:05 8655060                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunec.jar
+7fec2800c000-7fec28012000 r--s 0003e000 103:05 8655061                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunjce_provider.jar
+7fec28012000-7fec28014000 r--s 00010000 103:05 8655063                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/zipfs.jar
+7fec28014000-7fec28016000 r--s 00001000 103:05 8655055                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/dnsns.jar
+7fec28016000-7fec28018000 r--s 0000c000 103:05 8521268                   /usr/share/java/java-atk-wrapper.jar
+7fec28018000-7fec2801f000 r--s 000d3000 103:05 8655083                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar
+7fec2801f000-7fec288aa000 rw-p 00000000 00:00 0 
+7fec288aa000-7fec28bdf000 ---p 00000000 00:00 0 
+7fec28bdf000-7fec28be2000 r--p 00000000 103:05 8655040                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libzip.so
+7fec28be2000-7fec28be7000 r-xp 00003000 103:05 8655040                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libzip.so
+7fec28be7000-7fec28be9000 r--p 00008000 103:05 8655040                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libzip.so
+7fec28be9000-7fec28bea000 r--p 00009000 103:05 8655040                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libzip.so
+7fec28bea000-7fec28beb000 rw-p 0000a000 103:05 8655040                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libzip.so
+7fec28beb000-7fec28bf3000 rw-s 00000000 103:05 3801102                   /tmp/hsperfdata_user/6330
+7fec28bf3000-7fec28c00000 r--p 00000000 103:05 8655018                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libjava.so
+7fec28c00000-7fec28c18000 r-xp 0000d000 103:05 8655018                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libjava.so
+7fec28c18000-7fec28c1f000 r--p 00025000 103:05 8655018                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libjava.so
+7fec28c1f000-7fec28c20000 r--p 0002b000 103:05 8655018                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libjava.so
+7fec28c20000-7fec28c22000 rw-p 0002c000 103:05 8655018                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libjava.so
+7fec28c22000-7fec28c23000 r--p 00000000 103:05 7739412                   /usr/lib/x86_64-linux-gnu/librt.so.1
+7fec28c23000-7fec28c24000 r-xp 00001000 103:05 7739412                   /usr/lib/x86_64-linux-gnu/librt.so.1
+7fec28c24000-7fec28c25000 r--p 00002000 103:05 7739412                   /usr/lib/x86_64-linux-gnu/librt.so.1
+7fec28c25000-7fec28c26000 r--p 00002000 103:05 7739412                   /usr/lib/x86_64-linux-gnu/librt.so.1
+7fec28c26000-7fec28c27000 rw-p 00003000 103:05 7739412                   /usr/lib/x86_64-linux-gnu/librt.so.1
+7fec28c27000-7fec28c28000 ---p 00000000 00:00 0 
+7fec28c28000-7fec28c2b000 ---p 00000000 00:00 0 
+7fec28c2b000-7fec28d28000 rw-p 00000000 00:00 0 
+7fec28d28000-7fec28d2b000 r--p 00000000 103:05 7736359                   /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7fec28d2b000-7fec28d42000 r-xp 00003000 103:05 7736359                   /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7fec28d42000-7fec28d46000 r--p 0001a000 103:05 7736359                   /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7fec28d46000-7fec28d47000 r--p 0001d000 103:05 7736359                   /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7fec28d47000-7fec28d48000 rw-p 0001e000 103:05 7736359                   /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7fec28d48000-7fec28d56000 r--p 00000000 103:05 7739392                   /usr/lib/x86_64-linux-gnu/libm.so.6
+7fec28d56000-7fec28dd2000 r-xp 0000e000 103:05 7739392                   /usr/lib/x86_64-linux-gnu/libm.so.6
+7fec28dd2000-7fec28e2d000 r--p 0008a000 103:05 7739392                   /usr/lib/x86_64-linux-gnu/libm.so.6
+7fec28e2d000-7fec28e2e000 r--p 000e4000 103:05 7739392                   /usr/lib/x86_64-linux-gnu/libm.so.6
+7fec28e2e000-7fec28e2f000 rw-p 000e5000 103:05 7739392                   /usr/lib/x86_64-linux-gnu/libm.so.6
+7fec28e2f000-7fec28ec9000 r--p 00000000 103:05 7737933                   /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+7fec28ec9000-7fec28fd9000 r-xp 0009a000 103:05 7737933                   /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+7fec28fd9000-7fec29048000 r--p 001aa000 103:05 7737933                   /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+7fec29048000-7fec29053000 r--p 00218000 103:05 7737933                   /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+7fec29053000-7fec29056000 rw-p 00223000 103:05 7737933                   /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+7fec29056000-7fec29059000 rw-p 00000000 00:00 0 
+7fec29059000-7fec2924e000 r--p 00000000 103:05 8655042                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server/libjvm.so
+7fec2924e000-7fec29bb9000 r-xp 001f5000 103:05 8655042                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server/libjvm.so
+7fec29bb9000-7fec29d64000 r--p 00b60000 103:05 8655042                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server/libjvm.so
+7fec29d64000-7fec29dfa000 r--p 00d0a000 103:05 8655042                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server/libjvm.so
+7fec29dfa000-7fec29e23000 rw-p 00da0000 103:05 8655042                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server/libjvm.so
+7fec29e23000-7fec29e58000 rw-p 00000000 00:00 0 
+7fec29e58000-7fec29e5a000 r--p 00000000 103:05 7740086                   /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fec29e5a000-7fec29e6b000 r-xp 00002000 103:05 7740086                   /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fec29e6b000-7fec29e71000 r--p 00013000 103:05 7740086                   /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fec29e71000-7fec29e72000 ---p 00019000 103:05 7740086                   /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fec29e72000-7fec29e73000 r--p 00019000 103:05 7740086                   /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fec29e73000-7fec29e74000 rw-p 0001a000 103:05 7740086                   /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fec29e74000-7fec29e9c000 r--p 00000000 103:05 7739387                   /usr/lib/x86_64-linux-gnu/libc.so.6
+7fec29e9c000-7fec2a031000 r-xp 00028000 103:05 7739387                   /usr/lib/x86_64-linux-gnu/libc.so.6
+7fec2a031000-7fec2a089000 r--p 001bd000 103:05 7739387                   /usr/lib/x86_64-linux-gnu/libc.so.6
+7fec2a089000-7fec2a08d000 r--p 00214000 103:05 7739387                   /usr/lib/x86_64-linux-gnu/libc.so.6
+7fec2a08d000-7fec2a08f000 rw-p 00218000 103:05 7739387                   /usr/lib/x86_64-linux-gnu/libc.so.6
+7fec2a08f000-7fec2a09c000 rw-p 00000000 00:00 0 
+7fec2a09c000-7fec2a09d000 r--s 00001000 103:05 4731683                   /home/user/Projects/GT_New_Horizons_2.2.0.0_SERVER/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar
+7fec2a09d000-7fec2a09e000 r--s 0000a000 103:05 8655057                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/jaccess.jar
+7fec2a09e000-7fec2a09f000 rw-p 00000000 00:00 0 
+7fec2a09f000-7fec2a0a4000 r--p 00000000 103:05 8655039                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libverify.so
+7fec2a0a4000-7fec2a0ad000 r-xp 00005000 103:05 8655039                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libverify.so
+7fec2a0ad000-7fec2a0af000 r--p 0000e000 103:05 8655039                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libverify.so
+7fec2a0af000-7fec2a0b1000 r--p 0000f000 103:05 8655039                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libverify.so
+7fec2a0b1000-7fec2a0b2000 rw-p 00011000 103:05 8655039                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libverify.so
+7fec2a0b2000-7fec2a0b5000 r--p 00000000 103:05 8655002                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/jli/libjli.so
+7fec2a0b5000-7fec2a0be000 r-xp 00003000 103:05 8655002                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/jli/libjli.so
+7fec2a0be000-7fec2a0c1000 r--p 0000c000 103:05 8655002                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/jli/libjli.so
+7fec2a0c1000-7fec2a0c2000 r--p 0000e000 103:05 8655002                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/jli/libjli.so
+7fec2a0c2000-7fec2a0c3000 rw-p 0000f000 103:05 8655002                   /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/jli/libjli.so
+7fec2a0c3000-7fec2a0c5000 rw-p 00000000 00:00 0 
+7fec2a0c5000-7fec2a0c7000 r--p 00000000 103:05 7735433                   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fec2a0c7000-7fec2a0f1000 r-xp 00002000 103:05 7735433                   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fec2a0f1000-7fec2a0fc000 r--p 0002c000 103:05 7735433                   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fec2a0fc000-7fec2a0fd000 r--p 00000000 00:00 0 
+7fec2a0fd000-7fec2a0ff000 r--p 00037000 103:05 7735433                   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fec2a0ff000-7fec2a101000 rw-p 00039000 103:05 7735433                   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffdbd272000-7ffdbd293000 rw-p 00000000 00:00 0                          [stack]
+7ffdbd355000-7ffdbd359000 r--p 00000000 00:00 0                          [vvar]
+7ffdbd359000-7ffdbd35b000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+
+VM Arguments:
+jvm_args: -Xms6G -Xmx6G -XX:+UseStringDeduplication -XX:+UseCompressedOops -XX:+UseCodeCacheFlushing -Dfml.readTimeout=180 
+java_command: forge-1.7.10-10.13.4.1614-1.7.10-universal.jar nogui
+java_class_path (initial): forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+USERNAME=user
+SHELL=/usr/bin/zsh
+DISPLAY=:0
+
+Signal Handlers:
+SIGSEGV: [libjvm.so+0xb390d0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGBUS: [libjvm.so+0xb390d0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGFPE: [libjvm.so+0x979360], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGPIPE: [libjvm.so+0x979360], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGXFSZ: [libjvm.so+0x979360], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGILL: [libjvm.so+0x979360], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGUSR1: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+SIGUSR2: [libjvm.so+0x979690], sa_mask[0]=00000000000000000000000000000000, sa_flags=SA_RESTART|SA_SIGINFO
+SIGHUP: [libjvm.so+0x9795e0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGINT: [libjvm.so+0x9795e0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGTERM: [libjvm.so+0x9795e0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGQUIT: [libjvm.so+0x9795e0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+
+
+---------------  S Y S T E M  ---------------
+
+OS:DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=22.04
+DISTRIB_CODENAME=jammy
+DISTRIB_DESCRIPTION="Ubuntu 22.04.1 LTS"
+
+uname:Linux 5.15.0-52-generic #58-Ubuntu SMP Thu Oct 13 08:03:55 UTC 2022 x86_64
+libc:glibc 2.35 NPTL 2.35 
+rlimit: STACK 8192k, CORE 0k, NPROC 127821, NOFILE 1048576, AS infinity
+load average:3.27 1.55 0.72
+
+/proc/meminfo:
+MemTotal:       32793000 kB
+MemFree:        21622604 kB
+MemAvailable:   23619392 kB
+Buffers:          156108 kB
+Cached:          2243856 kB
+SwapCached:            0 kB
+Active:          1068788 kB
+Inactive:        9487400 kB
+Active(anon):       4228 kB
+Inactive(anon):  8239468 kB
+Active(file):    1064560 kB
+Inactive(file):  1247932 kB
+Unevictable:          32 kB
+Mlocked:              32 kB
+SwapTotal:       2097148 kB
+SwapFree:        2097148 kB
+Dirty:               708 kB
+Writeback:             0 kB
+AnonPages:       8156780 kB
+Mapped:           695180 kB
+Shmem:             93544 kB
+KReclaimable:     114636 kB
+Slab:             264028 kB
+SReclaimable:     114636 kB
+SUnreclaim:       149392 kB
+KernelStack:       17648 kB
+PageTables:        42100 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    18493648 kB
+Committed_AS:   21100816 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       87536 kB
+VmallocChunk:          0 kB
+Percpu:            17664 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      531632 kB
+DirectMap2M:     7776256 kB
+DirectMap1G:    25165824 kB
+
+
+CPU:total 12 (initial active 12) (6 cores per cpu, 2 threads per core) family 6 model 165 stepping 3, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, 3dnowpref, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2, adx
+
+/proc/cpuinfo:
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+stepping	: 3
+microcode	: 0xf0
+cpu MHz		: 2900.000
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 12
+core id		: 0
+cpu cores	: 6
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+vmx flags	: vnmi preemption_timer posted_intr invvpid ept_x_only ept_ad ept_1gb flexpriority apicv tsc_offset vtpr mtf vapic ept vpid unrestricted_guest vapic_reg vid ple shadow_vmcs pml ept_mode_based_exec
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds mmio_stale_data retbleed eibrs_pbrsb
+bogomips	: 5799.77
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+stepping	: 3
+microcode	: 0xf0
+cpu MHz		: 4000.001
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 12
+core id		: 1
+cpu cores	: 6
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+vmx flags	: vnmi preemption_timer posted_intr invvpid ept_x_only ept_ad ept_1gb flexpriority apicv tsc_offset vtpr mtf vapic ept vpid unrestricted_guest vapic_reg vid ple shadow_vmcs pml ept_mode_based_exec
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds mmio_stale_data retbleed eibrs_pbrsb
+bogomips	: 5799.77
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+stepping	: 3
+microcode	: 0xf0
+cpu MHz		: 4000.003
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 12
+core id		: 2
+cpu cores	: 6
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+vmx flags	: vnmi preemption_timer posted_intr invvpid ept_x_only ept_ad ept_1gb flexpriority apicv tsc_offset vtpr mtf vapic ept vpid unrestricted_guest vapic_reg vid ple shadow_vmcs pml ept_mode_based_exec
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds mmio_stale_data retbleed eibrs_pbrsb
+bogomips	: 5799.77
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+stepping	: 3
+microcode	: 0xf0
+cpu MHz		: 2900.000
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 12
+core id		: 3
+cpu cores	: 6
+apicid		: 6
+initial apicid	: 6
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+vmx flags	: vnmi preemption_timer posted_intr invvpid ept_x_only ept_ad ept_1gb flexpriority apicv tsc_offset vtpr mtf vapic ept vpid unrestricted_guest vapic_reg vid ple shadow_vmcs pml ept_mode_based_exec
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds mmio_stale_data retbleed eibrs_pbrsb
+bogomips	: 5799.77
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 4
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+stepping	: 3
+microcode	: 0xf0
+cpu MHz		: 3999.999
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 12
+core id		: 4
+cpu cores	: 6
+apicid		: 8
+initial apicid	: 8
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+vmx flags	: vnmi preemption_timer posted_intr invvpid ept_x_only ept_ad ept_1gb flexpriority apicv tsc_offset vtpr mtf vapic ept vpid unrestricted_guest vapic_reg vid ple shadow_vmcs pml ept_mode_based_exec
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds mmio_stale_data retbleed eibrs_pbrsb
+bogomips	: 5799.77
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 5
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+stepping	: 3
+microcode	: 0xf0
+cpu MHz		: 4000.024
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 12
+core id		: 5
+cpu cores	: 6
+apicid		: 10
+initial apicid	: 10
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+vmx flags	: vnmi preemption_timer posted_intr invvpid ept_x_only ept_ad ept_1gb flexpriority apicv tsc_offset vtpr mtf vapic ept vpid unrestricted_guest vapic_reg vid ple shadow_vmcs pml ept_mode_based_exec
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds mmio_stale_data retbleed eibrs_pbrsb
+bogomips	: 5799.77
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 6
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+stepping	: 3
+microcode	: 0xf0
+cpu MHz		: 3999.999
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 12
+core id		: 0
+cpu cores	: 6
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+vmx flags	: vnmi preemption_timer posted_intr invvpid ept_x_only ept_ad ept_1gb flexpriority apicv tsc_offset vtpr mtf vapic ept vpid unrestricted_guest vapic_reg vid ple shadow_vmcs pml ept_mode_based_exec
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds mmio_stale_data retbleed eibrs_pbrsb
+bogomips	: 5799.77
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 7
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+stepping	: 3
+microcode	: 0xf0
+cpu MHz		: 2900.000
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 12
+core id		: 1
+cpu cores	: 6
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+vmx flags	: vnmi preemption_timer posted_intr invvpid ept_x_only ept_ad ept_1gb flexpriority apicv tsc_offset vtpr mtf vapic ept vpid unrestricted_guest vapic_reg vid ple shadow_vmcs pml ept_mode_based_exec
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds mmio_stale_data retbleed eibrs_pbrsb
+bogomips	: 5799.77
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 8
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+stepping	: 3
+microcode	: 0xf0
+cpu MHz		: 2900.000
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 12
+core id		: 2
+cpu cores	: 6
+apicid		: 5
+initial apicid	: 5
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+vmx flags	: vnmi preemption_timer posted_intr invvpid ept_x_only ept_ad ept_1gb flexpriority apicv tsc_offset vtpr mtf vapic ept vpid unrestricted_guest vapic_reg vid ple shadow_vmcs pml ept_mode_based_exec
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds mmio_stale_data retbleed eibrs_pbrsb
+bogomips	: 5799.77
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 9
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+stepping	: 3
+microcode	: 0xf0
+cpu MHz		: 4000.000
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 12
+core id		: 3
+cpu cores	: 6
+apicid		: 7
+initial apicid	: 7
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+vmx flags	: vnmi preemption_timer posted_intr invvpid ept_x_only ept_ad ept_1gb flexpriority apicv tsc_offset vtpr mtf vapic ept vpid unrestricted_guest vapic_reg vid ple shadow_vmcs pml ept_mode_based_exec
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds mmio_stale_data retbleed eibrs_pbrsb
+bogomips	: 5799.77
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 10
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+stepping	: 3
+microcode	: 0xf0
+cpu MHz		: 2900.000
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 12
+core id		: 4
+cpu cores	: 6
+apicid		: 9
+initial apicid	: 9
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+vmx flags	: vnmi preemption_timer posted_intr invvpid ept_x_only ept_ad ept_1gb flexpriority apicv tsc_offset vtpr mtf vapic ept vpid unrestricted_guest vapic_reg vid ple shadow_vmcs pml ept_mode_based_exec
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds mmio_stale_data retbleed eibrs_pbrsb
+bogomips	: 5799.77
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 11
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+stepping	: 3
+microcode	: 0xf0
+cpu MHz		: 4000.020
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 12
+core id		: 5
+cpu cores	: 6
+apicid		: 11
+initial apicid	: 11
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+vmx flags	: vnmi preemption_timer posted_intr invvpid ept_x_only ept_ad ept_1gb flexpriority apicv tsc_offset vtpr mtf vapic ept vpid unrestricted_guest vapic_reg vid ple shadow_vmcs pml ept_mode_based_exec
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds mmio_stale_data retbleed eibrs_pbrsb
+bogomips	: 5799.77
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+
+
+Memory: 4k page, physical 32793000k(21622100k free), swap 2097148k(2097148k free)
+
+vm_info: OpenJDK 64-Bit Server VM (25.342-b07) for linux-amd64 JRE (1.8.0_342-8u342-b07-0ubuntu1~22.04-b07), built on Jul 23 2022 16:13:07 by "buildd" with gcc 11.2.0
+
+time: Sat Nov  5 20:38:12 2022
+timezone: -03
+elapsed time: 42.492736 seconds (0d 0h 0m 42s)
+

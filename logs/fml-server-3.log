@@ -1,0 +1,773 @@
+[21:15:08] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[21:15:08] [main/INFO] [FML/]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[21:15:08] [main/INFO] [FML/]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_342, running on Linux:amd64:5.15.0-52-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[21:15:08] [main/DEBUG] [FML/]: Java classpath at launch is forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
+[21:15:08] [main/DEBUG] [FML/]: Java library path at launch is /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+[21:15:08] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[21:15:08] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[21:15:08] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[21:15:08] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[21:15:08] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[21:15:08] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[21:15:08] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[21:15:08] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[21:15:08] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /home/fabo/Greg/.
+[21:15:08] [main/DEBUG] [FML/]: Discovering coremods
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy AdvancedSolarPanel-1.7.10-3.5.1a.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in AdvancedSolarPanel-1.7.10-3.5.1a.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy adventurebackpack-1.7.10-1.0.5-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in adventurebackpack-1.7.10-1.0.5-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy ae2fc-1.7.10-1.0.18-gtnh.jar
+[21:15:08] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in ae2fc-1.7.10-1.0.18-gtnh.jar, it will be examined later for regular @Mod instances
+[21:15:08] [main/DEBUG] [FML/]: Instantiating coremod class FluidCraftCore
+[21:15:08] [main/TRACE] [FML/]: coremod named FluidCraftCore is loading
+[21:15:08] [main/DEBUG] [FML/]: The coremod com.glodblock.github.coremod.FluidCraftCore requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:08] [main/DEBUG] [FML/]: Enqueued coremod FluidCraftCore
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy ae2stuff-1.7.10-0.5.1.15-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in ae2stuff-1.7.10-0.5.1.15-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy AFSU-1.7.10-1.2.6-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in AFSU-1.7.10-1.2.6-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy AngerMod-1.7.10-0.6.3.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in AngerMod-1.7.10-0.6.3.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy AppleCore-1.7.10-3.2.2.jar
+[21:15:08] [main/INFO] [FML/]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from AppleCore-1.7.10-3.2.2.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy appliedenergistics2-1.7.10-rv3-beta-107-GTNH.jar
+[21:15:08] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in appliedenergistics2-1.7.10-rv3-beta-107-GTNH.jar, it will be examined later for regular @Mod instances
+[21:15:08] [main/DEBUG] [FML/]: Instantiating coremod class AppEngCore
+[21:15:08] [main/DEBUG] [FML/]: The coremod appeng.transformer.AppEngCore requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:08] [main/INFO] [FML/]: [AppEng] Core Init
+[21:15:08] [main/DEBUG] [FML/]: Added access transformer class appeng.transformer.asm.ASMTweaker to enqueued access transformers
+[21:15:08] [main/DEBUG] [FML/]: Enqueued coremod AppEngCore
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy ArchitectureCraft-1.7.10-1.7.6.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in ArchitectureCraft-1.7.10-1.7.6.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy AsieLib-1.7.10-0.5.3.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in AsieLib-1.7.10-0.5.3.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy Automagy-1.7.10-0.28.2.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in Automagy-1.7.10-0.28.2.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy Avaritia-1.7.10-1.30.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in Avaritia-1.7.10-1.30.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy Avaritiaddons-1.7.10-1.5.4-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in Avaritiaddons-1.7.10-1.5.4-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy backpack-1.7.10-2.2.6-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in backpack-1.7.10-2.2.6-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy bartworks-1.7.10-0.5.86.jar
+[21:15:08] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in bartworks-1.7.10-0.5.86.jar, it will be examined later for regular @Mod instances
+[21:15:08] [main/DEBUG] [FML/]: Instantiating coremod class BWCorePlugin
+[21:15:08] [main/TRACE] [FML/]: coremod named BartWorks ASM Core Plugin is loading
+[21:15:08] [main/DEBUG] [FML/]: The coremod com.github.bartimaeusnek.bartworks.ASM.BWCorePlugin requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:08] [main/DEBUG] [FML/]: Enqueued coremod BartWorks ASM Core Plugin
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy battlegear2-1.7.10-1.1.2.1.jar
+[21:15:08] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in battlegear2-1.7.10-1.1.2.1.jar, it will be examined later for regular @Mod instances
+[21:15:08] [main/DEBUG] [FML/]: Instantiating coremod class BattlegearLoadingPlugin
+[21:15:08] [main/TRACE] [FML/]: coremod named Mine and Blade: Battlegear2 is loading
+[21:15:08] [main/DEBUG] [FML/]: The coremod mods.battlegear2.coremod.BattlegearLoadingPlugin requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:08] [main/DEBUG] [FML/]: Enqueued coremod Mine and Blade: Battlegear2
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy Baubles-1.7.10-1.0.1.14.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in Baubles-1.7.10-1.0.1.14.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy bdlib-1.7.10-1.9.8-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in bdlib-1.7.10-1.9.8-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy BetterBuildersWands-1.7.10-0.9.3-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in BetterBuildersWands-1.7.10-0.9.3-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy betterp2p-1.7.10-1.0.12.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in betterp2p-1.7.10-1.0.12.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy BetterQuesting-1.7.10-3.0.367-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in BetterQuesting-1.7.10-3.0.367-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy BiblioCraft[v1.11.7][MC1.7.10].jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in BiblioCraft[v1.11.7][MC1.7.10].jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy BiblioWoods[BiomesOPlenty][v1.9].jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in BiblioWoods[BiomesOPlenty][v1.9].jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy BiblioWoods[Forestry][v1.7].jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in BiblioWoods[Forestry][v1.7].jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy BiblioWoods[Natura][v1.5].jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in BiblioWoods[Natura][v1.5].jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy binnie-mods-1.7.10-2.0.43.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in binnie-mods-1.7.10-2.0.43.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy BiomesOPlenty-1.7.10-2.1.0.2308-universal.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in BiomesOPlenty-1.7.10-2.1.0.2308-universal.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy BlockLimiter-1.7.10-0.55.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in BlockLimiter-1.7.10-0.55.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy BloodArsenal-1.7.10-1.2.6.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in BloodArsenal-1.7.10-1.2.6.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy BloodMagic-1.7.10-1.3.14.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in BloodMagic-1.7.10-1.3.14.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy Botania-1.7.10-1.9.10-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in Botania-1.7.10-1.9.10-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy BotanicHorizons-1.7.10-1.0.11-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in BotanicHorizons-1.7.10-1.0.11-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy BrandonsCore-1.7.10-1.0.0.13-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in BrandonsCore-1.7.10-1.0.0.13-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy bugtorch-1.7.10-1.1.6.4-GTNH.jar
+[21:15:08] [main/INFO] [FML/]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from bugtorch-1.7.10-1.1.6.4-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy buildcraft-1.7.10-7.1.27.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in buildcraft-1.7.10-7.1.27.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy buildcraft-compat-1.7.10-7.1.12.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in buildcraft-compat-1.7.10-7.1.12.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy BuildCraftOilTweak-1.7.10-1.0.3.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in BuildCraftOilTweak-1.7.10-1.0.3.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy CarpentersBlocks-1.7.10-3.3.8.2-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in CarpentersBlocks-1.7.10-3.3.8.2-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy catwalks-1.7.10-2.1.3-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in catwalks-1.7.10-2.1.3-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy CB4BQ-3.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in CB4BQ-3.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy chisel-1.7.10-2.10.16-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in chisel-1.7.10-2.10.16-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy chiseltones-1.7.10-1.0.4-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Not found coremod data in chiseltones-1.7.10-1.0.4-GTNH.jar
+[21:15:08] [main/DEBUG] [FML/]: Examining for coremod candidacy CodeChickenCore-1.7.10-1.1.6.jar
+[21:15:08] [main/TRACE] [FML/]: Adding CodeChickenCore-1.7.10-1.1.6.jar to the list of known coremods, it will not be examined again
+[21:15:08] [main/DEBUG] [FML/]: Instantiating coremod class CodeChickenCorePlugin
+[21:15:09] [main/DEBUG] [FML/]: The coremod codechicken.core.launch.CodeChickenCorePlugin requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:09] [main/WARN] [CodeChickenCore/]: Warning: version of MrTJPCore, 1.1.0.33 is newer than request 1.1.0.31
+[21:15:09] [main/DEBUG] [FML/]: Added access transformer class codechicken.core.asm.CodeChickenAccessTransformer to enqueued access transformers
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod CodeChickenCorePlugin
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy CodeChickenLib-1.7.10-1.1.5.5.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in CodeChickenLib-1.7.10-1.1.5.5.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy CoFHCore-[1.7.10]3.1.4-329.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in CoFHCore-[1.7.10]3.1.4-329.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class LoadingPlugin
+[21:15:09] [main/WARN] [FML/]: The coremod cofh.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:15:09] [main/DEBUG] [FML/]: Added access transformer class cofh.asm.CoFHAccessTransformer to enqueued access transformers
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod LoadingPlugin
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy CoFHLib-[1.7.10]1.2.1-185.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in CoFHLib-[1.7.10]1.2.1-185.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy CompactKineticGenerators-1.7.10-1.0.1.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in CompactKineticGenerators-1.7.10-1.0.1.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy Computronics-1.7.10-1.6.16-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in Computronics-1.7.10-1.6.16-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy CookingForBlockheads-1.7.10-1.2.12-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in CookingForBlockheads-1.7.10-1.2.12-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy CraftTweaker-1.7.10-3.2.9.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in CraftTweaker-1.7.10-3.2.9.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy creativecore-1.7.10-1.3.27-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in creativecore-1.7.10-1.3.27-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy CropLoadCore-1.7.10-0.1.10.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in CropLoadCore-1.7.10-0.1.10.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class CropStickTransformer_plugin
+[21:15:09] [main/TRACE] [FML/]: coremod named CroploadCore ASM Core is loading
+[21:15:09] [main/DEBUG] [FML/]: The coremod com.github.bartimaeusnek.ASM.CropStickTransformer_plugin requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod CroploadCore ASM Core
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy CropsPP-1.7.10-1.3.6.3.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in CropsPP-1.7.10-1.3.6.3.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy Draconic-Evolution-1.7.10-1.1.7-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in Draconic-Evolution-1.7.10-1.1.7-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy DummyCore1.13.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in DummyCore1.13.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class DCLoadingPlugin
+[21:15:09] [main/WARN] [FML/]: The coremod DummyCore.ASM.DCLoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod DCLoadingPlugin
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy EMT-1.7.10-1.2.8.21.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in EMT-1.7.10-1.2.8.21.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy endercore-1.7.10-0.2.10.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in endercore-1.7.10-0.2.10.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class EnderCorePlugin
+[21:15:09] [main/DEBUG] [FML/]: The coremod com.enderio.core.common.transform.EnderCorePlugin requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod EnderCorePlugin
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy EnderIO-1.7.10-2.3.1.46.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in EnderIO-1.7.10-2.3.1.46.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy EnderStorage-1.7.10-1.4.12.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in EnderStorage-1.7.10-1.4.12.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy EnderZoo-1.7.10-1.0.23.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in EnderZoo-1.7.10-1.0.23.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy EnhancedLootBags-1.7.10-1.0.5.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in EnhancedLootBags-1.7.10-1.0.5.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy EternalSingularity-1.7.10-1.0.4b.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in EternalSingularity-1.7.10-1.0.4b.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy ExtraCells-1.7.10-2.5.24.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in ExtraCells-1.7.10-2.5.24.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy extrautilities-1.2.13a.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in extrautilities-1.2.13a.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy findit-1.7.10-1.0.11.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in findit-1.7.10-1.0.11.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy FloodLights-1.7.10-1.2.8-137.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in FloodLights-1.7.10-1.2.8-137.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy Forbidden.Magic-1.7.10-0.6.4-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in Forbidden.Magic-1.7.10-0.6.4-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy Forestry-1.7.10-4.4.15.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in Forestry-1.7.10-4.4.15.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy forgelin-1.7.10-1.9.6-GTNH.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in forgelin-1.7.10-1.9.6-GTNH.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class ForgelinPlugin
+[21:15:09] [main/WARN] [FML/]: The coremod net.shadowfacts.forgelin.preloader.ForgelinPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod ForgelinPlugin
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy ForgeMultipart-1.7.10-1.3.0.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in ForgeMultipart-1.7.10-1.3.0.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class DepLoader
+[21:15:09] [main/DEBUG] [FML/]: The coremod codechicken.core.launch.DepLoader requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod DepLoader
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy ForgeRelocation-0.0.1.4-universal.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in ForgeRelocation-0.0.1.4-universal.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class RelocationPlugin
+[21:15:09] [main/WARN] [FML/]: The coremod mrtjp.relocation.asm.RelocationPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod RelocationPlugin
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy ForgeRelocationFMP-0.0.1.2-universal.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in ForgeRelocationFMP-0.0.1.2-universal.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy gadomancy-1.7.10-1.0.8.5.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in gadomancy-1.7.10-1.0.8.5.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class GadomancyCore
+[21:15:09] [main/DEBUG] [FML/]: The coremod makeo.gadomancy.coremod.GadomancyCore requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:09] [main/DEBUG] [FML/]: Added access transformer class makeo.gadomancy.coremod.GadomancyTransformer to enqueued access transformers
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod GadomancyCore
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy galacticgreg-1.7.10-1.0.8.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in galacticgreg-1.7.10-1.0.8.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy Galacticraft-1.7.10-3.0.44-GTNH.jar
+[21:15:09] [main/INFO] [FML/]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from Galacticraft-1.7.10-3.0.44-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy GalaxySpace-1.7.10-1.1.16p-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in GalaxySpace-1.7.10-1.1.16p-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy gendustry-1.7.10-1.6.5.4-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in gendustry-1.7.10-1.6.5.4-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy GoodGenerator-1.7.10-0.4.31.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in GoodGenerator-1.7.10-0.4.31.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy GraviSuite-1.7.10-2.0.68u.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in GraviSuite-1.7.10-2.0.68u.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy gregtech-1.7.10-5.09.41.61.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in gregtech-1.7.10-5.09.41.61.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy GT-PlusPlus-1.7.10-1.7.110.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in GT-PlusPlus-1.7.10-1.7.110.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class Preloader_FMLLoadingPlugin
+[21:15:09] [main/INFO] [GT++ ASM/]: Initializing IFMLLoadingPlugin
+[21:15:09] [main/TRACE] [FML/]: coremod named GT++ Preloader is loading
+[21:15:09] [main/DEBUG] [FML/]: The coremod gtPlusPlus.preloader.asm.Preloader_FMLLoadingPlugin requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod GT++ Preloader
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy GT.Scanner.Mod-1.7.10-1.6.9.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in GT.Scanner.Mod-1.7.10-1.6.9.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy gtneioreplugin-1.7.10-1.0.17.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in gtneioreplugin-1.7.10-1.0.17.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy GTNewHorizonsCoreMod-1.7.10-1.9.80.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in GTNewHorizonsCoreMod-1.7.10-1.9.80.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class DreamCoreMod
+[21:15:09] [main/TRACE] [FML/]: coremod named DreamCoreMod is loading
+[21:15:09] [main/DEBUG] [FML/]: The coremod com.dreammaster.coremod.DreamCoreMod requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod DreamCoreMod
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy GTNH-TC-Wands-1.7.10-1.2.6.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in GTNH-TC-Wands-1.7.10-1.2.6.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy gtnhlanth-1.7.10-0.9.18.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in gtnhlanth-1.7.10-0.9.18.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy gtnhlib-1.7.10-0.0.5.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in gtnhlib-1.7.10-0.0.5.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class GTNHLibCore
+[21:15:09] [main/DEBUG] [FML/]: The coremod com.gtnewhorizon.gtnhlib.core.GTNHLibCore requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod GTNHLibCore
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy GTTweaker-1.7.10-1.7.5.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in GTTweaker-1.7.10-1.7.5.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy HardcoreDarkness-MC1.7.10-1.7.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in HardcoreDarkness-MC1.7.10-1.7.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class LoadingPlugin
+[21:15:09] [main/WARN] [FML/]: The coremod lumien.hardcoredarkness.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod LoadingPlugin
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy HardcoreEnderExpansion-1.7.10-1.9.3-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in HardcoreEnderExpansion-1.7.10-1.9.3-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy harvestcraft-1.7.10-1.0.15-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in harvestcraft-1.7.10-1.0.15-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy Healer-1.2.0.jar
+[21:15:09] [main/TRACE] [FML/]: Adding Healer-1.2.0.jar to the list of known coremods, it will not be examined again
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class Healer
+[21:15:09] [main/TRACE] [FML/]: coremod named healer is loading
+[21:15:09] [main/WARN] [FML/]: The coremod net.glease.healer.Healer does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod healer
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy HelpFixer-1.0.7.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in HelpFixer-1.0.7.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy hodgepodge-1.7.10-1.7.35.jar
+[21:15:09] [main/INFO] [FML/]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from hodgepodge-1.7.10-1.7.35.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy holoinventory-1.7.10-2.1.17-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in holoinventory-1.7.10-2.1.17-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy HungerOverhaul-1.7.10-1.0.4-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in HungerOverhaul-1.7.10-1.0.4-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy hydroenergy-1.7.10-1.0.12.jar
+[21:15:09] [main/INFO] [FML/]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from hydroenergy-1.7.10-1.0.12.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy IC2NuclearControl-1.7.10-2.4.16.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in IC2NuclearControl-1.7.10-2.4.16.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy ifu-1.7.10-1.9.4.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in ifu-1.7.10-1.9.4.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy IguanaTweaksTConstruct-1.7.10-2.2.3.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in IguanaTweaksTConstruct-1.7.10-2.2.3.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy industrialcraft-2-2.2.828a-experimental.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in industrialcraft-2-2.2.828a-experimental.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class IC2core
+[21:15:09] [main/WARN] [FML/]: The coremod ic2.core.coremod.IC2core does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod IC2core
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy InfernalMobs-1.7.10-1.7.5-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in InfernalMobs-1.7.10-1.7.5-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy INpureCore-1.7.10-1.1.2-GTNH.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in INpureCore-1.7.10-1.1.2-GTNH.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class INpurePreLoader
+[21:15:09] [main/TRACE] [FML/]: coremod named INpurePreLoader is loading
+[21:15:09] [main/DEBUG] [FML/]: The coremod info.inpureprojects.core.Preloader.INpurePreLoader requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod INpurePreLoader
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy IronChest-1.7.10-6.0.71.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in IronChest-1.7.10-6.0.71.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy IronChestMinecarts-1.7.10-1.0.8.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in IronChestMinecarts-1.7.10-1.0.8.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy irontanks-1.7.10-1.2.6.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in irontanks-1.7.10-1.2.6.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy JABBA-1.7.10-1.2.21.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in JABBA-1.7.10-1.2.21.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy JourneyMapServer1.0.5_MC1.7.10.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in JourneyMapServer1.0.5_MC1.7.10.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy kekztech-1.7.10-0.6.15.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in kekztech-1.7.10-0.6.15.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy kubatech-1.7.10-0.5.10.jar
+[21:15:09] [main/INFO] [FML/]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from kubatech-1.7.10-0.5.10.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy littletiles-1.7.10-1.2.7-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in littletiles-1.7.10-1.2.7-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy logisticspipes-1.7.10-0.9.4.5.7-GTNH.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in logisticspipes-1.7.10-0.9.4.5.7-GTNH.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class LogisticsPipesCoreLoader
+[21:15:09] [main/DEBUG] [FML/]: The coremod logisticspipes.asm.LogisticsPipesCoreLoader requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod LogisticsPipesCoreLoader
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy lootgames-1.7.10-2.0.6.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in lootgames-1.7.10-2.0.6.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy LunatriusCore-1.7.10-1.1.7-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in LunatriusCore-1.7.10-1.1.7-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy magicbees-1.7.10-2.5.12-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in magicbees-1.7.10-2.5.12-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy malisiscore-1.7.10-0.14.5-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in malisiscore-1.7.10-0.14.5-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy malisisdoors-1.7.10-1.13.5-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in malisisdoors-1.7.10-1.13.5-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy Mantle-1.7.10-0.3.5.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in Mantle-1.7.10-0.3.5.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy mixingasm-1.7.10-v0.2.3.jar
+[21:15:09] [main/INFO] [FML/]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from mixingasm-1.7.10-v0.2.3.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy modmixins-1.7.10-0.0.5.jar
+[21:15:09] [main/INFO] [FML/]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from modmixins-1.7.10-0.0.5.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy ModTweaker2-1.7.10-0.9.9.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in ModTweaker2-1.7.10-0.9.9.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy Morpheus-1.7.10-1.6.21.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in Morpheus-1.7.10-1.6.21.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy MrTJPCore-1.1.0.33-universal.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in MrTJPCore-1.1.0.33-universal.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class CorePlugin
+[21:15:09] [main/WARN] [FML/]: The coremod mrtjp.core.handler.CorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod CorePlugin
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy mxrandom-1.7.10-0.1.4.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in mxrandom-1.7.10-0.1.4.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy Natura-1.7.10-2.5.3.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in Natura-1.7.10-2.5.3.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy naturescompass-1.7.10-1.3.6-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in naturescompass-1.7.10-1.3.6-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy NEIAddons-1.7.10-1.12.19.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in NEIAddons-1.7.10-1.12.19.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy NEICustomDiagram-1.7.10-1.4.4.6.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in NEICustomDiagram-1.7.10-1.4.4.6.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy NEIIntegration-1.7.10-1.2.3.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in NEIIntegration-1.7.10-1.2.3.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy netherportalfix-mc1.7.10-1.1.1.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in netherportalfix-mc1.7.10-1.1.1.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy NodalMechanics-1.7.10-1.1.-6-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in NodalMechanics-1.7.10-1.1.-6-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy NotEnoughEnergistics-1.7.10-1.3.21.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in NotEnoughEnergistics-1.7.10-1.3.21.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class NEELoadingPlugin
+[21:15:09] [main/TRACE] [FML/]: coremod named NEELoadingPlugin is loading
+[21:15:09] [main/DEBUG] [FML/]: The coremod com.github.vfyjxf.nee.asm.NEELoadingPlugin requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod NEELoadingPlugin
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy NotEnoughItems-1.7.10-2.3.7-GTNH.jar
+[21:15:09] [main/TRACE] [FML/]: Adding NotEnoughItems-1.7.10-2.3.7-GTNH.jar to the list of known coremods, it will not be examined again
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class NEICorePlugin
+[21:15:09] [main/DEBUG] [FML/]: The coremod codechicken.nei.asm.NEICorePlugin requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod NEICorePlugin
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy OpenBlocks-1.7.10-1.6.9-GTNH.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in OpenBlocks-1.7.10-1.6.9-GTNH.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class OpenBlocksCorePlugin
+[21:15:09] [main/DEBUG] [FML/]: The coremod openblocks.OpenBlocksCorePlugin requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod OpenBlocksCorePlugin
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy OpenComputers-1.7.10-1.7.7.2-GTNH.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in OpenComputers-1.7.10-1.7.7.2-GTNH.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class TransformerLoader
+[21:15:09] [main/DEBUG] [FML/]: The coremod li.cil.oc.common.launch.TransformerLoader requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod TransformerLoader
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy OpenGlasses-1.7.10-1.2.5-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in OpenGlasses-1.7.10-1.2.5-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy OpenModsLibs-1.7.10-0.10.6.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in OpenModsLibs-1.7.10-0.10.6.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class OpenModsCorePlugin
+[21:15:09] [main/DEBUG] [FML/]: The coremod openmods.core.OpenModsCorePlugin requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:09] [main/DEBUG] [OpenMods/]: openmods.core.OpenModsCorePlugin.<init>(OpenModsCorePlugin.java:21): <OpenModsLib 0.10.6>\o
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod OpenModsCorePlugin
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy OpenModularTurrets-1.7.10-2.2.11-247.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in OpenModularTurrets-1.7.10-2.2.11-247.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy OpenPrinter-MC1.7.10-0.1.0.132.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in OpenPrinter-MC1.7.10-0.1.0.132.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy opensecurity-1.7.10-1.0.119-GTNH.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in opensecurity-1.7.10-1.0.119-GTNH.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class SoundUnpack
+[21:15:09] [main/WARN] [FML/]: The coremod pcl.opensecurity.util.SoundUnpack does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod SoundUnpack
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy Opis-1.7.10-1.3.6-mapless.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in Opis-1.7.10-1.3.6-mapless.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class CoreDescription
+[21:15:09] [main/WARN] [FML/]: The coremod mcp.mobius.mobiuscore.asm.CoreDescription does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod CoreDescription
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy p455w0rdslib-1.7.10-1.0.4.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in p455w0rdslib-1.7.10-1.0.4.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy Pam's Harvest the Nether 1.7.10a.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in Pam's Harvest the Nether 1.7.10a.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy personalspace-1.7.10-1.0.19.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in personalspace-1.7.10-1.0.19.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy PlayerAPI-1.7.10-1.4.jar
+[21:15:09] [main/TRACE] [FML/]: Adding PlayerAPI-1.7.10-1.4.jar to the list of known coremods, it will not be examined again
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class PlayerAPIPlugin
+[21:15:09] [main/DEBUG] [FML/]: The coremod api.player.forge.PlayerAPIPlugin requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod PlayerAPIPlugin
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy ProjectBlue-1.7.10-1.1.8-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in ProjectBlue-1.7.10-1.1.8-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy ProjRed-1.7.10-4.7.7-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in ProjRed-1.7.10-4.7.7-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy questbook-1.7.10-2.1.3-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in questbook-1.7.10-2.1.3-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy Railcraft-1.7.10-9.13.12.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in Railcraft-1.7.10-9.13.12.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy RandomThings-2.2.4.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in RandomThings-2.2.4.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class RTLoadingPlugin
+[21:15:09] [main/WARN] [FML/]: The coremod lumien.randomthings.Transformer.RTLoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod RTLoadingPlugin
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy RemoteIO-1.7.10-2.4.7.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in RemoteIO-1.7.10-2.4.7.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class LoadingPlugin
+[21:15:09] [main/WARN] [FML/]: The coremod remoteio.core.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod LoadingPlugin
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy roguelike-1.7.10-1.5.3-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in roguelike-1.7.10-1.5.3-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy RWG-1.7.10-alpha-1.3.2.1.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in RWG-1.7.10-alpha-1.3.2.1.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy SGCraft-1.7.10-1.3.13-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in SGCraft-1.7.10-1.3.13-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy sharewhereiam-1.7.10-0.2.0.jar
+[21:15:09] [main/INFO] [FML/]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from sharewhereiam-1.7.10-0.2.0.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy sleepingbag-1.7.10-0.1.3.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in sleepingbag-1.7.10-0.1.3.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy SpecialMobs-1.7.10-3.3.13.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in SpecialMobs-1.7.10-3.3.13.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy SpiceOfLife-1.7.10-2.0.5-carrot.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in SpiceOfLife-1.7.10-2.0.5-carrot.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy SpongeMixins-1.5.0.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in SpongeMixins-1.5.0.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class SpongeMixinsCore
+[21:15:09] [main/INFO] [SpongeMixin Core Plugin/]: Initializing SpongeMixinsCore
+[21:15:09] [main/DEBUG] [mixin/]: MixinService [LaunchWrapper] was successfully booted in net.minecraft.launchwrapper.LaunchClassLoader@7d9d1a19
+[21:15:09] [main/DEBUG] [mixin/]: MixinService [LaunchWrapper] was successfully booted in sun.misc.Launcher$AppClassLoader@6d6f6e28
+[21:15:09] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.7.12 Source=file:/home/fabo/Greg/mods/SpongeMixins-1.5.0.jar Service=LaunchWrapper Env=SERVER
+[21:15:09] [main/DEBUG] [mixin/]: Adding new mixin transformer proxy #1
+[21:15:09] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[21:15:09] [main/DEBUG] [mixin/]: Mixin platform: primary container is file:/home/fabo/Greg/mods/SpongeMixins-1.5.0.jar
+[21:15:09] [main/DEBUG] [mixin/]: Adding mixin platform agents for container file:/home/fabo/Greg/mods/SpongeMixins-1.5.0.jar
+[21:15:09] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentFML for file:/home/fabo/Greg/mods/SpongeMixins-1.5.0.jar
+[21:15:09] [main/DEBUG] [mixin/]: ForceLoadAsMod was specified for SpongeMixins-1.5.0.jar, attempting force-load
+[21:15:09] [main/DEBUG] [mixin/]: SpongeMixins-1.5.0.jar has core plugin ru.timeconqueror.spongemixins.core.SpongeMixinsCore. Injecting it into FML for co-initialisation:
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class SpongeMixinsCore
+[21:15:09] [main/TRACE] [FML/]: coremod named SpongeMixin Core Plugin is loading
+[21:15:09] [main/DEBUG] [FML/]: The coremod ru.timeconqueror.spongemixins.core.SpongeMixinsCore requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod SpongeMixin Core Plugin
+[21:15:09] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for file:/home/fabo/Greg/mods/SpongeMixins-1.5.0.jar
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/ae2fc-1.7.10-1.0.18-gtnh.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/AppleCore-1.7.10-3.2.2.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: file:/home/fabo/Greg/mods/AppleCore-1.7.10-3.2.2.jar contains a mixin tweaker, adding agents
+[21:15:09] [main/DEBUG] [mixin/]: Adding mixin platform agents for container file:/home/fabo/Greg/mods/AppleCore-1.7.10-3.2.2.jar
+[21:15:09] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentFML for file:/home/fabo/Greg/mods/AppleCore-1.7.10-3.2.2.jar
+[21:15:09] [main/DEBUG] [mixin/]: ForceLoadAsMod was specified for AppleCore-1.7.10-3.2.2.jar, attempting force-load
+[21:15:09] [main/DEBUG] [mixin/]: Adding AppleCore-1.7.10-3.2.2.jar to reparseable coremod collection
+[21:15:09] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for file:/home/fabo/Greg/mods/AppleCore-1.7.10-3.2.2.jar
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/appliedenergistics2-1.7.10-rv3-beta-107-GTNH.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/bartworks-1.7.10-0.5.86.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/battlegear2-1.7.10-1.1.2.1.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/bugtorch-1.7.10-1.1.6.4-GTNH.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: file:/home/fabo/Greg/mods/bugtorch-1.7.10-1.1.6.4-GTNH.jar contains a mixin tweaker, adding agents
+[21:15:09] [main/DEBUG] [mixin/]: Adding mixin platform agents for container file:/home/fabo/Greg/mods/bugtorch-1.7.10-1.1.6.4-GTNH.jar
+[21:15:09] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentFML for file:/home/fabo/Greg/mods/bugtorch-1.7.10-1.1.6.4-GTNH.jar
+[21:15:09] [main/DEBUG] [mixin/]: ForceLoadAsMod was specified for bugtorch-1.7.10-1.1.6.4-GTNH.jar, attempting force-load
+[21:15:09] [main/DEBUG] [mixin/]: Adding bugtorch-1.7.10-1.1.6.4-GTNH.jar to reparseable coremod collection
+[21:15:09] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for file:/home/fabo/Greg/mods/bugtorch-1.7.10-1.1.6.4-GTNH.jar
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/CodeChickenCore-1.7.10-1.1.6.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/./mods/1.7.10/CodeChickenLib-1.7.10-1.1.5.5.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/CoFHCore-%5B1.7.10%5D3.1.4-329.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/CropLoadCore-1.7.10-0.1.10.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/DummyCore1.13.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/endercore-1.7.10-0.2.10.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/forgelin-1.7.10-1.9.6-GTNH.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/ForgeMultipart-1.7.10-1.3.0.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/ForgeRelocation-0.0.1.4-universal.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/gadomancy-1.7.10-1.0.8.5.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/Galacticraft-1.7.10-3.0.44-GTNH.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: file:/home/fabo/Greg/mods/Galacticraft-1.7.10-3.0.44-GTNH.jar contains a mixin tweaker, adding agents
+[21:15:09] [main/DEBUG] [mixin/]: Adding mixin platform agents for container file:/home/fabo/Greg/mods/Galacticraft-1.7.10-3.0.44-GTNH.jar
+[21:15:09] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentFML for file:/home/fabo/Greg/mods/Galacticraft-1.7.10-3.0.44-GTNH.jar
+[21:15:09] [main/DEBUG] [mixin/]: ForceLoadAsMod was specified for Galacticraft-1.7.10-3.0.44-GTNH.jar, attempting force-load
+[21:15:09] [main/DEBUG] [mixin/]: Adding Galacticraft-1.7.10-3.0.44-GTNH.jar to reparseable coremod collection
+[21:15:09] [main/DEBUG] [mixin/]: Galacticraft-1.7.10-3.0.44-GTNH.jar has core plugin micdoodle8.mods.galacticraft.core.asm.GCLoadingPlugin. Injecting it into FML for co-initialisation:
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class GCLoadingPlugin
+[21:15:09] [main/TRACE] [FML/]: coremod named GalacticraftCoreMod2 is loading
+[21:15:09] [main/DEBUG] [FML/]: The coremod micdoodle8.mods.galacticraft.core.asm.GCLoadingPlugin requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod GalacticraftCoreMod2
+[21:15:09] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for file:/home/fabo/Greg/mods/Galacticraft-1.7.10-3.0.44-GTNH.jar
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/GT-PlusPlus-1.7.10-1.7.110.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/GTNewHorizonsCoreMod-1.7.10-1.9.80.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/gtnhlib-1.7.10-0.0.5.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/HardcoreDarkness-MC1.7.10-1.7.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/Healer-1.2.0.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/hodgepodge-1.7.10-1.7.35.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: file:/home/fabo/Greg/mods/hodgepodge-1.7.10-1.7.35.jar contains a mixin tweaker, adding agents
+[21:15:09] [main/DEBUG] [mixin/]: Adding mixin platform agents for container file:/home/fabo/Greg/mods/hodgepodge-1.7.10-1.7.35.jar
+[21:15:09] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentFML for file:/home/fabo/Greg/mods/hodgepodge-1.7.10-1.7.35.jar
+[21:15:09] [main/DEBUG] [mixin/]: ForceLoadAsMod was specified for hodgepodge-1.7.10-1.7.35.jar, attempting force-load
+[21:15:09] [main/DEBUG] [mixin/]: Adding hodgepodge-1.7.10-1.7.35.jar to reparseable coremod collection
+[21:15:09] [main/DEBUG] [mixin/]: hodgepodge-1.7.10-1.7.35.jar has core plugin com.mitchej123.hodgepodge.asm.HodgePodgeASMLoader. Injecting it into FML for co-initialisation:
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class HodgePodgeASMLoader
+[21:15:09] [main/DEBUG] [FML/]: The coremod com.mitchej123.hodgepodge.asm.HodgePodgeASMLoader requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod HodgePodgeASMLoader
+[21:15:09] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for file:/home/fabo/Greg/mods/hodgepodge-1.7.10-1.7.35.jar
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/hydroenergy-1.7.10-1.0.12.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: file:/home/fabo/Greg/mods/hydroenergy-1.7.10-1.0.12.jar contains a mixin tweaker, adding agents
+[21:15:09] [main/DEBUG] [mixin/]: Adding mixin platform agents for container file:/home/fabo/Greg/mods/hydroenergy-1.7.10-1.0.12.jar
+[21:15:09] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentFML for file:/home/fabo/Greg/mods/hydroenergy-1.7.10-1.0.12.jar
+[21:15:09] [main/DEBUG] [mixin/]: ForceLoadAsMod was specified for hydroenergy-1.7.10-1.0.12.jar, attempting force-load
+[21:15:09] [main/DEBUG] [mixin/]: Adding hydroenergy-1.7.10-1.0.12.jar to reparseable coremod collection
+[21:15:09] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for file:/home/fabo/Greg/mods/hydroenergy-1.7.10-1.0.12.jar
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/industrialcraft-2-2.2.828a-experimental.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/INpureCore-1.7.10-1.1.2-GTNH.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/kubatech-1.7.10-0.5.10.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: file:/home/fabo/Greg/mods/kubatech-1.7.10-0.5.10.jar contains a mixin tweaker, adding agents
+[21:15:09] [main/DEBUG] [mixin/]: Adding mixin platform agents for container file:/home/fabo/Greg/mods/kubatech-1.7.10-0.5.10.jar
+[21:15:09] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentFML for file:/home/fabo/Greg/mods/kubatech-1.7.10-0.5.10.jar
+[21:15:09] [main/DEBUG] [mixin/]: ForceLoadAsMod was specified for kubatech-1.7.10-0.5.10.jar, attempting force-load
+[21:15:09] [main/DEBUG] [mixin/]: Adding kubatech-1.7.10-0.5.10.jar to reparseable coremod collection
+[21:15:09] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for file:/home/fabo/Greg/mods/kubatech-1.7.10-0.5.10.jar
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/logisticspipes-1.7.10-0.9.4.5.7-GTNH.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/mixingasm-1.7.10-v0.2.3.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: file:/home/fabo/Greg/mods/mixingasm-1.7.10-v0.2.3.jar contains a mixin tweaker, adding agents
+[21:15:09] [main/DEBUG] [mixin/]: Adding mixin platform agents for container file:/home/fabo/Greg/mods/mixingasm-1.7.10-v0.2.3.jar
+[21:15:09] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentFML for file:/home/fabo/Greg/mods/mixingasm-1.7.10-v0.2.3.jar
+[21:15:09] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for file:/home/fabo/Greg/mods/mixingasm-1.7.10-v0.2.3.jar
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/modmixins-1.7.10-0.0.5.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: file:/home/fabo/Greg/mods/modmixins-1.7.10-0.0.5.jar contains a mixin tweaker, adding agents
+[21:15:09] [main/DEBUG] [mixin/]: Adding mixin platform agents for container file:/home/fabo/Greg/mods/modmixins-1.7.10-0.0.5.jar
+[21:15:09] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentFML for file:/home/fabo/Greg/mods/modmixins-1.7.10-0.0.5.jar
+[21:15:09] [main/DEBUG] [mixin/]: ForceLoadAsMod was specified for modmixins-1.7.10-0.0.5.jar, attempting force-load
+[21:15:09] [main/DEBUG] [mixin/]: Adding modmixins-1.7.10-0.0.5.jar to reparseable coremod collection
+[21:15:09] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for file:/home/fabo/Greg/mods/modmixins-1.7.10-0.0.5.jar
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/1.7.10/MrTJPCore-1.1.0.33-universal.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/NotEnoughEnergistics-1.7.10-1.3.21.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/NotEnoughItems-1.7.10-2.3.7-GTNH.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/OpenBlocks-1.7.10-1.6.9-GTNH.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/OpenComputers-1.7.10-1.7.7.2-GTNH.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/OpenModsLibs-1.7.10-0.10.6.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/opensecurity-1.7.10-1.0.119-GTNH.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/Opis-1.7.10-1.3.6-mapless.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/PlayerAPI-1.7.10-1.4.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/RandomThings-2.2.4.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/RemoteIO-1.7.10-2.4.7.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: Scanning file:/home/fabo/Greg/mods/sharewhereiam-1.7.10-0.2.0.jar for mixin tweaker
+[21:15:09] [main/DEBUG] [mixin/]: file:/home/fabo/Greg/mods/sharewhereiam-1.7.10-0.2.0.jar contains a mixin tweaker, adding agents
+[21:15:09] [main/DEBUG] [mixin/]: Adding mixin platform agents for container file:/home/fabo/Greg/mods/sharewhereiam-1.7.10-0.2.0.jar
+[21:15:09] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentFML for file:/home/fabo/Greg/mods/sharewhereiam-1.7.10-0.2.0.jar
+[21:15:09] [main/DEBUG] [mixin/]: ForceLoadAsMod was specified for sharewhereiam-1.7.10-0.2.0.jar, attempting force-load
+[21:15:09] [main/DEBUG] [mixin/]: Adding sharewhereiam-1.7.10-0.2.0.jar to reparseable coremod collection
+[21:15:09] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for file:/home/fabo/Greg/mods/sharewhereiam-1.7.10-0.2.0.jar
+[21:15:09] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentFML:file:/home/fabo/Greg/mods/SpongeMixins-1.5.0.jar]
+[21:15:09] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:file:/home/fabo/Greg/mods/SpongeMixins-1.5.0.jar]
+[21:15:09] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentFML:file:/home/fabo/Greg/mods/AppleCore-1.7.10-3.2.2.jar]
+[21:15:09] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:file:/home/fabo/Greg/mods/AppleCore-1.7.10-3.2.2.jar]
+[21:15:09] [main/DEBUG] [mixin/]: Registering mixin config: mixins.AppleCore.json
+[21:15:09] [main/INFO] [mixin/]: Compatibility level set to JAVA_8
+[21:15:09] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentFML:file:/home/fabo/Greg/mods/bugtorch-1.7.10-1.1.6.4-GTNH.jar]
+[21:15:09] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:file:/home/fabo/Greg/mods/bugtorch-1.7.10-1.1.6.4-GTNH.jar]
+[21:15:09] [main/DEBUG] [mixin/]: Registering mixin config: mixins.bugtorch.json
+[21:15:09] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentFML:file:/home/fabo/Greg/mods/Galacticraft-1.7.10-3.0.44-GTNH.jar]
+[21:15:09] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:file:/home/fabo/Greg/mods/Galacticraft-1.7.10-3.0.44-GTNH.jar]
+[21:15:09] [main/DEBUG] [mixin/]: Registering mixin config: mixins.GalacticraftCore.json
+[21:15:09] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentFML:file:/home/fabo/Greg/mods/hodgepodge-1.7.10-1.7.35.jar]
+[21:15:09] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:file:/home/fabo/Greg/mods/hodgepodge-1.7.10-1.7.35.jar]
+[21:15:09] [main/DEBUG] [mixin/]: Registering mixin config: mixins.hodgepodge.json
+[21:15:09] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentFML:file:/home/fabo/Greg/mods/hydroenergy-1.7.10-1.0.12.jar]
+[21:15:09] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:file:/home/fabo/Greg/mods/hydroenergy-1.7.10-1.0.12.jar]
+[21:15:09] [main/DEBUG] [mixin/]: Registering mixin config: mixins.hydroenergy.json
+[21:15:09] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentFML:file:/home/fabo/Greg/mods/kubatech-1.7.10-0.5.10.jar]
+[21:15:09] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:file:/home/fabo/Greg/mods/kubatech-1.7.10-0.5.10.jar]
+[21:15:09] [main/DEBUG] [mixin/]: Registering mixin config: mixins.kubatech.json
+[21:15:09] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentFML:file:/home/fabo/Greg/mods/mixingasm-1.7.10-v0.2.3.jar]
+[21:15:09] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:file:/home/fabo/Greg/mods/mixingasm-1.7.10-v0.2.3.jar]
+[21:15:09] [main/DEBUG] [mixin/]: Registering mixin config: mixins.mixingasm.json
+[21:15:09] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentFML:file:/home/fabo/Greg/mods/modmixins-1.7.10-0.0.5.jar]
+[21:15:09] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:file:/home/fabo/Greg/mods/modmixins-1.7.10-0.0.5.jar]
+[21:15:09] [main/DEBUG] [mixin/]: Registering mixin config: mixins.modmixins.json
+[21:15:09] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentFML:file:/home/fabo/Greg/mods/sharewhereiam-1.7.10-0.2.0.jar]
+[21:15:09] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:file:/home/fabo/Greg/mods/sharewhereiam-1.7.10-0.2.0.jar]
+[21:15:09] [main/DEBUG] [mixin/]: Registering mixin config: mixins.sharewhereiam.json
+[21:15:09] [main/TRACE] [FML/]: coremod named SpongeMixin Core Plugin is loading
+[21:15:09] [main/DEBUG] [FML/]: The coremod ru.timeconqueror.spongemixins.core.SpongeMixinsCore requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod SpongeMixin Core Plugin
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy SSP-1.1.2-GT-NH-Mod.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in SSP-1.1.2-GT-NH-Mod.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy StandardExpansion-1.7.10-3.0.197-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in StandardExpansion-1.7.10-3.0.197-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy StevesAddons-1.7.10-0.10.24.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in StevesAddons-1.7.10-0.10.24.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class LoadingPlugin
+[21:15:09] [main/DEBUG] [FML/]: The coremod stevesaddons.asm.LoadingPlugin requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:09] [main/DEBUG] [FML/]: Added access transformer class stevesaddons.asm.StevesAddonsTransformer to enqueued access transformers
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod LoadingPlugin
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy StevesCarts-1.7.10-2.0.2.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in StevesCarts-1.7.10-2.0.2.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy StevesFactoryManager-1.7.10-1.1.1-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in StevesFactoryManager-1.7.10-1.1.1-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy StorageDrawers-1.7.10-1.11.17-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in StorageDrawers-1.7.10-1.11.17-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy StorageDrawersBop-1.7.10-1.11.17-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in StorageDrawersBop-1.7.10-1.11.17-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy StorageDrawersForestry-1.7.10-1.11.17-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in StorageDrawersForestry-1.7.10-1.11.17-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy StorageDrawersMisc-1.7.10-1.11.17-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in StorageDrawersMisc-1.7.10-1.11.17-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy StorageDrawersNatura-1.7.10-1.11.17-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in StorageDrawersNatura-1.7.10-1.11.17-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy structurecompat-1.7.10-0.2.0.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in structurecompat-1.7.10-0.2.0.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy structurelib-1.7.10-1.2.0-beta.2.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in structurelib-1.7.10-1.2.0-beta.2.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy SuperTic-1.7.10-1.2.5.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in SuperTic-1.7.10-1.2.5.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy Tainted-Magic-r7.6.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in Tainted-Magic-r7.6.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy tcinventoryscan-1.7.10-1.0.12-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in tcinventoryscan-1.7.10-1.0.12-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy tcneiadditions-1.7.10-1.1.1.5.dirty.jar
+[21:15:09] [main/INFO] [FML/]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from tcneiadditions-1.7.10-1.1.1.5.dirty.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy TConstruct-1.7.10-1.9.4-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in TConstruct-1.7.10-1.9.4-GTNH.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy TecTech-1.7.10-5.0.39.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in TecTech-1.7.10-5.0.39.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy TGregworks-1.7.10-GTNH-1.0.23.jar
+[21:15:09] [main/DEBUG] [FML/]: Not found coremod data in TGregworks-1.7.10-GTNH-1.0.23.jar
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy Thaumcraft-1.7.10-4.2.3.5a.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in Thaumcraft-1.7.10-4.2.3.5a.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class DepLoader
+[21:15:09] [main/WARN] [FML/]: The coremod thaumcraft.codechicken.core.launch.DepLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod DepLoader
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy Thaumcraft4Tweaks-1.7.10-1.4.16.jar
+[21:15:09] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in Thaumcraft4Tweaks-1.7.10-1.4.16.jar, it will be examined later for regular @Mod instances
+[21:15:09] [main/DEBUG] [FML/]: Instantiating coremod class LoadingPlugin
+[21:15:09] [main/TRACE] [FML/]: coremod named TC4TweakCoreMod is loading
+[21:15:09] [main/DEBUG] [FML/]: The coremod net.glease.tc4tweak.asm.LoadingPlugin requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:09] [main/DEBUG] [FML/]: Enqueued coremod TC4TweakCoreMod
+[21:15:09] [main/DEBUG] [FML/]: Examining for coremod candidacy ThaumcraftMobAspects-1.7.10-1.0.0-GTNH.jar
+[21:15:10] [main/DEBUG] [FML/]: Not found coremod data in ThaumcraftMobAspects-1.7.10-1.0.0-GTNH.jar
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy thaumcraftneiplugin-1.7.10-1.7a.jar
+[21:15:10] [main/DEBUG] [FML/]: Not found coremod data in thaumcraftneiplugin-1.7.10-1.7a.jar
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy ThaumcraftResearchTweaks-1.7.10-1.0.3.jar
+[21:15:10] [main/INFO] [FML/]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from ThaumcraftResearchTweaks-1.7.10-1.0.3.jar
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy Thaumic Machina-1.7.10-0.2.1.jar
+[21:15:10] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in Thaumic Machina-1.7.10-0.2.1.jar, it will be examined later for regular @Mod instances
+[21:15:10] [main/DEBUG] [FML/]: Instantiating coremod class TMFMLLoadingPlugin
+[21:15:10] [main/WARN] [FML/]: The coremod jcm2606.thaumicmachina.asm.TMFMLLoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:15:10] [main/DEBUG] [FML/]: Enqueued coremod TMFMLLoadingPlugin
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy Thaumic-Based-1.7.10-1.4.31.jar
+[21:15:10] [main/DEBUG] [FML/]: Not found coremod data in Thaumic-Based-1.7.10-1.4.31.jar
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy Thaumic-Exploration-1.7.10-1.1.92-GTNH.jar
+[21:15:10] [main/DEBUG] [FML/]: Not found coremod data in Thaumic-Exploration-1.7.10-1.1.92-GTNH.jar
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy thaumicenergistics-1.7.10-1.3.19-GTNH.jar
+[21:15:10] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in thaumicenergistics-1.7.10-1.3.19-GTNH.jar, it will be examined later for regular @Mod instances
+[21:15:10] [main/DEBUG] [FML/]: Instantiating coremod class ThECore
+[21:15:10] [main/DEBUG] [FML/]: The coremod thaumicenergistics.fml.ThECore requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:10] [main/DEBUG] [FML/]: Enqueued coremod ThECore
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy ThaumicHorizons-1.7.10-1.2.1.6.jar
+[21:15:10] [main/DEBUG] [FML/]: Not found coremod data in ThaumicHorizons-1.7.10-1.2.1.6.jar
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy thaumicinsurgence-1.7.10-0.0.6.jar
+[21:15:10] [main/DEBUG] [FML/]: Not found coremod data in thaumicinsurgence-1.7.10-0.0.6.jar
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy ThaumicTinkerer-1.7.10-2.6.5.jar
+[21:15:10] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in ThaumicTinkerer-1.7.10-2.6.5.jar, it will be examined later for regular @Mod instances
+[21:15:10] [main/DEBUG] [FML/]: Instantiating coremod class ThaumicTLoaderContainer
+[21:15:10] [main/DEBUG] [FML/]: The coremod thaumic.tinkerer.preloader.ThaumicTLoaderContainer requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:10] [main/DEBUG] [FML/]: Enqueued coremod ThaumicTLoaderContainer
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy Tinkers-Defense-1.2.1d.jar
+[21:15:10] [main/DEBUG] [FML/]: Not found coremod data in Tinkers-Defense-1.2.1d.jar
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy TMechworks-1.7.10-0.2.16.4.jar
+[21:15:10] [main/DEBUG] [FML/]: Not found coremod data in TMechworks-1.7.10-0.2.16.4.jar
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy TooMuchLoot-1.7.10-4.1.0-GTNH.jar
+[21:15:10] [main/DEBUG] [FML/]: Not found coremod data in TooMuchLoot-1.7.10-4.1.0-GTNH.jar
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy Translocator-1.7.10-1.1.2.20.jar
+[21:15:10] [main/DEBUG] [FML/]: Not found coremod data in Translocator-1.7.10-1.1.2.20.jar
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy TravellersGear-1.7.10-1.16.8-GTNH.jar
+[21:15:10] [main/DEBUG] [FML/]: Not found coremod data in TravellersGear-1.7.10-1.16.8-GTNH.jar
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy TwilightForest-1.7.10-2.3.8.16.jar
+[21:15:10] [main/DEBUG] [FML/]: Not found coremod data in TwilightForest-1.7.10-2.3.8.16.jar
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy Universal-Singularities-1.7.10-8.6.5.jar
+[21:15:10] [main/DEBUG] [FML/]: Not found coremod data in Universal-Singularities-1.7.10-8.6.5.jar
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy visualprospecting-1.7.10-1.0.33.jar
+[21:15:10] [main/INFO] [FML/]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from visualprospecting-1.7.10-1.0.33.jar
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy Waila-1.7.10-1.5.22.jar
+[21:15:10] [main/DEBUG] [FML/]: Not found coremod data in Waila-1.7.10-1.5.22.jar
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy WailaHarvestability-1.7.10-1.1.10-GTNH.jar
+[21:15:10] [main/DEBUG] [FML/]: Not found coremod data in WailaHarvestability-1.7.10-1.1.10-GTNH.jar
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy WAILAPlugins-1.7.10-0.2.5.jar
+[21:15:10] [main/DEBUG] [FML/]: Not found coremod data in WAILAPlugins-1.7.10-0.2.5.jar
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy WanionLib-1.7.10-1.8.3.jar
+[21:15:10] [main/DEBUG] [FML/]: Not found coremod data in WanionLib-1.7.10-1.8.3.jar
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy WarpTheory-1.7.10-1.2.6-GTNH.jar
+[21:15:10] [main/DEBUG] [FML/]: Not found coremod data in WarpTheory-1.7.10-1.2.6-GTNH.jar
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy Wawla-1.7.10-1.1.3-GTNH.jar
+[21:15:10] [main/DEBUG] [FML/]: Not found coremod data in Wawla-1.7.10-1.1.3-GTNH.jar
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy WirelessCraftingTerminal-1.7.10-1.8.9.2.jar
+[21:15:10] [main/DEBUG] [FML/]: Not found coremod data in WirelessCraftingTerminal-1.7.10-1.8.9.2.jar
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy witchery-1.7.10-0.24.1.jar
+[21:15:10] [main/DEBUG] [FML/]: Not found coremod data in witchery-1.7.10-0.24.1.jar
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy WitcheryExtras-1.7.10-1.1.12.jar
+[21:15:10] [main/INFO] [FML/]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from WitcheryExtras-1.7.10-1.1.12.jar
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy WitchingGadgets-1.7.10-1.2.21-GTNH.jar
+[21:15:10] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in WitchingGadgets-1.7.10-1.2.21-GTNH.jar, it will be examined later for regular @Mod instances
+[21:15:10] [main/DEBUG] [FML/]: Instantiating coremod class WitchingGadgetsCoreLoader
+[21:15:10] [main/TRACE] [FML/]: coremod named WitchingGadgets Core is loading
+[21:15:10] [main/DEBUG] [FML/]: The coremod witchinggadgets.asm.WitchingGadgetsCoreLoader requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:10] [main/DEBUG] [FML/]: Enqueued coremod WitchingGadgets Core
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy WR-CBE-1.7.10-1.4.8.jar
+[21:15:10] [main/DEBUG] [FML/]: Not found coremod data in WR-CBE-1.7.10-1.4.8.jar
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy YAMCore-1.7.10-0.5.84.jar
+[21:15:10] [main/DEBUG] [FML/]: Not found coremod data in YAMCore-1.7.10-0.5.84.jar
+[21:15:10] [main/DEBUG] [FML/]: Examining for coremod candidacy Ztones-1.7.10-2.2.2.jar
+[21:15:10] [main/DEBUG] [FML/]: Not found coremod data in Ztones-1.7.10-2.2.2.jar
+[21:15:10] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:15:10] [main/INFO] [LaunchWrapper/]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[21:15:10] [main/WARN] [LaunchWrapper/]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[21:15:10] [main/WARN] [LaunchWrapper/]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[21:15:10] [main/WARN] [LaunchWrapper/]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[21:15:10] [main/WARN] [LaunchWrapper/]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[21:15:10] [main/WARN] [LaunchWrapper/]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[21:15:10] [main/WARN] [LaunchWrapper/]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[21:15:10] [main/WARN] [LaunchWrapper/]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[21:15:10] [main/WARN] [LaunchWrapper/]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[21:15:10] [main/INFO] [LaunchWrapper/]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[21:15:10] [main/WARN] [LaunchWrapper/]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[21:15:10] [main/WARN] [LaunchWrapper/]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[21:15:10] [main/WARN] [LaunchWrapper/]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[21:15:10] [main/WARN] [LaunchWrapper/]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[21:15:10] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[21:15:10] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:15:10] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:15:10] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:15:10] [main/DEBUG] [FML/]: Injecting coremod SpongeMixin Core Plugin {ru.timeconqueror.spongemixins.core.SpongeMixinsCore} class transformers
+[21:15:10] [main/DEBUG] [FML/]: Injection complete
+[21:15:10] [main/DEBUG] [FML/]: Running coremod plugin for SpongeMixin Core Plugin {ru.timeconqueror.spongemixins.core.SpongeMixinsCore}
+[21:15:10] [main/DEBUG] [FML/]: Running coremod plugin SpongeMixin Core Plugin
+[21:15:10] [main/DEBUG] [FML/]: Coremod plugin class SpongeMixinsCore run successfully
+[21:15:10] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:15:10] [main/DEBUG] [FML/]: Injecting coremod SpongeMixin Core Plugin {ru.timeconqueror.spongemixins.core.SpongeMixinsCore} class transformers
+[21:15:10] [main/DEBUG] [FML/]: Injection complete
+[21:15:10] [main/DEBUG] [FML/]: Running coremod plugin for SpongeMixin Core Plugin {ru.timeconqueror.spongemixins.core.SpongeMixinsCore}
+[21:15:10] [main/DEBUG] [FML/]: Running coremod plugin SpongeMixin Core Plugin
+[21:15:10] [main/DEBUG] [FML/]: Coremod plugin class SpongeMixinsCore run successfully
+[21:15:10] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:15:10] [main/DEBUG] [FML/]: Injecting coremod GTNHLibCore {com.gtnewhorizon.gtnhlib.core.GTNHLibCore} class transformers
+[21:15:10] [main/DEBUG] [FML/]: Injection complete
+[21:15:10] [main/DEBUG] [FML/]: Running coremod plugin for GTNHLibCore {com.gtnewhorizon.gtnhlib.core.GTNHLibCore}
+[21:15:10] [main/DEBUG] [FML/]: Running coremod plugin GTNHLibCore
+[21:15:10] [main/DEBUG] [FML/]: Coremod plugin class GTNHLibCore run successfully
+[21:15:10] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:15:10] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[21:15:10] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[21:15:10] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[21:15:10] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[21:15:10] [main/DEBUG] [FML/]: Injection complete
+[21:15:10] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[21:15:10] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[21:15:10] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[PREINIT]

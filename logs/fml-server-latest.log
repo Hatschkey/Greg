@@ -1,0 +1,119 @@
+[21:15:15] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[21:15:16] [main/INFO] [FML/]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[21:15:16] [main/INFO] [FML/]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_342, running on Linux:amd64:5.15.0-52-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[21:15:16] [main/DEBUG] [FML/]: Java classpath at launch is forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
+[21:15:16] [main/DEBUG] [FML/]: Java library path at launch is /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+[21:15:16] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[21:15:16] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[21:15:16] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[21:15:16] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[21:15:16] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[21:15:16] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[21:15:16] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[21:15:16] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[21:15:16] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /home/fabo/Greg/.
+[21:15:16] [main/DEBUG] [FML/]: Discovering coremods
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy AdvancedSolarPanel-1.7.10-3.5.1a.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in AdvancedSolarPanel-1.7.10-3.5.1a.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy adventurebackpack-1.7.10-1.0.5-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in adventurebackpack-1.7.10-1.0.5-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy ae2fc-1.7.10-1.0.18-gtnh.jar
+[21:15:16] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in ae2fc-1.7.10-1.0.18-gtnh.jar, it will be examined later for regular @Mod instances
+[21:15:16] [main/DEBUG] [FML/]: Instantiating coremod class FluidCraftCore
+[21:15:16] [main/TRACE] [FML/]: coremod named FluidCraftCore is loading
+[21:15:16] [main/DEBUG] [FML/]: The coremod com.glodblock.github.coremod.FluidCraftCore requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:16] [main/DEBUG] [FML/]: Enqueued coremod FluidCraftCore
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy ae2stuff-1.7.10-0.5.1.15-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in ae2stuff-1.7.10-0.5.1.15-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy AFSU-1.7.10-1.2.6-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in AFSU-1.7.10-1.2.6-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy AngerMod-1.7.10-0.6.3.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in AngerMod-1.7.10-0.6.3.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy AppleCore-1.7.10-3.2.2.jar
+[21:15:16] [main/INFO] [FML/]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from AppleCore-1.7.10-3.2.2.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy appliedenergistics2-1.7.10-rv3-beta-107-GTNH.jar
+[21:15:16] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in appliedenergistics2-1.7.10-rv3-beta-107-GTNH.jar, it will be examined later for regular @Mod instances
+[21:15:16] [main/DEBUG] [FML/]: Instantiating coremod class AppEngCore
+[21:15:16] [main/DEBUG] [FML/]: The coremod appeng.transformer.AppEngCore requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:16] [main/INFO] [FML/]: [AppEng] Core Init
+[21:15:16] [main/DEBUG] [FML/]: Added access transformer class appeng.transformer.asm.ASMTweaker to enqueued access transformers
+[21:15:16] [main/DEBUG] [FML/]: Enqueued coremod AppEngCore
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy ArchitectureCraft-1.7.10-1.7.6.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in ArchitectureCraft-1.7.10-1.7.6.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy AsieLib-1.7.10-0.5.3.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in AsieLib-1.7.10-0.5.3.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy Automagy-1.7.10-0.28.2.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in Automagy-1.7.10-0.28.2.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy Avaritia-1.7.10-1.30.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in Avaritia-1.7.10-1.30.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy Avaritiaddons-1.7.10-1.5.4-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in Avaritiaddons-1.7.10-1.5.4-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy backpack-1.7.10-2.2.6-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in backpack-1.7.10-2.2.6-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy bartworks-1.7.10-0.5.86.jar
+[21:15:16] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in bartworks-1.7.10-0.5.86.jar, it will be examined later for regular @Mod instances
+[21:15:16] [main/DEBUG] [FML/]: Instantiating coremod class BWCorePlugin
+[21:15:16] [main/TRACE] [FML/]: coremod named BartWorks ASM Core Plugin is loading
+[21:15:16] [main/DEBUG] [FML/]: The coremod com.github.bartimaeusnek.bartworks.ASM.BWCorePlugin requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:16] [main/DEBUG] [FML/]: Enqueued coremod BartWorks ASM Core Plugin
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy battlegear2-1.7.10-1.1.2.1.jar
+[21:15:16] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in battlegear2-1.7.10-1.1.2.1.jar, it will be examined later for regular @Mod instances
+[21:15:16] [main/DEBUG] [FML/]: Instantiating coremod class BattlegearLoadingPlugin
+[21:15:16] [main/TRACE] [FML/]: coremod named Mine and Blade: Battlegear2 is loading
+[21:15:16] [main/DEBUG] [FML/]: The coremod mods.battlegear2.coremod.BattlegearLoadingPlugin requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[21:15:16] [main/DEBUG] [FML/]: Enqueued coremod Mine and Blade: Battlegear2
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy Baubles-1.7.10-1.0.1.14.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in Baubles-1.7.10-1.0.1.14.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy bdlib-1.7.10-1.9.8-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in bdlib-1.7.10-1.9.8-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy BetterBuildersWands-1.7.10-0.9.3-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in BetterBuildersWands-1.7.10-0.9.3-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy betterp2p-1.7.10-1.0.12.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in betterp2p-1.7.10-1.0.12.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy BetterQuesting-1.7.10-3.0.367-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in BetterQuesting-1.7.10-3.0.367-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy BiblioCraft[v1.11.7][MC1.7.10].jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in BiblioCraft[v1.11.7][MC1.7.10].jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy BiblioWoods[BiomesOPlenty][v1.9].jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in BiblioWoods[BiomesOPlenty][v1.9].jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy BiblioWoods[Forestry][v1.7].jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in BiblioWoods[Forestry][v1.7].jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy BiblioWoods[Natura][v1.5].jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in BiblioWoods[Natura][v1.5].jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy binnie-mods-1.7.10-2.0.43.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in binnie-mods-1.7.10-2.0.43.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy BiomesOPlenty-1.7.10-2.1.0.2308-universal.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in BiomesOPlenty-1.7.10-2.1.0.2308-universal.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy BlockLimiter-1.7.10-0.55.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in BlockLimiter-1.7.10-0.55.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy BloodArsenal-1.7.10-1.2.6.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in BloodArsenal-1.7.10-1.2.6.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy BloodMagic-1.7.10-1.3.14.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in BloodMagic-1.7.10-1.3.14.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy Botania-1.7.10-1.9.10-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in Botania-1.7.10-1.9.10-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy BotanicHorizons-1.7.10-1.0.11-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in BotanicHorizons-1.7.10-1.0.11-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy BrandonsCore-1.7.10-1.0.0.13-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in BrandonsCore-1.7.10-1.0.0.13-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy bugtorch-1.7.10-1.1.6.4-GTNH.jar
+[21:15:16] [main/INFO] [FML/]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from bugtorch-1.7.10-1.1.6.4-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy buildcraft-1.7.10-7.1.27.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in buildcraft-1.7.10-7.1.27.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy buildcraft-compat-1.7.10-7.1.12.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in buildcraft-compat-1.7.10-7.1.12.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy BuildCraftOilTweak-1.7.10-1.0.3.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in BuildCraftOilTweak-1.7.10-1.0.3.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy CarpentersBlocks-1.7.10-3.3.8.2-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in CarpentersBlocks-1.7.10-3.3.8.2-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy catwalks-1.7.10-2.1.3-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in catwalks-1.7.10-2.1.3-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy CB4BQ-3.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in CB4BQ-3.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy chisel-1.7.10-2.10.16-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in chisel-1.7.10-2.10.16-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy chiseltones-1.7.10-1.0.4-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Not found coremod data in chiseltones-1.7.10-1.0.4-GTNH.jar
+[21:15:16] [main/DEBUG] [FML/]: Examining for coremod candidacy CodeChickenCore-1.7.10-1.1.6.jar
+[21:15:16] [main/TRACE] [FML/]: Adding CodeChickenCore-1.7.10-1.1.6.jar to the list of known coremods, it will not be examined again
+[21:15:16] [main/DEBUG] [FML/]: Instantiating coremod class CodeChickenCorePlugin
