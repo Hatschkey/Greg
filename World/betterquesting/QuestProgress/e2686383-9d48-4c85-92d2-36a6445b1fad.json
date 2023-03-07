@@ -38138,25 +38138,15 @@
 			"questID:3": 1885,
 			"completed:9": {
 				"0:10": {
-					"claimed:1": 1,
+					"claimed:1": 0,
 					"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
-					"timestamp:4": 1677960075207
+					"timestamp:4": 0
 				}
 			},
 			"tasks:9": {
 				"0:10": {
-					"completeUsers:9": {
-						"0:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
-					},
-					"userProgress:9": {
-						"0:10": {
-							"data:11": [
-								1,
-								50
-							],
-							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
-						}
-					},
+					"completeUsers:9": {},
+					"userProgress:9": {},
 					"index:3": 0,
 					"taskID:8": "bq_standard:retrieval"
 				}
