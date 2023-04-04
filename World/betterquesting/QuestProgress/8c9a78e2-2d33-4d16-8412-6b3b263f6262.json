@@ -16125,13 +16125,15 @@
 			"completed:9": {},
 			"tasks:9": {
 				"0:10": {
-					"completeUsers:9": {},
+					"completeUsers:9": {
+						"0:8": "8c9a78e2-2d33-4d16-8412-6b3b263f6262"
+					},
 					"userProgress:9": {
 						"0:10": {
 							"data:11": [
 								64,
 								64,
-								0
+								64
 							],
 							"uuid:8": "8c9a78e2-2d33-4d16-8412-6b3b263f6262"
 						}
@@ -46729,7 +46731,7 @@
 					"userProgress:9": {
 						"0:10": {
 							"uuid:8": "8c9a78e2-2d33-4d16-8412-6b3b263f6262",
-							"value:3": 14
+							"value:3": 16
 						}
 					},
 					"index:3": 0,
