@@ -11180,7 +11180,7 @@
 					"userProgress:9": {
 						"0:10": {
 							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
-							"value:3": 1
+							"value:3": 2
 						}
 					},
 					"index:3": 0,
@@ -12676,7 +12676,7 @@
 								8,
 								8,
 								8,
-								2,
+								6,
 								8,
 								8,
 								8,
@@ -12902,17 +12902,25 @@
 		},
 		"610:10": {
 			"questID:3": 610,
-			"completed:9": {},
+			"completed:9": {
+				"0:10": {
+					"claimed:1": 0,
+					"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
+					"timestamp:4": 1712366975845
+				}
+			},
 			"tasks:9": {
 				"0:10": {
-					"completeUsers:9": {},
+					"completeUsers:9": {
+						"0:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+					},
 					"userProgress:9": {
 						"0:10": {
 							"data:11": [
 								32,
-								0,
-								0,
-								0
+								32,
+								32,
+								16
 							],
 							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
 						}
@@ -14007,13 +14015,15 @@
 					"taskID:8": "bq_standard:optional_retrieval"
 				},
 				"2:10": {
-					"completeUsers:9": {},
+					"completeUsers:9": {
+						"0:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+					},
 					"userProgress:9": {
 						"0:10": {
 							"data:11": [
-								0,
 								1,
-								0,
+								1,
+								2,
 								5
 							],
 							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
@@ -16267,14 +16277,22 @@
 		},
 		"731:10": {
 			"questID:3": 731,
-			"completed:9": {},
+			"completed:9": {
+				"0:10": {
+					"claimed:1": 1,
+					"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
+					"timestamp:4": 1712359867338
+				}
+			},
 			"tasks:9": {
 				"0:10": {
-					"completeUsers:9": {},
+					"completeUsers:9": {
+						"0:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+					},
 					"userProgress:9": {
 						"0:10": {
 							"data:11": [
-								0
+								64
 							],
 							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
 						}
@@ -16286,11 +16304,26 @@
 		},
 		"732:10": {
 			"questID:3": 732,
-			"completed:9": {},
+			"completed:9": {
+				"0:10": {
+					"claimed:1": 1,
+					"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
+					"timestamp:4": 1712361202032
+				}
+			},
 			"tasks:9": {
 				"0:10": {
-					"completeUsers:9": {},
-					"userProgress:9": {},
+					"completeUsers:9": {
+						"0:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+					},
+					"userProgress:9": {
+						"0:10": {
+							"data:11": [
+								64
+							],
+							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+						}
+					},
 					"index:3": 0,
 					"taskID:8": "bq_standard:retrieval"
 				}
@@ -16298,11 +16331,26 @@
 		},
 		"733:10": {
 			"questID:3": 733,
-			"completed:9": {},
+			"completed:9": {
+				"0:10": {
+					"claimed:1": 0,
+					"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
+					"timestamp:4": 1712361807181
+				}
+			},
 			"tasks:9": {
 				"0:10": {
-					"completeUsers:9": {},
-					"userProgress:9": {},
+					"completeUsers:9": {
+						"0:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+					},
+					"userProgress:9": {
+						"0:10": {
+							"data:11": [
+								64
+							],
+							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+						}
+					},
 					"index:3": 0,
 					"taskID:8": "bq_standard:retrieval"
 				}
@@ -16322,11 +16370,26 @@
 		},
 		"735:10": {
 			"questID:3": 735,
-			"completed:9": {},
+			"completed:9": {
+				"0:10": {
+					"claimed:1": 0,
+					"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
+					"timestamp:4": 1712363897782
+				}
+			},
 			"tasks:9": {
 				"0:10": {
-					"completeUsers:9": {},
-					"userProgress:9": {},
+					"completeUsers:9": {
+						"0:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+					},
+					"userProgress:9": {
+						"0:10": {
+							"data:11": [
+								1
+							],
+							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+						}
+					},
 					"index:3": 0,
 					"taskID:8": "bq_standard:retrieval"
 				}
@@ -16334,17 +16397,41 @@
 		},
 		"736:10": {
 			"questID:3": 736,
-			"completed:9": {},
+			"completed:9": {
+				"0:10": {
+					"claimed:1": 0,
+					"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
+					"timestamp:4": 1712369554745
+				}
+			},
 			"tasks:9": {
 				"0:10": {
-					"completeUsers:9": {},
-					"userProgress:9": {},
+					"completeUsers:9": {
+						"0:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+					},
+					"userProgress:9": {
+						"0:10": {
+							"data:11": [
+								1
+							],
+							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+						}
+					},
 					"index:3": 0,
 					"taskID:8": "bq_standard:optional_retrieval"
 				},
 				"1:10": {
-					"completeUsers:9": {},
-					"userProgress:9": {},
+					"completeUsers:9": {
+						"0:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+					},
+					"userProgress:9": {
+						"0:10": {
+							"data:11": [
+								64
+							],
+							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+						}
+					},
 					"index:3": 1,
 					"taskID:8": "bq_standard:retrieval"
 				}
@@ -18749,14 +18836,30 @@
 			"completed:9": {},
 			"tasks:9": {
 				"0:10": {
-					"completeUsers:9": {},
-					"userProgress:9": {},
+					"completeUsers:9": {
+						"0:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+					},
+					"userProgress:9": {
+						"0:10": {
+							"data:11": [
+								64
+							],
+							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+						}
+					},
 					"index:3": 0,
 					"taskID:8": "bq_standard:retrieval"
 				},
 				"1:10": {
 					"completeUsers:9": {},
-					"userProgress:9": {},
+					"userProgress:9": {
+						"0:10": {
+							"data:11": [
+								0
+							],
+							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+						}
+					},
 					"index:3": 1,
 					"taskID:8": "bq_standard:retrieval"
 				}
@@ -18780,7 +18883,14 @@
 			"tasks:9": {
 				"0:10": {
 					"completeUsers:9": {},
-					"userProgress:9": {},
+					"userProgress:9": {
+						"0:10": {
+							"data:11": [
+								0
+							],
+							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+						}
+					},
 					"index:3": 0,
 					"taskID:8": "bq_standard:retrieval"
 				}
@@ -19895,8 +20005,17 @@
 			"completed:9": {},
 			"tasks:9": {
 				"0:10": {
-					"completeUsers:9": {},
-					"userProgress:9": {},
+					"completeUsers:9": {
+						"0:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+					},
+					"userProgress:9": {
+						"0:10": {
+							"data:11": [
+								1
+							],
+							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+						}
+					},
 					"index:3": 0,
 					"taskID:8": "bq_standard:retrieval"
 				}
@@ -20165,7 +20284,7 @@
 					"userProgress:9": {
 						"0:10": {
 							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
-							"value:3": 7
+							"value:3": 8
 						}
 					},
 					"index:3": 0,
@@ -20213,7 +20332,7 @@
 					"userProgress:9": {
 						"0:10": {
 							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
-							"value:3": 2
+							"value:3": 3
 						}
 					},
 					"index:3": 1,
@@ -21105,7 +21224,13 @@
 		},
 		"957:10": {
 			"questID:3": 957,
-			"completed:9": {},
+			"completed:9": {
+				"0:10": {
+					"claimed:1": 0,
+					"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
+					"timestamp:4": 0
+				}
+			},
 			"tasks:9": {
 				"0:10": {
 					"completeUsers:9": {},
@@ -23608,7 +23733,14 @@
 			"tasks:9": {
 				"0:10": {
 					"completeUsers:9": {},
-					"userProgress:9": {},
+					"userProgress:9": {
+						"0:10": {
+							"data:11": [
+								0
+							],
+							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+						}
+					},
 					"index:3": 0,
 					"taskID:8": "bq_standard:retrieval"
 				},
@@ -28477,11 +28609,26 @@
 		},
 		"1322:10": {
 			"questID:3": 1322,
-			"completed:9": {},
+			"completed:9": {
+				"0:10": {
+					"claimed:1": 1,
+					"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
+					"timestamp:4": 1712361197679
+				}
+			},
 			"tasks:9": {
 				"0:10": {
-					"completeUsers:9": {},
-					"userProgress:9": {},
+					"completeUsers:9": {
+						"0:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+					},
+					"userProgress:9": {
+						"0:10": {
+							"data:11": [
+								1
+							],
+							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+						}
+					},
 					"index:3": 0,
 					"taskID:8": "bq_standard:retrieval"
 				}
@@ -28489,11 +28636,26 @@
 		},
 		"1323:10": {
 			"questID:3": 1323,
-			"completed:9": {},
+			"completed:9": {
+				"0:10": {
+					"claimed:1": 0,
+					"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
+					"timestamp:4": 1712365010789
+				}
+			},
 			"tasks:9": {
 				"0:10": {
-					"completeUsers:9": {},
-					"userProgress:9": {},
+					"completeUsers:9": {
+						"0:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+					},
+					"userProgress:9": {
+						"0:10": {
+							"data:11": [
+								64
+							],
+							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+						}
+					},
 					"index:3": 0,
 					"taskID:8": "bq_standard:retrieval"
 				}
@@ -28503,9 +28665,9 @@
 			"questID:3": 1324,
 			"completed:9": {
 				"0:10": {
-					"claimed:1": 0,
+					"claimed:1": 1,
 					"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
-					"timestamp:4": 1712190557089
+					"timestamp:4": 1712356667778
 				}
 			},
 			"tasks:9": {
@@ -32260,9 +32422,9 @@
 			"questID:3": 1544,
 			"completed:9": {
 				"0:10": {
-					"claimed:1": 0,
+					"claimed:1": 1,
 					"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
-					"timestamp:4": 1712192504088
+					"timestamp:4": 1712356687326
 				}
 			},
 			"tasks:9": {
@@ -33605,7 +33767,13 @@
 		},
 		"1619:10": {
 			"questID:3": 1619,
-			"completed:9": {},
+			"completed:9": {
+				"0:10": {
+					"claimed:1": 0,
+					"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
+					"timestamp:4": 1712355958676
+				}
+			},
 			"tasks:9": {
 				"0:10": {
 					"completeUsers:9": {},
@@ -36373,7 +36541,13 @@
 		},
 		"1780:10": {
 			"questID:3": 1780,
-			"completed:9": {},
+			"completed:9": {
+				"0:10": {
+					"claimed:1": 0,
+					"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
+					"timestamp:4": 0
+				}
+			},
 			"tasks:9": {
 				"0:10": {
 					"completeUsers:9": {},
@@ -37992,13 +38166,15 @@
 			"completed:9": {},
 			"tasks:9": {
 				"0:10": {
-					"completeUsers:9": {},
+					"completeUsers:9": {
+						"0:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+					},
 					"userProgress:9": {
 						"0:10": {
 							"data:11": [
 								4,
-								0,
-								0,
+								8,
+								16,
 								8
 							],
 							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
@@ -38008,11 +38184,13 @@
 					"taskID:8": "bq_standard:optional_retrieval"
 				},
 				"1:10": {
-					"completeUsers:9": {},
+					"completeUsers:9": {
+						"0:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+					},
 					"userProgress:9": {
 						"0:10": {
 							"data:11": [
-								0
+								4
 							],
 							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
 						}
@@ -38057,8 +38235,17 @@
 			"completed:9": {},
 			"tasks:9": {
 				"0:10": {
-					"completeUsers:9": {},
-					"userProgress:9": {},
+					"completeUsers:9": {
+						"0:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+					},
+					"userProgress:9": {
+						"0:10": {
+							"data:11": [
+								1
+							],
+							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+						}
+					},
 					"index:3": 0,
 					"taskID:8": "bq_standard:retrieval"
 				}
@@ -41122,7 +41309,7 @@
 					"userProgress:9": {
 						"0:10": {
 							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
-							"value:3": 17
+							"value:3": 20
 						}
 					},
 					"index:3": 0,
@@ -41168,14 +41355,22 @@
 		},
 		"2075:10": {
 			"questID:3": 2075,
-			"completed:9": {},
+			"completed:9": {
+				"0:10": {
+					"claimed:1": 0,
+					"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
+					"timestamp:4": 1712362772801
+				}
+			},
 			"tasks:9": {
 				"0:10": {
-					"completeUsers:9": {},
+					"completeUsers:9": {
+						"0:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+					},
 					"userProgress:9": {
 						"0:10": {
 							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
-							"value:3": 14
+							"value:3": 15
 						}
 					},
 					"index:3": 0,
@@ -52701,7 +52896,7 @@
 					"userProgress:9": {
 						"0:10": {
 							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
-							"value:3": 3
+							"value:3": 8
 						}
 					},
 					"index:3": 0,
@@ -52718,7 +52913,7 @@
 					"userProgress:9": {
 						"0:10": {
 							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
-							"value:3": 3
+							"value:3": 6
 						}
 					},
 					"index:3": 0,
@@ -52753,7 +52948,7 @@
 					"userProgress:9": {
 						"0:10": {
 							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
-							"value:3": 1
+							"value:3": 2
 						}
 					},
 					"index:3": 0,
@@ -52763,14 +52958,22 @@
 		},
 		"2845:10": {
 			"questID:3": 2845,
-			"completed:9": {},
+			"completed:9": {
+				"0:10": {
+					"claimed:1": 0,
+					"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
+					"timestamp:4": 1712366177893
+				}
+			},
 			"tasks:9": {
 				"0:10": {
-					"completeUsers:9": {},
+					"completeUsers:9": {
+						"0:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+					},
 					"userProgress:9": {
 						"0:10": {
 							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
-							"value:3": 18
+							"value:3": 20
 						}
 					},
 					"index:3": 0,
@@ -56742,11 +56945,26 @@
 		},
 		"3069:10": {
 			"questID:3": 3069,
-			"completed:9": {},
+			"completed:9": {
+				"0:10": {
+					"claimed:1": 0,
+					"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
+					"timestamp:4": 1712373728896
+				}
+			},
 			"tasks:9": {
 				"0:10": {
-					"completeUsers:9": {},
-					"userProgress:9": {},
+					"completeUsers:9": {
+						"0:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+					},
+					"userProgress:9": {
+						"0:10": {
+							"data:11": [
+								1
+							],
+							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+						}
+					},
 					"index:3": 0,
 					"taskID:8": "bq_standard:retrieval"
 				}
@@ -57373,9 +57591,9 @@
 			"questID:3": 3099,
 			"completed:9": {
 				"0:10": {
-					"claimed:1": 0,
+					"claimed:1": 1,
 					"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
-					"timestamp:4": 1712190557090
+					"timestamp:4": 1712359445431
 				}
 			},
 			"tasks:9": {
@@ -57438,7 +57656,14 @@
 			"tasks:9": {
 				"0:10": {
 					"completeUsers:9": {},
-					"userProgress:9": {},
+					"userProgress:9": {
+						"0:10": {
+							"data:11": [
+								0
+							],
+							"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad"
+						}
+					},
 					"index:3": 0,
 					"taskID:8": "bq_standard:optional_retrieval"
 				},
@@ -57454,9 +57679,9 @@
 			"questID:3": 3101,
 			"completed:9": {
 				"0:10": {
-					"claimed:1": 0,
+					"claimed:1": 1,
 					"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
-					"timestamp:4": 1712190578086
+					"timestamp:4": 1712359450529
 				}
 			},
 			"tasks:9": {
