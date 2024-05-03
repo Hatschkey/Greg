@@ -1,4 +1,6 @@
-Fri Apr 12 21:06:10 BRT 2024 PatchStage selected: PRELOAD
-Fri Apr 12 21:06:10 BRT 2024 Processing context: sun.misc.Launcher$AppClassLoader@4e50df2e@1729171313
-Fri Apr 12 21:06:10 BRT 2024 Processing context: net.minecraft.launchwrapper.LaunchClassLoader@e45f292@1871259950
-Fri Apr 12 21:06:10 BRT 2024 Replaced factory
+Sat Apr 20 14:08:34 BRT 2024 PatchStage selected: PRELOAD
+Sat Apr 20 14:08:34 BRT 2024 Processing context: sun.misc.Launcher$AppClassLoader@4e50df2e@1729171313
+Sat Apr 20 14:08:34 BRT 2024 Processing context: net.minecraft.launchwrapper.LaunchClassLoader@e45f292@1871259950
+Sat Apr 20 14:08:34 BRT 2024 Replaced factory
+Sat Apr 20 20:07:28 BRT 2024 Accepting new context post launch
+Sat Apr 20 20:07:28 BRT 2024 Processing context: sun.misc.Launcher$AppClassLoader@4e50df2e@789394599
