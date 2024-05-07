@@ -1,181 +1,149 @@
-[00:01:55] [Server thread/INFO]: [TwilightForest] Player touched the portal block.  Sending the player to dimension 7
-[00:01:56] [Server thread/INFO]: Joined EntityPlayer of name: Hatschkey
-[00:01:58] [Server thread/INFO]: On Request: Sending WorldID packet to: Hatschkey
-[00:01:58] [Server thread/INFO]: Hatschkey is an EntityPlayerMP attempting to send the worldId packet
-[00:01:58] [Server thread/INFO]: On Request: Sending WorldID packet to: Hatschkey
-[00:01:58] [Server thread/INFO]: Hatschkey is an EntityPlayerMP attempting to send the worldId packet
-[00:04:22] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2090ms behind, skipping 41 tick(s)
-[00:08:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2742ms behind, skipping 54 tick(s)
-[00:08:35] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 14352ms behind, skipping 287 tick(s)
-[00:08:40] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3569ms behind, skipping 71 tick(s)
-[00:08:57] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4398ms behind, skipping 87 tick(s)
-[00:10:39] [Server thread/INFO]: Joined EntityPlayer of name: Hatschkey
-[00:10:40] [Server thread/INFO]: On Request: Sending WorldID packet to: Hatschkey
-[00:10:40] [Server thread/INFO]: Hatschkey is an EntityPlayerMP attempting to send the worldId packet
-[00:10:40] [Server thread/INFO]: On Request: Sending WorldID packet to: Hatschkey
-[00:10:40] [Server thread/INFO]: Hatschkey is an EntityPlayerMP attempting to send the worldId packet
-[00:10:52] [Server thread/INFO]: Stored spawn data for Hatschkey: Pos{x=273, y=50, z=-234} dimID: 0
-[00:10:57] [Server thread/INFO]: Player just woke up in a portable sleeping bag.
-[00:10:57] [Server thread/INFO]: Restored spawn data for Hatschkey: Pos{x=273, y=50, z=-234} dimID: 0
-[00:11:12] [Server thread/INFO]: Unloading dimension 7
-[00:11:12] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2641ms behind, skipping 52 tick(s)
-[00:13:05] [Server thread/INFO]: Hatschkey lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[00:13:05] [Server thread/INFO]: Hatschkey left the game
-[00:13:15] [User Authenticator #12/INFO]: UUID of player Hatschkey is 8c9a78e2-2d33-4d16-8412-6b3b263f6262
-[00:13:15] [Netty IO #0/INFO]: Client protocol version 2
-[00:13:15] [Netty IO #0/INFO]: Client attempting to join with 283 mods : BuildCraft|Silicon@7.1.27,AromaBackup@0.1.0.0,ProjRed|Expansion@4.7.7-GTNH,ExtraBees@2.0.43,HardcoreEnderExpansion@1.9.3-GTNH,blocklimiter@0.55,MouseTweaks@2.4.5-GTNH,Botany@2.0.43,dreamcraft@1.9.80,endercore@0.2.10,BWCore@0.0.1,BuildCraft|Robotics@7.1.27,kubatech@0.5.10,irontank@1.2.6,forgelin@1.9.6-GTNH,galacticgreg@1.0.8,Ic2Nei@1.2.1,openglasses@1.2.5-GTNH,GalaxySpace@1.1.16p-GTNH,betterbuilderswands@0.9.3-GTNH,BiomesOPlenty@2.1.0,LunatriusCore@1.1.7-GTNH,bettercrashes@1.1.6-GTNH,openmodularturrets@2.2.11-247,gtnhtcwands@1.2.6,ForgeMultipart@1.3.0,hodgepodge@1.7.35,lootgames@2.0.6,malisisdoors@1.13.5-GTNH,berriespp@1.3.6.3,BrandonsCore@1.0.0.13-GTNH,CoFHCore@1.7.10R3.1.4,malisiscore@0.14.5-GTNH,ResourceLoader@1.3,catwalks@2.0.4,ExtraTrees@2.0.43,ae2fc@1.0.18-gtnh,StorageDrawers@1.11.17-GTNH,gendustry@1.6.5.4-GTNH,TGregworks@GTNH-1.0.23,enhancedlootbags@1.0.5,BuildCraft|Energy@7.1.27,modtweaker2@0.9.9,IC2@2.2.828-experimental,WitcheryExtras_ASM@0.1-Beta,IguanaTweaksTConstruct@1.7.10-2.2.3,FML@7.10.99.99,Natura@2.5.3,defaultserverlist@1.1.1-GTNH,NEIAddons|Forestry@1.12.19,ThE-core@1.0.0.1,BiblioWoodsNatura@1.5,<CoFH ASM>@000,NettyPatch@0.3.1,Automagy@0.28.2,ProjRed|Illumination@4.7.7-GTNH,hydroenergy@1.0.12,TMechworks@0.2.16.4,LogisticsPipes@0.9.4.5.7-GTNH,thaumicinsurgence@0.0.6,Australia@1.7.110,NotEnoughItems@2.3.7-GTNH,Thaumcraft@4.2.3.5,opensecurity@1.0.119-GTNH,Waila@1.5.22,eternalsingularity@1.7.10-.1.0.4b,PlayerAPI@1.4,appliedenergistics2-core@rv3-beta-107-GTNH,NEIAddons@1.12.19,StorageDrawersForestry@1.11.17-GTNH,BiblioCraft@1.11.7,WarpTheory@1.2.6-GTNH,BuildCraft|Core@7.1.27,OpenModsCore@0.10.6,betterloadingscreen@1.3.36-GTNH,bdlib@1.9.8-GTNH,NEIAddons|Developer@1.12.19,tcinventoryscan@1.0.12-GTNH,ProjRed|Transmission@4.7.7-GTNH,naturescompass@1.3.6-GTNH,WR-CBE|Logic@1.4.8,DummyCore@1.13,WitcheryExtras@1.1.12,RWG@Alpha 1.3.2,BetterAchievements@0.1.0,MobiusCore@@MOD_VERSION@,inventorytweaks@1.5.15,defaultworldgenerator@0.2,InGameInfoXML@2.8.3.93,EMT@1.2.8.21,findit@1.0.11,GT++_Preloader@0.5-Beta,OpenBlocks@1.6.9-GTNH,harvestthenether@1.7.10,GoodGenerator@0.4.31,EnderStorage@1.4.12,ForbiddenMagic@0.6.4-GTNH,gregtech@MC1710,CropLoadCoreASM@0.0.2,CarpentersBlocks@3.3.8.2-GTNH,EnderIO@2.3.1.46,Translocator@1.1.2.20,InfernalMobs@1.7.5-GTNH,CustomMainMenu@1.9.2,neiintegration@1.2.3,miscutils@1.7.110,MrTJPCoreMod@1.1.0.33,Roguelike@1.5.3-GTNH,SpecialMobs@3.3.13,NEIAddons|Botany@1.12.19,Opis@1.3.6-mapless,sleepingbag@1.7.10-0.1.3,gtnhlanth@0.9.18,thaumicenergistics@1.3.19-GTNH,Aroma1997Core@1.0.2.16,CodeChickenCore@1.1.6,YAMCore@0.5.84,MineTweaker3@3.1.0,openprinter@0.1.0.132,GTTweaker@1.0,ThaumicTinkerer-preloader@0.1,oauth@1.06.1-GTNH,structurelib@1.2.0-beta.2,bartworks@0.5.86,NodalMechanics@1.1.-6-GTNH,TravellersGear@1.16.8-GTNH,adventurebackpack@1.0.5-GTNH,gtneioreplugin@1.0.17,gadomancy@1.0.8.5,betterp2p@1.0.12,Baubles@1.0.1.14,ProjRed|Core@4.7.7-GTNH,mxrandom@0.1.4,FloodLights@1.2.8-137,TML@4.1.0-GTNH,ArchitectureCraft@1.7.6,ProjRed|Exploration@4.7.7-GTNH,holoinventory@2.1.17-GTNH,Forestry@4.4.15,ae2wct@1.8.9.2,Schematica@1.9.1-GTNH,OpenMods@0.10.6,ifu@1.9.4,RIO@2.4.7,tcneiadditions@1.1.1.5.dirty,GalacticraftCore@3.0.44-GTNH,BiblioWoodsBoP@1.9,torohealthmod@1.0.1,tc4tweak@1.4.16,p455w0rdslib@1.0.4,tcnodetracker@1.1.6,netherportalfix@1.0,questbook@2.1.3-GTNH,battlegear2@1.1.2.1,ForgeMicroblock@1.3.0,botanichorizons@1.0.11-GTNH,Ztones@1.7.10,ThaumicExploration@1.1.92-GTNH,EnderZoo@1.0.23,MagicBees@2.5.12-GTNH,ProjRed|Integration@4.7.7-GTNH,betterquesting@3.0.367-GTNH,controlling@7.0.0,cookingforblockheads@1.2.12-GTNH,compactkineticgenerators@1.0.1,ModMixins@0.0.1,ae2stuff@0.5.1.15-GTNH,OpenComputers@1.7.7.2-GTNH,McMultipart@1.3.0,kekztech@0.6.15,ProjRed|Fabrication@4.7.7-GTNH,SuperTic@1.2.5,ExtraUtilities@1.2.12,Railcraft@9.13.12,detravscannermod@1.6.9,bq_standard@3.0.197-GTNH,WR-CBE|Addons@1.4.8,IC2NuclearControl@2.4.16,StevesCarts@2.0.2,MCFrames@1.0,ThaumicHorizons@1.2.1.6,BiblioWoodsForestry@1.7,ironchestminecarts@1.0.8,structurecompat@0.2.0,FastCraft@1.25,Forge@10.13.4.1614,avaritiaddons@1.5.4-GTNH,croploadcore@0.1.10,HardcoreDarkness@1.7,tinkersdefense@1.2,OpenComputers|Core@1.7.7.2-GTNH,ThaumicTinkerer@2.6.5,ThaumcraftResearchTweaks@1.0.3,OilTweak@1.0.3,AdvancedSolarPanel@1.7.10-3.5.1,AFSU@1.2.6-GTNH,JABBA@1.2.21,angermod@0.6.3,ProjRed|Transportation@4.7.7-GTNH,AppleCore@3.2.2,cb4bq@1,bartworkscrossmod@0.5.86,TiCTooltips@1.2.10,universalsingularities@8.6.5,supersolarpanel@1.7.10-1.1.1-GT-NH-Mod,HungerOverhaul@1.0.4-GTNH,gtnhlib@0.0.5,visualprospecting@1.0.33,ThaumicMachina@0.2.1,NEIAddons|ExNihilo@1.12.19,NEIAddons|CraftingTables@1.12.19,WailaHarvestability@1.1.10-GTNH,Botania@1.9.10-GTNH,bartworkscrossmodtgregworkscontainer@0.5.86,personalspace@1.0.19,beebetteratbees@0.2,Avaritia@1.30,craftpresence@v1.8.3-GTNH,ForgeRelocation@0.0.1.4,ProjRed|Compatibility@4.7.7-GTNH,TConstruct@1.9.4-GTNH,extracells@2.5.24,asielib@0.5.3,StevesFactoryManager@1.1.1-GTNH,BinnieCore@2.0.43,inpure|core@1.1.2-GTNH,sharewhereiam@0.2.0,RelocationFMP@0.0.1.2,wawla@1.1.3-GTNH,Genetics@2.0.43,mcp@9.05,Mantle@0.3.5,journeymap@5.1.4p2,appliedenergistics2@rv3-beta-107-GTNH,SGCraft@1.3.13-GTNH,thaumcraftneiplugin@@VERSION@,AromaBackupRecovery@1.0,DraconicEvolution@1.1.7-GTNH,WR-CBE|Core@1.4.8,StorageDrawersMisc@1.11.17-GTNH,harvestcraft@1.0.15-GTNH,TaintedMagic@r7.6,TwilightForest@2.3.8.16,BuildCraft|Factory@7.1.27,ProjectBlue@1.1.8-GTNH,computronics@1.6.16-GTNH,GraviSuite@2.0.68u,NEIAddons|AppEng@1.12.19,neicustomdiagram@1.4.4.6,NettyPatch_ASM@0.3.1,GalacticraftMars@3.0.44-GTNH,BuildCraft|Compat@7.1.12,wailaplugins@0.2.5,HelpFixer@1.0.7,itlt@1.0.3,neenergistics@1.3.21,AWWayofTime@1.3.14,IronChest@6.0.71,RandomThings@2.2.4,creativecore@1.3.27-GTNH,bugtorch@1.1.6.4-GTNH,thaumicbases@1.4.31,SpiceOfLife@2.0.5-carrot,WitchingGadgetsCore@1.2.21-GTNH,StorageDrawersNatura@1.11.17-GTNH,spongemixins@1.5.0,BuildCraft|Transport@7.1.27,StorageDrawersBop@1.11.17-GTNH,wanionlib@1.8.3,Aroma1997CoreHelper@1.0.2.16,chisel@2.10.16-GTNH,StevesAddons@0.10.24,Backpack@2.2.6-GTNH,ToxicEverglades@1.7.110,ThaumcraftMobAspects@1.0.0-GTNH,witchery@0.24.1,overloadedarmorbar@1.0.1,WitchingGadgets@1.2.21-GTNH,BuildCraft|Builders@7.1.27,chiseltones@1.0.4-GTNH,littletiles@1.2.7-GTNH,tectech@5.0.39,BloodArsenal@1.2.6
-[00:13:15] [Netty IO #0/INFO]: Attempting connection with missing mods [JourneyMapServer, Morpheus] at CLIENT
-[00:13:15] [Server thread/INFO]: [Server thread] Server side modded connection established
-[00:13:15] [Server thread/INFO]: Hatschkey[/192.168.0.32:43916] logged in with entity id 1290659 at (379.9346533287993, 63.0, -192.49750184409763)
-[00:13:15] [Server thread/INFO]: Hatschkey joined the game
-[00:13:15] [Server thread/INFO]: Joined EntityPlayer of name: Hatschkey
-[00:13:15] [Server thread/INFO]: Sending server configs to client for com.enderio.core.common.config.ConfigHandler
-[00:13:15] [Thread-72/INFO]: Start force party quest sync
-[00:13:15] [Server thread/INFO]: Sending config to Hatschkey
-[00:13:15] [Server thread/INFO]: Sending server configs to client for tterrag.wailaplugins.config.WPConfigHandler
-[00:13:15] [Server thread/INFO]: Player EntityPlayerMP['Hatschkey'/1290659, l='World', x=379.93, y=63.00, z=-192.50] connected. Sending ping
-[00:13:16] [Server thread/INFO]: On Request: Sending WorldID packet to: Hatschkey
-[00:13:16] [Server thread/INFO]: Hatschkey is an EntityPlayerMP attempting to send the worldId packet
-[00:14:28] [Server thread/INFO]: Hatschkey lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[00:14:28] [Server thread/INFO]: Hatschkey left the game
-[00:14:35] [Server thread/INFO]: Saving...
-[00:14:35] [Server thread/INFO]: Saved the world
-[00:14:36] [Server thread/INFO]: Stopping the server
-[00:14:36] [Server thread/INFO]: Cleaning up SlimeBounceHandler data.
-[00:14:36] [Server thread/INFO]: Shutting down Machine block update executor service
-[00:14:36] [Server thread/INFO]: Leaving... GT_Runnable_MachineBlockUpdate.shutdownExecutorService
-[00:14:36] [Server thread/INFO]: Stopping server
-[00:14:36] [Server thread/INFO]: Saving players
-[00:14:36] [Server thread/INFO]: Saving worlds
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Overworld
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Nether
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Miranda
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/T Ceti E
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Vega B
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Haumea
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Barnarda F
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Barnarda E
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Outer Lands
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Saturn
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Neptune
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Jupiter
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Mirror
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Pocket Plane
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Ross128b
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Ross128ba
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Bedrock
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Torment
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Spirit World
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Uranus
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/The Outer Lands
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Pluto
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Triton
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Proteus
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Oberon
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Callisto
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Titan
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Ganymede
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Ceres
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Enceladus
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Deimos
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Venus
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Phobos
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Australia
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Mercury
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/dimensionDarkWorld
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Io
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Europa
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Kuiper Belt
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Barnarda C
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/α Centauri Bb
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Asteroids
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Mars
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Moon
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Makemake
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/The Last Millenium
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/Underdark
-[00:14:36] [Server thread/INFO]: Saving chunks for level 'World'/SpectreWorld
-[00:14:37] [Server thread/INFO]: Unloading dimension 0
-[00:14:37] [Server thread/INFO]: Unloading dimension -1
-[00:14:37] [Server thread/INFO]: Unloading dimension 86
-[00:14:37] [Server thread/INFO]: Unloading dimension 85
-[00:14:37] [Server thread/INFO]: Unloading dimension 84
-[00:14:37] [Server thread/INFO]: Unloading dimension 83
-[00:14:37] [Server thread/INFO]: Unloading dimension 82
-[00:14:37] [Server thread/INFO]: Unloading dimension 81
-[00:14:37] [Server thread/INFO]: Unloading dimension 173
-[00:14:37] [Server thread/INFO]: Unloading dimension 77
-[00:14:37] [Server thread/INFO]: Unloading dimension 74
-[00:14:37] [Server thread/INFO]: Unloading dimension 71
-[00:14:37] [Server thread/INFO]: Unloading dimension 70
-[00:14:37] [Server thread/INFO]: Unloading dimension 69
-[00:14:37] [Server thread/INFO]: Unloading dimension 64
-[00:14:37] [Server thread/INFO]: Unloading dimension 63
-[00:14:37] [Server thread/INFO]: Unloading dimension 60
-[00:14:37] [Server thread/INFO]: Unloading dimension 56
-[00:14:37] [Server thread/INFO]: Unloading dimension 55
-[00:14:37] [Server thread/INFO]: Unloading dimension 51
-[00:14:37] [Server thread/INFO]: Unloading dimension 50
-[00:14:37] [Server thread/INFO]: Unloading dimension 49
-[00:14:37] [Server thread/INFO]: Unloading dimension 48
-[00:14:37] [Server thread/INFO]: Unloading dimension 47
-[00:14:37] [Server thread/INFO]: Unloading dimension 46
-[00:14:37] [Server thread/INFO]: Unloading dimension 45
-[00:14:37] [Server thread/INFO]: Unloading dimension 44
-[00:14:37] [Server thread/INFO]: Unloading dimension 43
-[00:14:37] [Server thread/INFO]: Unloading dimension 42
-[00:14:37] [Server thread/INFO]: Unloading dimension 41
-[00:14:37] [Server thread/INFO]: Unloading dimension 40
-[00:14:37] [Server thread/INFO]: Unloading dimension 39
-[00:14:37] [Server thread/INFO]: Unloading dimension 38
-[00:14:37] [Server thread/INFO]: Unloading dimension 228
-[00:14:37] [Server thread/INFO]: Unloading dimension 37
-[00:14:37] [Server thread/INFO]: Unloading dimension 227
-[00:14:37] [Server thread/INFO]: Unloading dimension 36
-[00:14:37] [Server thread/INFO]: Unloading dimension 35
-[00:14:37] [Server thread/INFO]: Unloading dimension 33
-[00:14:37] [Server thread/INFO]: Unloading dimension 32
-[00:14:37] [Server thread/INFO]: Unloading dimension 31
-[00:14:37] [Server thread/INFO]: Unloading dimension 30
-[00:14:37] [Server thread/INFO]: Unloading dimension 29
-[00:14:37] [Server thread/INFO]: Unloading dimension 28
-[00:14:37] [Server thread/INFO]: Unloading dimension 25
-[00:14:37] [Server thread/INFO]: Unloading dimension 112
-[00:14:37] [Server thread/INFO]: Unloading dimension 100
-[00:14:37] [Server thread/INFO]: Unloading dimension 2
-[00:14:37] [Server thread/INFO]: Applying holder lookups
-[00:14:37] [Server thread/INFO]: Holder lookups applied
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 30
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 32
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 81
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 82
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 31
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 42
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 83
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 71
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 33
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 25
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 29
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 37
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 74
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 49
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 64
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 77
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 85
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 51
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 84
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 39
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 45
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 40
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 41
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 35
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 43
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 36
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 86
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 28
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 46
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 38
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 47
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 63
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 44
-[00:14:37] [Server thread/INFO]: Unregistered Dimension: 48
+[00:07:54] [Server thread/INFO]: Stored spawn data for Hatschkey: Pos{x=273, y=50, z=-234} dimID: 0
+[00:07:59] [Server thread/INFO]: Player just woke up in a portable sleeping bag.
+[00:07:59] [Server thread/INFO]: Restored spawn data for Hatschkey: Pos{x=273, y=50, z=-234} dimID: 0
+[00:18:54] [Server thread/INFO]: Stored spawn data for Hatschkey: Pos{x=273, y=50, z=-234} dimID: 0
+[00:18:59] [Server thread/INFO]: Player just woke up in a portable sleeping bag.
+[00:18:59] [Server thread/INFO]: Restored spawn data for Hatschkey: Pos{x=273, y=50, z=-234} dimID: 0
+[00:19:04] [Server thread/INFO]: Hatschkey lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[00:19:04] [Server thread/INFO]: Hatschkey left the game
+[00:19:13] [Server thread/INFO]: Saving...
+[00:19:13] [Server thread/INFO]: Saved the world
+[00:19:15] [Server thread/INFO]: Stopping the server
+[00:19:15] [Server thread/INFO]: Cleaning up SlimeBounceHandler data.
+[00:19:15] [Server thread/INFO]: Shutting down Machine block update executor service
+[00:19:15] [Server thread/INFO]: Leaving... GT_Runnable_MachineBlockUpdate.shutdownExecutorService
+[00:19:15] [Server thread/INFO]: Stopping server
+[00:19:15] [Server thread/INFO]: Saving players
+[00:19:15] [Server thread/INFO]: Saving worlds
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Overworld
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Nether
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Miranda
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/T Ceti E
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Vega B
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Haumea
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Barnarda F
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Barnarda E
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Outer Lands
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Saturn
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Neptune
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Jupiter
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Mirror
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Pocket Plane
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Ross128b
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Ross128ba
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Bedrock
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Torment
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Spirit World
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Uranus
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/The Outer Lands
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Pluto
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Triton
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Proteus
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Oberon
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Callisto
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Titan
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Ganymede
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Ceres
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Enceladus
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Deimos
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Venus
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Phobos
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Australia
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Mercury
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/dimensionDarkWorld
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Io
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Europa
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Kuiper Belt
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Barnarda C
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/α Centauri Bb
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Asteroids
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Mars
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Moon
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Makemake
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/The Last Millenium
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/Underdark
+[00:19:15] [Server thread/INFO]: Saving chunks for level 'World'/SpectreWorld
+[00:19:15] [Server thread/INFO]: Unloading dimension 0
+[00:19:15] [Server thread/INFO]: Unloading dimension -1
+[00:19:15] [Server thread/INFO]: Unloading dimension 86
+[00:19:15] [Server thread/INFO]: Unloading dimension 85
+[00:19:15] [Server thread/INFO]: Unloading dimension 84
+[00:19:15] [Server thread/INFO]: Unloading dimension 83
+[00:19:15] [Server thread/INFO]: Unloading dimension 82
+[00:19:15] [Server thread/INFO]: Unloading dimension 81
+[00:19:15] [Server thread/INFO]: Unloading dimension 173
+[00:19:15] [Server thread/INFO]: Unloading dimension 77
+[00:19:15] [Server thread/INFO]: Unloading dimension 74
+[00:19:15] [Server thread/INFO]: Unloading dimension 71
+[00:19:15] [Server thread/INFO]: Unloading dimension 70
+[00:19:15] [Server thread/INFO]: Unloading dimension 69
+[00:19:15] [Server thread/INFO]: Unloading dimension 64
+[00:19:15] [Server thread/INFO]: Unloading dimension 63
+[00:19:15] [Server thread/INFO]: Unloading dimension 60
+[00:19:15] [Server thread/INFO]: Unloading dimension 56
+[00:19:15] [Server thread/INFO]: Unloading dimension 55
+[00:19:15] [Server thread/INFO]: Unloading dimension 51
+[00:19:15] [Server thread/INFO]: Unloading dimension 50
+[00:19:15] [Server thread/INFO]: Unloading dimension 49
+[00:19:15] [Server thread/INFO]: Unloading dimension 48
+[00:19:15] [Server thread/INFO]: Unloading dimension 47
+[00:19:15] [Server thread/INFO]: Unloading dimension 46
+[00:19:15] [Server thread/INFO]: Unloading dimension 45
+[00:19:15] [Server thread/INFO]: Unloading dimension 44
+[00:19:15] [Server thread/INFO]: Unloading dimension 43
+[00:19:15] [Server thread/INFO]: Unloading dimension 42
+[00:19:15] [Server thread/INFO]: Unloading dimension 41
+[00:19:15] [Server thread/INFO]: Unloading dimension 40
+[00:19:15] [Server thread/INFO]: Unloading dimension 39
+[00:19:15] [Server thread/INFO]: Unloading dimension 38
+[00:19:15] [Server thread/INFO]: Unloading dimension 228
+[00:19:15] [Server thread/INFO]: Unloading dimension 37
+[00:19:15] [Server thread/INFO]: Unloading dimension 227
+[00:19:15] [Server thread/INFO]: Unloading dimension 36
+[00:19:15] [Server thread/INFO]: Unloading dimension 35
+[00:19:15] [Server thread/INFO]: Unloading dimension 33
+[00:19:15] [Server thread/INFO]: Unloading dimension 32
+[00:19:15] [Server thread/INFO]: Unloading dimension 31
+[00:19:15] [Server thread/INFO]: Unloading dimension 30
+[00:19:15] [Server thread/INFO]: Unloading dimension 29
+[00:19:15] [Server thread/INFO]: Unloading dimension 28
+[00:19:15] [Server thread/INFO]: Unloading dimension 25
+[00:19:15] [Server thread/INFO]: Unloading dimension 112
+[00:19:15] [Server thread/INFO]: Unloading dimension 100
+[00:19:15] [Server thread/INFO]: Unloading dimension 2
+[00:19:16] [Server thread/INFO]: Applying holder lookups
+[00:19:16] [Server thread/INFO]: Holder lookups applied
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 30
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 32
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 81
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 82
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 31
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 42
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 83
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 71
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 33
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 25
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 29
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 37
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 74
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 49
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 64
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 77
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 85
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 51
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 84
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 39
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 45
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 40
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 41
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 35
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 43
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 36
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 86
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 28
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 46
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 38
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 47
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 63
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 44
+[00:19:16] [Server thread/INFO]: Unregistered Dimension: 48
