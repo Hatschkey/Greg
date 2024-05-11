@@ -1,0 +1,22 @@
+{
+	"parties:9": {
+		"0:10": {
+			"members:9": {
+				"0:10": {
+					"uuid:8": "e2686383-9d48-4c85-92d2-36a6445b1fad",
+					"status:8": "OWNER"
+				},
+				"1:10": {
+					"uuid:8": "8c9a78e2-2d33-4d16-8412-6b3b263f6262",
+					"status:8": "MEMBER"
+				}
+			},
+			"partyID:3": 0,
+			"properties:10": {
+				"betterquesting:10": {
+					"name:8": "Nibbas the mad god"
+				}
+			}
+		}
+	}
+}

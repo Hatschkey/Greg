@@ -1,4 +1,6 @@
-Mon May 06 20:55:51 UTC 2024 PatchStage selected: PRELOAD
-Mon May 06 20:55:51 UTC 2024 Processing context: net.minecraft.launchwrapper.LaunchClassLoader@4f7d0008@536671860
-Mon May 06 20:55:51 UTC 2024 Processing context: sun.misc.Launcher$AppClassLoader@4e50df2e@1143968486
-Mon May 06 20:55:51 UTC 2024 Replaced factory
+Sat May 11 17:19:37 UTC 2024 PatchStage selected: PRELOAD
+Sat May 11 17:19:37 UTC 2024 Processing context: net.minecraft.launchwrapper.LaunchClassLoader@4f7d0008@865430810
+Sat May 11 17:19:37 UTC 2024 Processing context: sun.misc.Launcher$AppClassLoader@4e50df2e@773708944
+Sat May 11 17:19:37 UTC 2024 Replaced factory
+Sat May 11 17:29:42 UTC 2024 Accepting new context post launch
+Sat May 11 17:29:42 UTC 2024 Processing context: net.minecraft.launchwrapper.LaunchClassLoader@4f7d0008@865430810
